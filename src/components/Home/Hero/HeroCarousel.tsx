@@ -45,11 +45,11 @@ const HeroCarousal = ({ sliders }: any) => {
                 {slider?.product?.shortDescription.slice(0, 100)}
               </p>
 
-              <Link
+            <Link
                 href={`/products/${slider?.product?.slug.current}`}
                 className="inline-flex font-medium text-white text-custom-sm rounded-full bg-blue py-3 px-9 ease-out duration-200 hover:bg-blue-dark mt-6 sm:mt-10"
               >
-                Shop Now
+                  Przeczytaj
               </Link>
             </div>
             <Image

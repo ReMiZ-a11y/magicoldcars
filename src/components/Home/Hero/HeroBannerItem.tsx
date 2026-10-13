@@ -23,7 +23,7 @@ export default function HeroBannerItem({
           <div>
             <span className="flex items-center  gap-1 text-lg">
               <span className="font-medium text-dark text-custom-sm ">
-                Save up to
+                Przeczytaj
               </span>
               <span className="font-semibold text-lg text-blue">
                 ${bannerItem?.product?.discountedPrice}

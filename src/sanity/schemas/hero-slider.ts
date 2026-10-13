@@ -5,25 +5,20 @@ const heroSlider = {
   fields: [
     {
       name: "name",
-      title: "name",
+      title: "Banner Title",
       type: "string",
       validation: (Rule: any) => Rule.required(),
     },
     {
       name: "discount",
-      title: "Discount Rate",
+      title: "Subtitle",
       type: "string",
-      validation: (Rule: any) => Rule.required(),
     },
     {
-      name: "slug",
-      title: "Slug",
-      type: "slug",
-      options: {
-        source: "name",
-        maxLength: 96,
-      },
-      validation: (Rule: any) => Rule.required(),
+      name: "description",
+      title: "Short Description",
+      type: "text",
+      rows: 3,
     },
     {
       name: "image",
@@ -35,21 +30,25 @@ const heroSlider = {
       validation: (Rule: any) => Rule.required(),
     },
     {
-      name: "product",
+      name: "post",
+      title: "Blog Post",
       type: "reference",
-      to: [{ type: "product" }],
+      to: [{ type: "post" }],
       validation: (Rule: any) => Rule.required(),
     },
   ],
   preview: {
     select: {
       title: "name",
+      postTitle: "post.title",
       image: "image",
     },
     prepare(selection: any) {
-      const { title, image } = selection;
+      const { title, postTitle, image } = selection;
+
       return {
-        title: title,
+        title: title || postTitle || "Hero Slider",
+        subtitle: postTitle,
         media: image,
       };
     },
