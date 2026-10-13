@@ -1,7 +1,1 @@
-.next/
-.DS_Store
-node_modules/
-.env
-.env.*
-!.env.example
-env
+node_modules

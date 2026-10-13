@@ -1,28 +1,23 @@
-
-import BlogDetailsWithSidebar from "@/components/BlogDetailsWithSidebar";
-import { getPost } from "@/sanity/sanity-blog-utils";
-import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import BlogDetailsWithSidebar from '@/components/BlogDetailsWithSidebar';
+import { getPost } from '@/sanity/sanity-blog-utils';
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Blog Details | Magic Old Cars",
-  description: "Blog Magic Old Cars",
+  title: 'Blog Details Page | NextMerce | Next.js E-commerce Boilerplate',
+  description: 'This is Blog Details Page for NextMerce Template',
+  // other metadata
 };
 
-export const dynamic = "force-dynamic";
-
-export default async function BlogDetailsWithSidebarPage() {
-  const slug = "cooking-masterclass-creating-delicious-italian-pasta";
+const BlogDetailsWithSidebarPage = async () => {
+  const slug = 'cooking-masterclass-creating-delicious-italian-pasta';
 
   const blogData = await getPost(slug);
-
-  if (!blogData) {
-    notFound();
-  }
 
   return (
     <main>
       <BlogDetailsWithSidebar blogData={blogData} />
     </main>
   );
-}
+};
+
+export default BlogDetailsWithSidebarPage;
