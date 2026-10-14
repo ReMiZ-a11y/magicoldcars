@@ -649,3 +649,4 @@ This warning will not be outputted in production builds.
 [02:27:37.388] Browser WARN    [InstantSearch.js]: No indexName provided, nor an explicit index widget in the widgets tree. This is required to be able to display results.
 [02:41:52.385] Server  LOG        Reload env: .env
 [02:42:07.682] Server  LOG      ✓ Compiled in 15.2s
+[03:06:40.177] Server  LOG      ✓ Compiled in 548ms

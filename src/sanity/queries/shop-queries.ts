@@ -75,18 +75,20 @@ export const productByCategoryQuery = groq`*[_type == "product" && category->slu
 export const allOrdersQuery = groq`*[_type == "order"] | order(_createdAt desc)  ${orderData}`;
 export const orderByIdQuery = groq`*[_type == "order" && orderId == $orderId][0] ${orderData}`;
 
-export const heroBannerQuery = groq`*[_type == "heroBanner"] | order(_createdAt desc) {
-  _id,
-  name,
-  image,
-  product->{
-    shortDescription,
-    slug,
+
+export const heroBannerQuery = groq`
+  *[_type == "heroBanner"] | order(_createdAt desc) {
+    _id,
     name,
-    discountedPrice,
-    price
+    description,
+    image,
+    "post": post->{
+      title,
+      slug
+    }
   }
-}`;
+`;
+
 export const heroSliderQuery = groq`*[_type == "heroSlider"] | order(_createdAt desc) {
   _id,
   name,
