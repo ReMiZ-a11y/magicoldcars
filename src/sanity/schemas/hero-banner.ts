@@ -5,18 +5,12 @@ const heroBanner = {
   fields: [
     {
       name: "name",
-      title: "Banner Title",
+      title: "Banner Name",
       type: "string",
     },
     {
-      name: "description",
-      title: "Short Description",
-      type: "text",
-      rows: 3,
-    },
-    {
       name: "image",
-      title: "Banner Image",
+      title: "Image",
       type: "image",
       options: {
         hotspot: true,
@@ -24,25 +18,31 @@ const heroBanner = {
       validation: (Rule: any) => Rule.required(),
     },
     {
-      name: "post",
-      title: "Blog Post",
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      options: {
+        source: "name",
+        maxLength: 96,
+      },
+      validation: (Rule: any) => Rule.required(),
+    },
+    {
+      name: "product",
       type: "reference",
-      to: [{ type: "post" }],
+      to: [{ type: "product" }],
       validation: (Rule: any) => Rule.required(),
     },
   ],
   preview: {
     select: {
-      title: "name",
-      postTitle: "post.title",
+      product: "product.name",
       image: "image",
     },
     prepare(selection: any) {
-      const { title, postTitle, image } = selection;
-
+      const { product, image } = selection;
       return {
-        title: title || postTitle || "Hero Banner",
-        subtitle: postTitle,
+        title: product,
         media: image,
       };
     },

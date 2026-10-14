@@ -2,7 +2,7 @@ import { Category } from "@/types/category";
 import { Countdown } from "@/types/countdown";
 import { Order } from "@/types/order";
 import { Product } from "@/types/product";
-import ImageUrlBuilder from "@sanity/image-url";
+import { createImageUrlBuilder } from "@sanity/image-url";
 import { createClient, groq } from "next-sanity";
 import { unstable_cache as cache } from "next/cache";
 import clientConfig from "./config/client-config";
@@ -83,7 +83,7 @@ export async function getProduct(slug: string) {
 
 export async function getHighestPrice() {
   return client.fetch<number>(
-    groq`*[_type == "product"] | order(price desc)[0].price`
+    groq`*[_type == "product"] | order(discountedPrice desc)[0].discountedPrice`
   );
 }
 
@@ -153,5 +153,5 @@ export async function getCountdown() {
 }
 
 export function imageBuilder(source: any) {
-  return ImageUrlBuilder(clientConfig).image(source);
+  return createImageUrlBuilder(clientConfig).image(source);
 }

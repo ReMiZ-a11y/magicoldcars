@@ -33,13 +33,12 @@ const countdown = {
         maxLength: 96,
       },
     },
-    {
-      name: "product",
-      title: "Product",
-      type: "reference",
-      to: [{ type: "product" }],
-      validation: (Rule: any) => Rule.required(),
-    },
+{
+  name: "post",
+  type: "reference",
+  to: [{ type: "post" }],
+  validation: (Rule: any) => Rule.required(),
+},
     {
       name: "date",
       title: "Date",
