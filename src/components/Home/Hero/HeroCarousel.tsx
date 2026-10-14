@@ -1,9 +1,7 @@
-"use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { imageBuilder } from "@/sanity/sanity-shop-utils";
 
-// Import Swiper styles
 import "swiper/css/pagination";
 import "swiper/css";
 
@@ -14,9 +12,9 @@ const HeroCarousal = ({ sliders }: any) => {
   return (
     <Swiper
       spaceBetween={30}
-      centeredSlides={true}
+      centeredSlides
       autoplay={{
-        delay: 2500,
+        delay: 32500,
         disableOnInteraction: false,
       }}
       pagination={{
@@ -25,46 +23,65 @@ const HeroCarousal = ({ sliders }: any) => {
       modules={[Autoplay, Pagination]}
       className="hero-carousel"
     >
-      {sliders?.map((slider: any, key: number) => (
-        <SwiperSlide key={key}>
-          <div>
-            <div className="max-w-[366px] absolute left-8 lg:left-20 top-1/2 -translate-y-1/2">
-              <div className="flex items-center gap-4 mb-5">
-                <span className="block font-medium text-lg uppercase text-white">
-                  {slider?.discount}
-                </span>
+      {sliders?.map((slider: any, key: number) => {
+        const postSlug = slider?.post?.slug?.current;
+        const postUrl = postSlug ? `/blogs/${postSlug}` : "#";
+        const imageUrl = slider?.image
+          ? imageBuilder(slider.image).url()
+          : null;
+
+        return (
+          <SwiperSlide key={slider?._id ?? key}>
+            <div className="relative">
+              <div className="absolute left-8 top-1/2 z-10 max-w-[366px] -translate-y-1/2 lg:left-20">
+                {slider?.discount && (
+                  <div className="mb-5 flex items-center gap-4">
+                    <span className="block text-lg font-medium uppercase text-white">
+                      {slider.discount}
+                    </span>
+                  </div>
+                )}
+
+                <h1 className="mb-3 text-xl font-semibold text-white sm:text-[40px]">
+                  {postSlug ? (
+                    <Link href={postUrl}>
+                      {slider?.name || slider?.post?.title || "Przeczytaj artykuł"}
+                    </Link>
+                  ) : (
+                    slider?.name || slider?.post?.title || "Przeczytaj artykuł"
+                  )}
+                </h1>
+
+                {slider?.description && (
+                  <p className="text-sm text-white/80">
+                    {slider.description.slice(0, 150)}
+                  </p>
+                )}
+
+                {postSlug && (
+                  <Link
+                    href={postUrl}
+                    className="mt-6 inline-flex rounded-full bg-blue px-9 py-3 text-custom-sm font-medium text-white transition-colors duration-200 ease-out hover:bg-blue-dark sm:mt-10"
+                  >
+                    Przeczytaj
+                  </Link>
+                )}
               </div>
 
-              <h1 className="font-semibold text-white text-xl sm:text-[40px] mb-3">
-                <Link href={`/products/${slider?.product?.slug.current}`}>
-                  {slider?.product?.name}
-                </Link>
-              </h1>
-
-              <p className="text-sm text-white/80">
-                {slider?.product?.shortDescription.slice(0, 100)}
-              </p>
-
-            <Link
-                href={`/products/${slider?.product?.slug.current}`}
-                className="inline-flex font-medium text-white text-custom-sm rounded-full bg-blue py-3 px-9 ease-out duration-200 hover:bg-blue-dark mt-6 sm:mt-10"
-              >
-                  Przeczytaj
-              </Link>
+              {imageUrl && (
+                <Image
+                  src={imageUrl}
+                  width={981}
+                  height={533}
+                  loading={key === 0 ? "eager" : "lazy"}
+                  className="max-h-[533px] w-full rounded-[10px] object-cover"
+                  alt={slider?.name || slider?.post?.title || "Baner wpisu"}
+                />
+              )}
             </div>
-            <Image
-              src={
-                slider?.image ? imageBuilder(slider?.image).url()! : "/no image"
-              }
-              width={981}
-              height={533}
-              loading="eager"
-              className="rounded-[10px] w-full max-h-[533px]"
-              alt="headphone"
-            />
-          </div>
-        </SwiperSlide>
-      ))}
+          </SwiperSlide>
+        );
+      })}
     </Swiper>
   );
 };
