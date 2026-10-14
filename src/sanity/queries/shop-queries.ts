@@ -117,7 +117,8 @@ export const heroBannerQuery = groq`
     "post": post->{
       _id,
       title,
-      slug
+      slug,
+      publishedAt
     }
   }
 `;
