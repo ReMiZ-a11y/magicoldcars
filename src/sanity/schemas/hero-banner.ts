@@ -2,11 +2,13 @@ const heroBanner = {
   name: "heroBanner",
   type: "document",
   title: "Hero Banner",
+
   fields: [
     {
       name: "name",
       title: "Banner Name",
       type: "string",
+      validation: (Rule: any) => Rule.required(),
     },
     {
       name: "image",
@@ -27,23 +29,27 @@ const heroBanner = {
       },
       validation: (Rule: any) => Rule.required(),
     },
-    /*internesuje mnie zmiana product na post  zakładam ze to link ktory przenosi  tylko czy trzeba zmienic jeszcze cos oprocz tego   */
     {
-      name: "post", /*name: "product" — nazwa pola zapisywanego w Sanity. W kodzie odwołujesz się do niego jako document.product.*/
-      type: "reference", /* type: "reference" — pole przechowuje odwołanie do innego dokumentu, a nie cały produkt.*/
-      to: [{ type: "post" }], /*to: [{ type: "product" }] — pozwala wybrać dokument o typie product. W panelu Sanity będzie to wybór istniejącego produktu.*/
-      validation: (Rule: any) => Rule.required(), /*validation: (Rule: any) => Rule.required() — pole jest wymagane. Nie powinno dać się opublikować dokumentu bez wybranego produktu.*/
-    }, 
+      name: "post",
+      title: "Blog Post",
+      type: "reference",
+      to: [{ type: "post" }],
+      validation: (Rule: any) => Rule.required(),
+    },
   ],
+
   preview: {
     select: {
-      product: "product.name",
+      name: "name",
+      postTitle: "post.title",
       image: "image",
     },
     prepare(selection: any) {
-      const { product, image } = selection;
+      const { name, postTitle, image } = selection;
+
       return {
-        title: product,
+        title: name || postTitle || "Hero Banner",
+        subtitle: postTitle || "No blog post selected",
         media: image,
       };
     },
