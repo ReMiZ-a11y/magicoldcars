@@ -1813,8 +1813,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Common$
 ;
 ;
 ;
-const algoliaAppId = process.env.NEXT_PUBLIC_ALGOLIA_PROJECT_ID;
-const algoliaSearchApiKey = process.env.NEXT_PUBLIC_ALGOLIA_API_KEY;
+const algoliaAppId = ("TURBOPACK compile-time value", "ZR7O4TD21I");
+const algoliaSearchApiKey = ("TURBOPACK compile-time value", "e432ebc24692f0bcd1d8efb35e32a937");
 const algoliaIndexName = process.env.NEXT_PUBLIC_ALGOLIA_INDEX;
 const algoliaClient = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$algoliasearch$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(algoliaAppId, algoliaSearchApiKey);
 const GlobalSearchModal = (props)=>{

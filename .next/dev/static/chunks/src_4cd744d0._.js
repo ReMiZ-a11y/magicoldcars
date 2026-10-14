@@ -1903,8 +1903,8 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-const algoliaAppId = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_ALGOLIA_PROJECT_ID;
-const algoliaSearchApiKey = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_ALGOLIA_API_KEY;
+const algoliaAppId = ("TURBOPACK compile-time value", "ZR7O4TD21I");
+const algoliaSearchApiKey = ("TURBOPACK compile-time value", "e432ebc24692f0bcd1d8efb35e32a937");
 const algoliaIndexName = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_ALGOLIA_INDEX;
 const algoliaClient = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$algoliasearch$2f$dist$2f$algoliasearch$2e$umd$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(algoliaAppId, algoliaSearchApiKey);
 const GlobalSearchModal = (props)=>{
