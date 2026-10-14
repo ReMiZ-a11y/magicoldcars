@@ -1,3 +1,4 @@
+
 const heroBanner = {
   name: "heroBanner",
   type: "document",
@@ -48,8 +49,10 @@ const heroBanner = {
       const { name, postTitle, image } = selection;
 
       return {
-        title: name || postTitle || "Hero Banner",
-        subtitle: postTitle || "No blog post selected",
+        title: name || "Hero Banner",
+        subtitle: postTitle
+          ? `Blog post: ${postTitle}`
+          : "No blog post selected",
         media: image,
       };
     },

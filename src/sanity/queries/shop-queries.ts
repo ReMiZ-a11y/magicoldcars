@@ -133,7 +133,8 @@ export const heroSliderQuery = groq`
     "post": post->{
       _id,
       title,
-      slug
+      slug,
+      publishedAt
     }
   }
 `;
@@ -151,4 +152,4 @@ export const countdownQuery = groq`
       name
     }
   }
-`;
+`
