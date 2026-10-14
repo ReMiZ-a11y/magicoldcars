@@ -4,23 +4,23 @@ import Image from "next/image";
 const featureData = [
   {
     img: "/images/icons/icon-01.svg",
-    title: "Szybka Dostawa",
-    description: "Ekspresowo wysyłka",
+    title: "Free Shipping",
+    description: "For all orders $200",
   },
   {
     img: "/images/icons/icon-02.svg",
-    title: "Łatwe Zwroty",
-    description: "Prosty zwrot lub wymiana",
+    title: "1 & 1 Returns",
+    description: "Cancellation after 1 day",
   },
   {
     img: "/images/icons/icon-03.svg",
-    title: "Bezpieczne Płatności",
-    description: "Twoje dane są bezpieczne",
+    title: "100% Secure Payments",
+    description: "Gurantee secure payments",
   },
   {
     img: "/images/icons/icon-04.svg",
-    title: "Społeczność",
-    description: "Dołącz do modowej rodziny",
+    title: "24/7 Dedicated Support",
+    description: "Anywhere & anytime",
   },
 ];
 

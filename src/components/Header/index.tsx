@@ -83,7 +83,7 @@ const Header = () => {
                         type="search"
                         name="search"
                         id="search"
-                        placeholder="Klasyki łączą pasja zbliza"
+                        placeholder="I am shopping for..."
                         autoComplete="off"
                         className="custom-search  w-full rounded-full bg-gray-1  border border-gray-3 h-[42px] py-2.5 pl-5 pr-10 outline-hidden ease-in duration-200"
                       />
@@ -127,11 +127,11 @@ const Header = () => {
                     </div>
                     <div className="group">
                       <span className="block uppercase font-medium text-2xs text-dark-4">
-                        Konto
+                        account
                       </span>
                       <p className="font-medium text-custom-sm text-dark hover:text-blue">
                         {session?.user.name?.split(" ")[0] ||
-                          "Zaloguj / Zarejestruj"}
+                          "Sign In / Register"}
                       </p>
                     </div>
                   </Link>
@@ -276,9 +276,9 @@ const Header = () => {
                   href="/popular?sort=popular"
                   className="text-sm text-dark flex items-center font-medium hover:text-blue"
                 >
-                  Polska 
+                  Best Selling
                   <span className="bg-red text-white font-semibold text-[10px] inline-flex items-center justify-center rounded-full ml-2.5  px-2 h-5 uppercase">
-                  Motoryzacja
+                    SALE
                   </span>
                 </Link>
               </div>
@@ -403,7 +403,7 @@ const Header = () => {
                 <span className="inline-flex items-center justify-center w-8 h-8 bg-gray-200 rounded-full relative">
                   <HeartIcon className="w-5 h-5" />
                 </span>
-                Ulubione
+                Wishlist
               </Link>
             </div>
           </aside>

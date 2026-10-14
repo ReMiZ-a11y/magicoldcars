@@ -240,28 +240,10 @@ type ApiRouteConfig = {
   type __Unused = __Check
 }
 
-// Validate ../../../src/app/(site)/blogs/blog-details-with-sidebar/page.tsx
-{
-  type __IsExpected<Specific extends AppPageConfig<"/blogs/blog-details-with-sidebar">> = Specific
-  const handler = {} as typeof import("../../../src/app/(site)/blogs/blog-details-with-sidebar/page.js")
-  type __Check = __IsExpected<typeof handler>
-  // @ts-ignore
-  type __Unused = __Check
-}
-
 // Validate ../../../src/app/(site)/blogs/blog-details/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/blogs/blog-details">> = Specific
   const handler = {} as typeof import("../../../src/app/(site)/blogs/blog-details/page.js")
-  type __Check = __IsExpected<typeof handler>
-  // @ts-ignore
-  type __Unused = __Check
-}
-
-// Validate ../../../src/app/(site)/blogs/blog-grid-with-sidebar/page.tsx
-{
-  type __IsExpected<Specific extends AppPageConfig<"/blogs/blog-grid-with-sidebar">> = Specific
-  const handler = {} as typeof import("../../../src/app/(site)/blogs/blog-grid-with-sidebar/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

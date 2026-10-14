@@ -8,7 +8,6 @@ export const productData = `
   description,
   shortDescription,
   category->,
-  gender,
   slug,
   tags,
   colors,
@@ -84,21 +83,22 @@ export const heroBannerQuery = groq`*[_type == "heroBanner"] | order(_createdAt 
     shortDescription,
     slug,
     name,
-    discountedPrice
+    discountedPrice,
+    price
   }
 }`;
-
 export const heroSliderQuery = groq`*[_type == "heroSlider"] | order(_createdAt desc) {
   _id,
   name,
   image,
   discount,
-    product->{
+  product->{
     shortDescription,
     slug,
     name,
-    discountedPrice
-  },
+    discountedPrice,
+    price
+  }
 }`;
 
 export const countdownQuery = groq`*[_type == "countdown"][0] {
@@ -107,8 +107,8 @@ export const countdownQuery = groq`*[_type == "countdown"][0] {
   image,
   subtitle,
   date,
-  post->{
+  product->{
     slug,
-    title
+    name,
   }
 }`;

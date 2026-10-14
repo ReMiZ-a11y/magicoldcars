@@ -16,7 +16,7 @@ const HeroCarousal = ({ sliders }: any) => {
       spaceBetween={30}
       centeredSlides={true}
       autoplay={{
-        delay: 15000,
+        delay: 2500,
         disableOnInteraction: false,
       }}
       pagination={{
@@ -49,7 +49,7 @@ const HeroCarousal = ({ sliders }: any) => {
                 href={`/products/${slider?.product?.slug.current}`}
                 className="inline-flex font-medium text-white text-custom-sm rounded-full bg-blue py-3 px-9 ease-out duration-200 hover:bg-blue-dark mt-6 sm:mt-10"
               >
-                Sprawdz ofertę
+                Shop Now
               </Link>
             </div>
             <Image

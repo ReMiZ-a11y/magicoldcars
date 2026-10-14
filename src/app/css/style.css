@@ -1,4 +1,3 @@
-
 @import url("https://fonts.cdnfonts.com/css/general-sans");
 
 @import "tailwindcss";
@@ -37,24 +36,22 @@
   --color-gray-7: #374151;
   --color-gray: #f3f5f6;
 
-  /* Brand orange: replaces blue */
-  --color-blue: #f54e00;
-  --color-blue-dark: #cc4100;
-  --color-blue-light: #ff6a24;
-  --color-blue-light-2: #ff8b54;
-  --color-blue-light-3: #ffad85;
-  --color-blue-light-4: #ffceb7;
-  --color-blue-light-5: #ffede4;
+  --color-blue: #3c50e0;
+  --color-blue-dark: #1c3fb7;
+  --color-blue-light: #5475e5;
+  --color-blue-light-2: #8099ec;
+  --color-blue-light-3: #adbcf2;
+  --color-blue-light-4: #c3cef6;
+  --color-blue-light-5: #e1e8ff;
 
-   /* Brand graphite: replaces red */
-  --color-red: #f54e00;
-  --color-red-dark:  #cc4100;
-  --color-red-light: #ff6a24;
-  --color-red-light-2: #ff8b54;
-  --color-red-light-3: #ffad85;
-  --color-red-light-4: #ffceb7;
-  --color-red-light-5: #ffede4;
-  --color-red-light-6: #ffede4; 
+  --color-red: #f23030;
+  --color-red-dark: #e10e0e;
+  --color-red-light: #f56060;
+  --color-red-light-2: #f89090;
+  --color-red-light-3: #fbc0c0;
+  --color-red-light-4: #fdd8d8;
+  --color-red-light-5: #feebeb;
+  --color-red-light-6: #fef3f3;
 
   --color-green: #22ad5c;
   --color-green-dark: #1a8245;
@@ -65,21 +62,19 @@
   --color-green-light-5: #c2f3d6;
   --color-green-light-6: #daf8e6;
 
-  /* Yellow palette */
-  --color-yellow: #f5e800;
-  --color-yellow-dark: #c9be00;
-  --color-yellow-dark-2: #a89f00;
-  --color-yellow-light: #f8ed33;
-  --color-yellow-light-1: #faf16b;
-  --color-yellow-light-2: #fdf8c4;
-  --color-yellow-light-4: #fffdf0;
+  --color-yellow: #fbbf24;
+  --color-yellow-dark: #f59e0b;
+  --color-yellow-dark-2: #d97706;
+  --color-yellow-light: #fcd34d;
+  --color-yellow-light-1: #fde68a;
+  --color-yellow-light-2: #fef3c7;
+  --color-yellow-light-4: #fffbeb;
 
   --color-teal: #02aaa4;
   --color-teal-dark: #06a09b;
 
-  /* Orange palette */
-  --color-orange: #f54e00;
-  --color-orange-dark: #cc4100;
+  --color-orange: #f27430;
+  --color-orange-dark: #e1580e;
 
   --breakpoint-*: initial;
   --breakpoint-xsm: 375px;
@@ -133,7 +128,7 @@
     0px 2px 2px 0px rgba(33, 37, 41, 0.06);
   --shadow-filter: 0px 1px 0px 0px #e5e7eb;
   --shadow-list: 1px 0px 0px 0px #e5e7eb;
-  --shadow-input: inset 0 0 0 2px #f54e00;
+  --shadow-input: inset 0 0 0 2px #3c50e0;
 }
 
 @layer base {
@@ -235,7 +230,12 @@
 }
 
 /*
-  Tailwind CSS v4 border compatibility.
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
 */
 @layer base {
   *,
@@ -254,11 +254,12 @@
 }
 
 @utility no-scrollbar {
+  /* Chrome, Safari and Opera */
   &::-webkit-scrollbar {
     display: none;
   }
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 @layer base {
@@ -272,53 +273,60 @@
   }
 }
 
-/* Third-party libraries CSS */
+/* third-party libraries CSS */
 
+/* clears the ‘X’ from Internet Explorer */
 input[type="search"]::-ms-clear {
   display: none;
   width: 0;
   height: 0;
 }
-
 input[type="search"]::-ms-reveal {
   display: none;
   width: 0;
   height: 0;
 }
-
+/* clears the ‘X’ from Chrome */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
-
 .custom-search {
   border-radius: 99px;
 }
 
-/* Custom select */
-
+/* The container must be positioned relative: */
 .custom-select select {
-  display: none;
+  display: none; /*hide original SELECT element: */
 }
 
 .select-selected {
-  @apply bg-gray-1 rounded-full flex h-[42px] items-center border border-gray-3 cursor-pointer text-dark text-custom-sm py-2.5 pl-5 pr-5 relative;
+  @apply bg-gray-1 rounded-full flex  h-[42px] items-center border border-gray-3  cursor-pointer text-dark text-custom-sm py-2.5 pl-5 pr-5 relative;
 }
 
+/* Style the arrow inside the select element: */
+/* .select-selected:after {
+  content: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.833313 0.916687L4.99998 5.08335L9.16665 0.916687' stroke='%231C274C' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round'/%3E%3C/svg%3E%0A");
+  @apply absolute top-1/2 !-translate-y-1/2 right-4.5 ease-out duration-200;
+} */
+
+/* Point the arrow upwards when the select box is open (active): */
 .select-selected.select-arrow-active:after {
   @apply rotate-180 mt-0.5;
 }
 
+/* Style items (options): */
 .select-items {
-  @apply absolute top-full left-0 right-0 z-99 shadow-2 border p-1 border-gray-3 bg-white rounded-xl mt-1.5;
+  @apply absolute top-full left-0 right-0 z-99 shadow-2 border p-1 border-gray-3 bg-white rounded-xl  mt-1.5;
 }
-
+/* style the items (options), including the selected item: */
 .select-items div {
   @apply cursor-pointer rounded-lg text-dark-3 text-custom-sm py-[7px] px-4.5;
 }
 
+/* Hide the items when the select box is closed: */
 .select-hide {
   display: none;
 }
@@ -331,26 +339,21 @@ input[type="search"]::-webkit-search-results-decoration {
 .custom-select-2 .select-selected {
   @apply bg-white rounded-md border-r! text-dark font-medium text-sm leading-[22px] py-1.5 pl-3 pr-9;
 }
-
 .custom-select-2 .select-selected:after {
-  content: url("data:image/svg+xml,%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.75 0.875001L7 7.125L13.25 0.875' stroke='%238D93A5' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  content: url("data:image/svg+xml,%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.75 0.875001L7 7.125L13.25 0.875' stroke='%238D93A5' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round'/%3E%3C/svg%3E%0A");
   @apply right-3.5;
 }
 
 .custom-select-common .select-selected {
   @apply bg-gray-1 rounded-md border-r! text-dark-4 py-3 pl-5 pr-9 duration-200 focus:border-transparent focus:shadow-input focus:ring-2 focus:ring-blue/20;
 }
-
 .custom-select-common .select-selected:after {
-  content: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.41469 5.03569L2.41467 5.03571L2.41749 5.03846L7.76749 10.2635L8.0015 10.492L8.23442 10.2623L13.5844 4.98735L13.5844 4.98735L13.5861 4.98569C13.6809 4.89086 13.8199 4.89087 13.9147 4.98569C14.0092 5.08024 14.0095 5.21864 13.9155 5.31345C13.9152 5.31373 13.915 5.31401 13.9147 5.31429L8.16676 10.9622L8.16676 10.9622L8.16469 10.9643C8.06838 11.0606 8.02352 11.0667 8.00039 11.0667C7.94147 11.0667 7.89042 11.0522 7.82064 10.9991L2.08526 5.36345C1.99127 5.26865 1.99154 5.13024 2.08609 5.03569C2.18092 4.94086 2.31986 4.94087 2.41469 5.03569Z' fill='%238D93A5' stroke='%238D93A5' stroke-width='0.666667'/%3E%3C/svg%3E%0A");
+  content: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.41469 5.03569L2.41467 5.03571L2.41749 5.03846L7.76749 10.2635L8.0015 10.492L8.23442 10.2623L13.5844 4.98735L13.5844 4.98735L13.5861 4.98569C13.6809 4.89086 13.8199 4.89087 13.9147 4.98569C14.0092 5.08024 14.0095 5.21864 13.9155 5.31345C13.9152 5.31373 13.915 5.31401 13.9147 5.31429L8.16676 10.9622L8.16676 10.9622L8.16469 10.9643C8.06838 11.0606 8.02352 11.0667 8.00039 11.0667C7.94147 11.0667 7.89042 11.0522 7.82064 10.9991L2.08526 5.36345C1.99127 5.26865 1.99154 5.13024 2.08609 5.03569C2.18092 4.94086 2.31986 4.94086 2.41469 5.03569Z' fill='%238D93A5' stroke='%238D93A5' strokeWidth='0.666667'/%3E%3C/svg%3E%0A");
   @apply block mt-1 right-4;
 }
-
 .custom-select-common .select-selected.select-arrow-active:after {
   @apply -mt-0.5;
 }
-
-/* Hero carousel */
 
 .hero-carousel .swiper-pagination-bullet {
   @apply h-1 w-4 rounded-[11px] bg-dark-5 opacity-100;
@@ -364,8 +367,6 @@ input[type="search"]::-webkit-search-results-decoration {
   @apply xl:bottom-5!;
 }
 
-/* Common carousel */
-
 .common-carousel .swiper-button-next:after,
 .common-carousel .swiper-button-prev:after {
   @apply hidden;
@@ -373,7 +374,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .common-carousel .swiper-button-next,
 .common-carousel .swiper-button-prev {
-  @apply static! h-9 w-9 rounded-full bg-white text-dark border border-gray-3 m-0 ease-out duration-200 hover:bg-[#f5e800] hover:text-dark hover:border-[#f5e800];
+  @apply static! h-9 w-9 rounded-full bg-white text-dark border border-gray-3 m-0 ease-out duration-200 hover:bg-blue hover:text-white hover:border-blue;
 }
 
 .common-carousel .swiper-button-next svg,
@@ -381,45 +382,33 @@ input[type="search"]::-webkit-search-results-decoration {
   @apply w-auto h-auto;
 }
 
-/* Image zoom */
-
 .img-zoom-container img {
   transition: 0.8s;
 }
-
 .img-zoom-container img:hover {
   transform: scale(2) rotate(0deg);
   transition: 0.8s;
 }
 
-/* Price slider */
-
 .priceSlide .noUi-target {
   @apply mb-5 bg-transparent border-none shadow-none mt-9;
 }
-
 .priceSlide .noUi-connects {
   @apply h-1 rounded-full bg-gray-3;
 }
-
 .priceSlide .noUi-connect {
   @apply h-1 rounded-full bg-blue;
 }
-
 .priceSlide .noUi-horizontal .noUi-handle {
   @apply bg-white border rounded-full -top-3 h-7 w-7 border-gray-4 shadow-range before:block before:absolute before:left-1/2 before:top-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-4 before:h-4 before:rounded-full before:bg-blue;
 }
-
 .priceSlide .noUi-tooltip {
   @apply p-0 bg-transparent border-none text-custom-sm text-dark-4;
 }
-
 .noUi-horizontal .noUi-handle:after,
 .noUi-horizontal .noUi-handle:before {
   @apply hidden;
 }
-
-/* Range slider */
 
 .range-slider {
   @apply w-full h-[4px]! rounded-md bg-blue relative mb-3;
@@ -455,8 +444,6 @@ input[type="search"]::-webkit-search-results-decoration {
   @apply bg-blue!;
 }
 
-/* Blog */
-
 .blog-details p {
   @apply mb-6;
 }
@@ -485,9 +472,6 @@ input[type="search"]::-webkit-search-results-decoration {
   @apply font-medium text-dark text-lg xl:text-[18px] xl:leading-[34px] mb-6;
 }
 
-/* Testimonials */
-
 .testimonial-swiper .swiper-wrapper {
   @apply py-5!;
 }
-  

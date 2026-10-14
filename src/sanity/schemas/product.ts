@@ -99,21 +99,6 @@ const product = {
       ],
     },
     {
-      name: "gender",
-      title: "Gender",
-      type: "string",
-      options: {
-        list: [
-          { title: "Men", value: "men" },
-          { title: "Women", value: "women" },
-          { title: "Boy", value: "boy" },
-          { title: "Girl", value: "girl" },
-          { title: "Child", value: "child" }
-        ]
-      }
-    },
-    
-    {
       name: "colors",
       title: "Colors",
       type: "array",
