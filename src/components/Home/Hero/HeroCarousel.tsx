@@ -55,7 +55,7 @@ const HeroCarousal = ({ sliders }: any) => {
                 </h1>
 
                 <p className="text-sm text-white/80">
-                  Published at:{" "}
+                  Data Publikacji{" "}
                   {publishedAt
                     ? new Date(publishedAt).toLocaleDateString("pl-PL")
                     : "Brak daty publikacji"}
@@ -66,7 +66,7 @@ const HeroCarousal = ({ sliders }: any) => {
                     href={postUrl}
                     className="mt-6 inline-flex rounded-full bg-blue px-9 py-3 text-custom-sm font-medium text-white duration-200 ease-out hover:bg-blue-dark sm:mt-10"
                   >
-                    Read More
+                    Przeczytaj wiecej
                   </Link>
                 )}
               </div>

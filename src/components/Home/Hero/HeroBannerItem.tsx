@@ -34,7 +34,7 @@ export default function HeroBannerItem({
           <div>
             <span className="flex flex-col gap-1 text-lg">
               <span className="font-medium text-dark text-custom-sm">
-                data
+                Data Publikacji
               </span>
               <span className="font-semibold text-lg text-blue">
                 {publishedAt
