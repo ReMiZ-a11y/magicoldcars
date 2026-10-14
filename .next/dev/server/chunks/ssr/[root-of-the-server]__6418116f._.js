@@ -332,27 +332,16 @@ module.exports = mod;
 "[project]/src/sanity/config/client-config.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/*import { type ClientConfig } from 'next-sanity';
-
-const config = {
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
-  dataset: 'production',
-  apiVersion: '2023-03-09',
-  useCdn: true,
-  token: process.env.SANITY_PROJECT_API_TOKEN!,
-  perspective: 'published',
-} satisfies ClientConfig;
-
-export default config;
-*/ __turbopack_context__.s([
+__turbopack_context__.s([
     "default",
     ()=>__TURBOPACK__default__export__
 ]);
 const config = {
-    projectId: 'x9mv3dcz',
+    projectId: ("TURBOPACK compile-time value", "x9mv3dcz"),
     dataset: 'production',
-    apiVersion: '2023-03-09',
+    apiVersion: "2025-02-19",
     useCdn: true,
+    token: process.env.SANITY_PROJECT_API_TOKEN,
     perspective: 'published'
 };
 const __TURBOPACK__default__export__ = config;
@@ -897,7 +886,7 @@ function HeroBannerItem({ bannerItem, className }) {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "font-medium text-dark text-custom-sm ",
-                                        children: "Przeczytaj"
+                                        children: "Save up to"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
                                         lineNumber: 25,

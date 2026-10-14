@@ -2015,27 +2015,16 @@ module.exports = mod;
 "[project]/src/sanity/config/client-config.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/*import { type ClientConfig } from 'next-sanity';
-
-const config = {
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
-  dataset: 'production',
-  apiVersion: '2023-03-09',
-  useCdn: true,
-  token: process.env.SANITY_PROJECT_API_TOKEN!,
-  perspective: 'published',
-} satisfies ClientConfig;
-
-export default config;
-*/ __turbopack_context__.s([
+__turbopack_context__.s([
     "default",
     ()=>__TURBOPACK__default__export__
 ]);
 const config = {
-    projectId: 'x9mv3dcz',
+    projectId: ("TURBOPACK compile-time value", "x9mv3dcz"),
     dataset: 'production',
-    apiVersion: '2023-03-09',
+    apiVersion: "2025-02-19",
     useCdn: true,
+    token: process.env.SANITY_PROJECT_API_TOKEN,
     perspective: 'published'
 };
 const __TURBOPACK__default__export__ = config;
@@ -2537,7 +2526,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const CustomSelect = ()=>{
     const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [selectedOption, setSelectedOption] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
-        title: "Kategorie"
+        title: "All Categories"
     });
     const { data = [] } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$features$2f$api$2f$category$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useGetCategoriesQuery"])();
     const toggleDropdown = ()=>{
@@ -2883,27 +2872,121 @@ __turbopack_context__.s([
 const menuData = [
     {
         id: 1,
-        title: "Popularne",
+        title: "Popular",
         newTab: false,
         path: "/popular?sort=popular"
     },
     {
         id: 2,
-        title: "Sklep",
+        title: "Shop",
         newTab: false,
         path: "/shop-with-sidebar"
     },
     {
         id: 3,
-        title: "Kontakt",
+        title: "Contact",
         newTab: false,
         path: "/contact"
     },
     {
-        id: 7,
-        title: "Blog",
+        id: 6,
+        title: "pages",
         newTab: false,
-        path: "/blogs/blog-grid-with-sidebar"
+        path: "/",
+        submenu: [
+            {
+                id: 61,
+                title: "Shop With Sidebar",
+                newTab: false,
+                path: "/shop-with-sidebar"
+            },
+            {
+                id: 62,
+                title: "Shop Without Sidebar",
+                newTab: false,
+                path: "/shop-without-sidebar"
+            },
+            {
+                id: 64,
+                title: "Checkout",
+                newTab: false,
+                path: "/checkout"
+            },
+            {
+                id: 65,
+                title: "Cart",
+                newTab: false,
+                path: "/cart"
+            },
+            {
+                id: 66,
+                title: "Wishlist",
+                newTab: false,
+                path: "/wishlist"
+            },
+            {
+                id: 67,
+                title: "Sign in",
+                newTab: false,
+                path: "/signin"
+            },
+            {
+                id: 68,
+                title: "Sign up",
+                newTab: false,
+                path: "/signup"
+            },
+            {
+                id: 70,
+                title: "Contact",
+                newTab: false,
+                path: "/contact"
+            },
+            {
+                id: 62,
+                title: "Error",
+                newTab: false,
+                path: "/error"
+            },
+            {
+                id: 63,
+                title: "Mail Success",
+                newTab: false,
+                path: "/mail-success"
+            }
+        ]
+    },
+    {
+        id: 7,
+        title: "blogs",
+        newTab: false,
+        path: "/",
+        submenu: [
+            {
+                id: 71,
+                title: "Blog Grid with sidebar",
+                newTab: false,
+                path: "/blogs/blog-grid-with-sidebar"
+            },
+            {
+                id: 72,
+                title: "Blog Grid",
+                newTab: false,
+                path: "/blogs/blog-grid"
+            },
+            {
+                id: 73,
+                title: "Blog details with sidebar",
+                newTab: false,
+                path: "/blogs/blog-details-with-sidebar"
+            },
+            {
+                id: 74,
+                title: "Blog details",
+                newTab: false,
+                path: "/blogs/blog-details"
+            }
+        ]
     }
 ];
 }),
@@ -3622,7 +3705,7 @@ const Header = ()=>{
                                                                     type: "search",
                                                                     name: "search",
                                                                     id: "search",
-                                                                    placeholder: "Klasyki łączą pasja zbliza",
+                                                                    placeholder: "I am shopping for...",
                                                                     autoComplete: "off",
                                                                     className: "custom-search  w-full rounded-full bg-gray-1  border border-gray-3 h-[42px] py-2.5 pl-5 pr-10 outline-hidden ease-in duration-200"
                                                                 }, void 0, false, {
@@ -3718,7 +3801,7 @@ const Header = ()=>{
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         className: "block uppercase font-medium text-2xs text-dark-4",
-                                                                        children: "Konto"
+                                                                        children: "account"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Header/index.tsx",
                                                                         lineNumber: 129,
@@ -3726,7 +3809,7 @@ const Header = ()=>{
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         className: "font-medium text-custom-sm text-dark hover:text-blue",
-                                                                        children: session?.user.name?.split(" ")[0] || "Zaloguj / Zarejestruj"
+                                                                        children: session?.user.name?.split(" ")[0] || "Sign In / Register"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Header/index.tsx",
                                                                         lineNumber: 132,
@@ -3980,10 +4063,10 @@ const Header = ()=>{
                                             href: "/popular?sort=popular",
                                             className: "text-sm text-dark flex items-center font-medium hover:text-blue",
                                             children: [
-                                                "Polska",
+                                                "Best Selling",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "bg-red text-white font-semibold text-[10px] inline-flex items-center justify-center rounded-full ml-2.5  px-2 h-5 uppercase",
-                                                    children: "Motoryzacja"
+                                                    children: "SALE"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Header/index.tsx",
                                                     lineNumber: 280,
@@ -4184,7 +4267,7 @@ const Header = ()=>{
                                                         lineNumber: 403,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    "Ulubione"
+                                                    "Wishlist"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Header/index.tsx",
