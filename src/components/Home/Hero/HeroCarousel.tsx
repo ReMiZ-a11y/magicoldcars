@@ -16,7 +16,7 @@ const HeroCarousal = ({ sliders }: any) => {
       spaceBetween={30}
       centeredSlides
       autoplay={{
-        delay: 2500,
+        delay: 32500,
         disableOnInteraction: false,
       }}
       pagination={{

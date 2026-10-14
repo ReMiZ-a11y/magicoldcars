@@ -19,17 +19,17 @@ export default function HeroBannerItem({
     >
       <div className="flex justify-between gap-4">
         <div className="max-w-[153px] flex flex-col justify-between w-full">
-          <h2 className="max-w-[153px] font-semibold text-dark text-[22px] hover:text-blue">
-            {postSlug ? (
-              <Link href={`/blogs/${postSlug}`}>
-                {bannerItem?.post?.title || bannerItem?.name}
-              </Link>
-            ) : (
-              <span>
-                {bannerItem?.post?.title || bannerItem?.name}
-              </span>
-            )}
-          </h2>
+
+<h2 className="max-w-[153px] font-semibold text-dark text-[22px] hover:text-blue">
+  {postSlug ? (
+    <Link href={`/blogs/${postSlug}`}>
+      {bannerItem?.name}
+    </Link>
+  ) : (
+    <span>{bannerItem?.name}</span>
+  )}
+</h2>
+
 
           <div>
             <span className="flex flex-col gap-1 text-lg">
