@@ -36,7 +36,6 @@ export default function HeroBannerItem({
               <span className="font-medium text-dark text-custom-sm">
                 czas do przeczytania:
               </span>
-/* co teraz zrobic skoro w sekcji post nie mam czasu artykułu */
               <span className="font-semibold text-lg text-blue">
                 {publishedAt
                   ? new Date(publishedAt).toLocaleDateString("pl-PL")
