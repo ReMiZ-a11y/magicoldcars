@@ -1,6 +1,7 @@
+
 import { groq } from "next-sanity";
 
-// product data for all the utils functions
+// Product data for all the utils functions
 export const productData = `
 {
   _id,
@@ -22,9 +23,15 @@ export const productData = `
   offers,
   status,
   price_id,
-  body, 
+  body,
   currency,
-  'reviews': *[_type == "review" &&  references(^._id)] | order(publishedAt desc) {_id, name, email, comment}
+  'reviews': *[_type == "review" && references(^._id)]
+    | order(publishedAt desc) {
+      _id,
+      name,
+      email,
+      comment
+    }
 }
 `;
 
@@ -41,74 +48,102 @@ export const orderData = `{
 `;
 
 export const allCategoriesQuery = groq`
-    *[_type == "category" && count(*[_type == "product" && references(^._id)]) > 0]  {
-      _id,
-      title,
-      image,
-      slug,
-      "productCount": count(*[_type == "product" && references(^._id)])
-    }`;
-
-export const singleCategoryQuery = groq`
-*[_type == "category" && slug.current == $slug][0] {
-  _id,
-  title,
-  image,
-  slug,
-  "productCount": count(*[_type == "product" && references(^._id)])
-}
+  *[
+    _type == "category" &&
+    count(*[_type == "product" && references(^._id)]) > 0
+  ] {
+    _id,
+    title,
+    image,
+    slug,
+    "productCount": count(
+      *[_type == "product" && references(^._id)]
+    )
+  }
 `;
 
-export const categoryByIdQuery = groq`*[_type == "category" && _id == $id][0] {
-  _id,
-  title,
-}`;
-
-export const allProductsQuery = groq`*[_type == "product"] | order(_createdAt desc) ${productData}`;
-
-export const bestSellerQuery = groq`*[_type == "product"] | order(count(reviews) desc) ${productData}`;
-
-export const singleProductQuery = groq`*[_type == "product" && slug.current == $slug][0] ${productData}`;
-
-export const productByCategoryQuery = groq`*[_type == "product" && category->slug.current == $slug] | order(_createdAt desc) ${productData}`;
-
-export const allOrdersQuery = groq`*[_type == "order"] | order(_createdAt desc)  ${orderData}`;
-export const orderByIdQuery = groq`*[_type == "order" && orderId == $orderId][0] ${orderData}`;
-
-export const heroBannerQuery = groq`*[_type == "heroBanner"] | order(_createdAt desc) {
-  _id,
-  name,
-  image,
-  product->{
-    shortDescription,
+export const singleCategoryQuery = groq`
+  *[_type == "category" && slug.current == $slug][0] {
+    _id,
+    title,
+    image,
     slug,
-    name,
-    discountedPrice,
-    price
+    "productCount": count(
+      *[_type == "product" && references(^._id)]
+    )
   }
-}`;
-export const heroSliderQuery = groq`*[_type == "heroSlider"] | order(_createdAt desc) {
-  _id,
-  name,
-  image,
-  discount,
-  product->{
-    shortDescription,
-    slug,
-    name,
-    discountedPrice,
-    price
-  }
-}`;
+`;
 
-export const countdownQuery = groq`*[_type == "countdown"][0] {
-  _id,
-  title,
-  image,
-  subtitle,
-  date,
-  product->{
-    slug,
-    name,
+export const categoryByIdQuery = groq`
+  *[_type == "category" && _id == $id][0] {
+    _id,
+    title
   }
-}`;
+`;
+
+export const allProductsQuery = groq`
+  *[_type == "product"] | order(_createdAt desc) ${productData}
+`;
+
+export const bestSellerQuery = groq`
+  *[_type == "product"] | order(count(reviews) desc) ${productData}
+`;
+
+export const singleProductQuery = groq`
+  *[_type == "product" && slug.current == $slug][0] ${productData}
+`;
+
+export const productByCategoryQuery = groq`
+  *[_type == "product" && category->slug.current == $slug]
+  | order(_createdAt desc) ${productData}
+`;
+
+export const allOrdersQuery = groq`
+  *[_type == "order"] | order(_createdAt desc) ${orderData}
+`;
+
+export const orderByIdQuery = groq`
+  *[_type == "order" && orderId == $orderId][0] ${orderData}
+`;
+
+// Small hero banners: blog post data instead of product data
+export const heroBannerQuery = groq`
+  *[_type == "heroBanner"] | order(_createdAt desc) {
+    _id,
+    name,
+    description,
+    image,
+    "post": post->{
+      title,
+      slug
+    }
+  }
+`;
+
+// Main hero slider: blog post data instead of product data
+export const heroSliderQuery = groq`
+  *[_type == "heroSlider"] | order(_createdAt desc) {
+    _id,
+    name,
+    discount,
+    description,
+    image,
+    "post": post->{
+      title,
+      slug
+    }
+  }
+`;
+
+export const countdownQuery = groq`
+  *[_type == "countdown"][0] {
+    _id,
+    title,
+    image,
+    subtitle,
+    date,
+    product->{
+      slug,
+      name
+    }
+  }`;
