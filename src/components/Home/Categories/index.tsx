@@ -53,7 +53,7 @@ const Categories = () => {
           <div className="flex items-center justify-between mb-10">
             <div>
               <h2 className="text-xl font-semibold xl:text-heading-5 text-dark">
-                Browse by Category
+                Według kategorii
               </h2>
             </div>
 

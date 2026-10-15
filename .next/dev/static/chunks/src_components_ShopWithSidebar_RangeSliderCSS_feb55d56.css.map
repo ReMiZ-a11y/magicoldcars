@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/komp/Documents/magicoldcars/src/components/ShopWithSidebar/RangeSliderCSS.css"],"sourcesContent":[".slider-root {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n\n.slider-track {\n  position: relative;\n  flex-grow: 1;\n  background-color: #dfe2ee;\n  height: 3px;\n  border-radius: 9999px;\n}\n\n.slider-range {\n  position: absolute;\n  background-color: #3a4570;\n  height: 100%;\n}\n\n.slider-thumb {\n  position: relative;\n  display: block;\n  width: 27px;\n  height: 27px;\n  background-color: #300df8;\n  border: 5px solid #ffffff;\n  box-shadow: 0 2px 5px 0 #e3e5ec;\n  border-radius: 9999px;\n}\n\nspan:has(.slider-thumb) {\n  /* Your styles here */\n  /* border: 1px solid #300df8;\n  border-radius: 100%; */\n}\n\n.slider-thumb:after {\n  position: absolute;\n  top: -1.8rem;\n  content: attr(aria-valuenow);\n  font-size: 0.8rem;\n}\n\n.slider-thumb[aria-label=\"Minimum\"]:after {\n  left: 0;\n}\n\n.slider-thumb[aria-label=\"Maximum\"]:after {\n  right: 0;\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;;AAQA;;;;;;AAMA;;;;;;;;;;;AAiBA;;;;;;;AAOA;;;;AAIA"}}]
+}

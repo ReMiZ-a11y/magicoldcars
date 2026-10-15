@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Params) {
         canonical: `${siteURL}/categories/${categoryData?.slug?.current}`,
         languages: {
           "en-US": "/en-US",
-          "de-DE": "/de-DE",
+          "pl-PL": "/pl-PL",
         },
       },
 

@@ -173,7 +173,7 @@ const SingleItem = ({ item })=>{
         id: item._id,
         name: item.name,
         price: item.discountedPrice * 100,
-        currency: "usd",
+        currency: "pl",
         image: item?.thumbnails ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["imageBuilder"])(item?.thumbnails[0]?.image).url() : "",
         price_id: null,
         slug: item?.slug?.current
@@ -387,7 +387,7 @@ const SingleItem = ({ item })=>{
         className: "group flex flex-col items-center",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-[130px] w-full bg-[#F2F3F8] h-32.5 rounded-full flex items-center justify-center mb-4",
+                className: "max-w-[130px] w-full bg-[#FFFFFF] h-32.5 rounded-full flex items-center justify-center mb-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                     src: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["imageBuilder"])(item.image).url(),
                     alt: "Category",
@@ -493,7 +493,7 @@ const Categories = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "text-xl font-semibold xl:text-heading-5 text-dark",
-                                    children: "Browse by Category"
+                                    children: "Według kategorii"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Home/Categories/index.tsx",
                                     lineNumber: 55,
@@ -882,7 +882,7 @@ const HeroCarousal = ({ sliders })=>{
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: {
-            delay: 2500,
+            delay: 32500,
             disableOnInteraction: false
         },
         pagination: {
@@ -893,88 +893,101 @@ const HeroCarousal = ({ sliders })=>{
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$pagination$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Pagination$3e$__["Pagination"]
         ],
         className: "hero-carousel",
-        children: sliders?.map((slider, key)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
+        children: sliders?.map((slider, key)=>{
+            const post = slider?.post;
+            const postSlug = post?.slug?.current;
+            const postTitle = post?.title || slider?.name || "Blog post";
+            const postUrl = postSlug ? `/blogs/${postSlug}` : null;
+            const publishedAt = post?.publishedAt;
+            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "relative",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "max-w-[366px] absolute left-8 lg:left-20 top-1/2 -translate-y-1/2",
+                            className: "absolute left-8 top-1/2 z-10 max-w-[366px] -translate-y-1/2 lg:left-20",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-4 mb-5",
+                                slider?.discount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mb-5 flex items-center gap-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "block font-medium text-lg uppercase text-white",
-                                        children: slider?.discount
+                                        className: "block text-lg font-medium uppercase text-white",
+                                        children: slider.discount
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
-                                        lineNumber: 33,
-                                        columnNumber: 17
+                                        lineNumber: 41,
+                                        columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
-                                    lineNumber: 32,
-                                    columnNumber: 15
+                                    lineNumber: 40,
+                                    columnNumber: 19
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "font-semibold text-white text-xl sm:text-[40px] mb-3",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `/products/${slider?.product?.slug.current}`,
-                                        children: slider?.product?.name
+                                    className: "mb-3 text-xl font-semibold text-white sm:text-[40px]",
+                                    children: postUrl ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        href: postUrl,
+                                        className: "hover:underline",
+                                        children: postTitle
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
-                                        lineNumber: 39,
-                                        columnNumber: 17
-                                    }, ("TURBOPACK compile-time value", void 0))
+                                        lineNumber: 49,
+                                        columnNumber: 21
+                                    }, ("TURBOPACK compile-time value", void 0)) : postTitle
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
-                                    lineNumber: 38,
-                                    columnNumber: 15
+                                    lineNumber: 47,
+                                    columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-white/80",
-                                    children: slider?.product?.shortDescription.slice(0, 100)
-                                }, void 0, false, {
+                                    children: [
+                                        "Data Publikacji",
+                                        " ",
+                                        publishedAt ? new Date(publishedAt).toLocaleDateString("pl-PL") : "Brak daty publikacji"
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
-                                    lineNumber: 44,
-                                    columnNumber: 15
+                                    lineNumber: 57,
+                                    columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    href: `/products/${slider?.product?.slug.current}`,
-                                    className: "inline-flex font-medium text-white text-custom-sm rounded-full bg-blue py-3 px-9 ease-out duration-200 hover:bg-blue-dark mt-6 sm:mt-10",
-                                    children: "Shop Now"
+                                postUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: postUrl,
+                                    className: "mt-6 inline-flex rounded-full bg-blue px-9 py-3 text-custom-sm font-medium text-white duration-200 ease-out hover:bg-blue-dark sm:mt-10",
+                                    children: "Przeczytaj wiecej"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
-                                    lineNumber: 48,
-                                    columnNumber: 15
+                                    lineNumber: 65,
+                                    columnNumber: 19
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
-                            lineNumber: 31,
-                            columnNumber: 13
+                            lineNumber: 38,
+                            columnNumber: 15
                         }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            src: slider?.image ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["imageBuilder"])(slider?.image).url() : "/no image",
+                        slider?.image && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            src: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["imageBuilder"])(slider.image).url(),
                             width: 981,
                             height: 533,
                             loading: "eager",
-                            className: "rounded-[10px] w-full max-h-[533px]",
-                            alt: "headphone"
+                            className: "max-h-[533px] w-full rounded-[10px] object-cover",
+                            alt: postTitle
                         }, void 0, false, {
                             fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
-                            lineNumber: 55,
-                            columnNumber: 13
+                            lineNumber: 75,
+                            columnNumber: 17
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
-                    lineNumber: 30,
-                    columnNumber: 11
+                    lineNumber: 37,
+                    columnNumber: 13
                 }, ("TURBOPACK compile-time value", void 0))
-            }, key, false, {
+            }, slider?._id || key, false, {
                 fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
-                lineNumber: 29,
-                columnNumber: 9
-            }, ("TURBOPACK compile-time value", void 0)))
+                lineNumber: 36,
+                columnNumber: 11
+            }, ("TURBOPACK compile-time value", void 0));
+        })
     }, void 0, false, {
         fileName: "[project]/src/components/Home/Hero/HeroCarousel.tsx",
         lineNumber: 15,

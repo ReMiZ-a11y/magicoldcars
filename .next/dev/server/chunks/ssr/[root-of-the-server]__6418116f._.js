@@ -243,9 +243,16 @@ const productData = `
   offers,
   status,
   price_id,
-  body, 
+  body,
   currency,
-  'reviews': *[_type == "review" &&  references(^._id)] | order(publishedAt desc) {_id, name, email, comment}
+  'reviews': *[
+    _type == "review" && references(^._id)
+  ] | order(publishedAt desc) {
+    _id,
+    name,
+    email,
+    comment
+  }
 }
 `;
 const orderData = `{
@@ -257,71 +264,101 @@ const orderData = `{
   quantity,
   orderTitle,
   _createdAt
-}
-`;
+}`;
 const allCategoriesQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
-    *[_type == "category" && count(*[_type == "product" && references(^._id)]) > 0]  {
+  *[
+    _type == "category" &&
+    count(*[_type == "product" && references(^._id)]) > 0
+  ] {
+    _id,
+    title,
+    image,
+    slug,
+    "productCount": count(
+      *[_type == "product" && references(^._id)]
+    )
+  }
+`;
+const singleCategoryQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "category" && slug.current == $slug][0] {
+    _id,
+    title,
+    image,
+    slug,
+    "productCount": count(
+      *[_type == "product" && references(^._id)]
+    )
+  }
+`;
+const categoryByIdQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "category" && _id == $id][0] {
+    _id,
+    title
+  }
+`;
+const allProductsQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "product"] | order(_createdAt desc) ${productData}
+`;
+const bestSellerQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "product"] | order(count(reviews) desc) ${productData}
+`;
+const singleProductQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "product" && slug.current == $slug][0] ${productData}
+`;
+const productByCategoryQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[
+    _type == "product" &&
+    category->slug.current == $slug
+  ] | order(_createdAt desc) ${productData}
+`;
+const allOrdersQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "order"] | order(_createdAt desc) ${orderData}
+`;
+const orderByIdQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "order" && orderId == $orderId][0] ${orderData}
+`;
+const heroBannerQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "heroBanner"] | order(_createdAt desc) {
+    _id,
+    name,
+    slug,
+    image,
+    "post": post->{
       _id,
       title,
-      image,
       slug,
-      "productCount": count(*[_type == "product" && references(^._id)])
-    }`;
-const singleCategoryQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
-*[_type == "category" && slug.current == $slug][0] {
-  _id,
-  title,
-  image,
-  slug,
-  "productCount": count(*[_type == "product" && references(^._id)])
-}
+      publishedAt
+    }
+  }
 `;
-const categoryByIdQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "category" && _id == $id][0] {
-  _id,
-  title,
-}`;
-const allProductsQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "product"] | order(_createdAt desc) ${productData}`;
-const bestSellerQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "product"] | order(count(reviews) desc) ${productData}`;
-const singleProductQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "product" && slug.current == $slug][0] ${productData}`;
-const productByCategoryQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "product" && category->slug.current == $slug] | order(_createdAt desc) ${productData}`;
-const allOrdersQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "order"] | order(_createdAt desc)  ${orderData}`;
-const orderByIdQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "order" && orderId == $orderId][0] ${orderData}`;
-const heroBannerQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "heroBanner"] | order(_createdAt desc) {
-  _id,
-  name,
-  image,
-  product->{
-    shortDescription,
-    slug,
+const heroSliderQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "heroSlider"] | order(_createdAt desc) {
+    _id,
     name,
-    discountedPrice,
-    price
+    image,
+    discount,
+    description,
+    "post": post->{
+      _id,
+      title,
+      slug,
+      publishedAt
+    }
   }
-}`;
-const heroSliderQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "heroSlider"] | order(_createdAt desc) {
-  _id,
-  name,
-  image,
-  discount,
-  product->{
-    shortDescription,
-    slug,
-    name,
-    discountedPrice,
-    price
+`;
+const countdownQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "countdown"][0] {
+    _id,
+    title,
+    image,
+    subtitle,
+    date,
+    product->{
+      slug,
+      name
+    }
   }
-}`;
-const countdownQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "countdown"][0] {
-  _id,
-  title,
-  image,
-  subtitle,
-  date,
-  product->{
-    slug,
-    name,
-  }
-}`;
+`;
 }),
 "[externals]/crypto [external] (crypto, cjs)", ((__turbopack_context__, module, exports) => {
 
@@ -393,7 +430,7 @@ function BestSellerSectionTitle() {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "font-semibold text-xl xl:text-heading-5 text-dark",
-                children: "Best Sellers"
+                children: "Ikony motoryzacji"
             }, void 0, false, {
                 fileName: "[project]/src/components/Home/BestSeller/BestSellerSectionTitle.tsx",
                 lineNumber: 7,
@@ -514,7 +551,7 @@ const BestSeller = async ()=>{
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                         href: "/shop-without-sidebar",
                         className: "inline-flex font-medium text-custom-sm py-3 px-7 sm:px-12.5 rounded-full border-gray-3 border bg-gray-1 text-dark ease-out duration-200 hover:bg-dark hover:text-white hover:border-transparent",
-                        children: "View All"
+                        children: "Zobacz wszystkie"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Home/BestSeller/index.tsx",
                         lineNumber: 38,
@@ -854,98 +891,100 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 function HeroBannerItem({ bannerItem, className }) {
+    const postSlug = bannerItem?.post?.slug?.current;
+    const publishedAt = bannerItem?.post?.publishedAt;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: `w-full relative rounded-[10px] px-6 py-4 sm:py-5 sm:px-7  ${className}`,
+        className: `w-full relative rounded-[10px] px-6 py-4 sm:py-5 sm:px-7 ${className ?? ""}`,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex  justify-between gap-4",
+            className: "flex justify-between gap-4",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-[153px] flex flex-col justify-between w-full",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "max-w-[153px] font-semibold text-dark text-[22px]   hover:text-blue",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                href: `/products/${bannerItem?.product?.slug.current}`,
-                                children: [
-                                    bannerItem.name,
-                                    " "
-                                ]
-                            }, void 0, true, {
+                            className: "max-w-[153px] font-semibold text-dark text-[22px] hover:text-blue",
+                            children: postSlug ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: `/blogs/${postSlug}`,
+                                children: bannerItem?.name
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-                                lineNumber: 19,
-                                columnNumber: 13
+                                lineNumber: 25,
+                                columnNumber: 5
+                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: bannerItem?.name
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
+                                lineNumber: 29,
+                                columnNumber: 5
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-                            lineNumber: 18,
-                            columnNumber: 11
+                            lineNumber: 23,
+                            columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "flex items-center  gap-1 text-lg",
+                                className: "flex flex-col gap-1 text-lg",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-medium text-dark text-custom-sm ",
-                                        children: "Save up to"
+                                        className: "font-medium text-dark text-custom-sm",
+                                        children: "Data Publikacji"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-                                        lineNumber: 25,
+                                        lineNumber: 36,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "font-semibold text-lg text-blue",
-                                        children: [
-                                            "$",
-                                            bannerItem?.product?.discountedPrice
-                                        ]
-                                    }, void 0, true, {
+                                        children: publishedAt ? new Date(publishedAt).toLocaleDateString("pl-PL") : "Brak daty"
+                                    }, void 0, false, {
                                         fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-                                        lineNumber: 28,
+                                        lineNumber: 39,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-                                lineNumber: 24,
+                                lineNumber: 35,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-                            lineNumber: 23,
+                            lineNumber: 34,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-                    lineNumber: 17,
+                    lineNumber: 21,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-[180px] w-full",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        src: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["imageBuilder"])(bannerItem?.image).url(),
-                        alt: "mobile image",
+                    children: bannerItem?.image && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                        src: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["imageBuilder"])(bannerItem.image).url(),
+                        alt: bannerItem?.post?.title || bannerItem?.name || "Blog image",
                         width: 180,
                         height: 210
                     }, void 0, false, {
                         fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-                        lineNumber: 36,
-                        columnNumber: 11
+                        lineNumber: 50,
+                        columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-                    lineNumber: 35,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-            lineNumber: 16,
+            lineNumber: 20,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Home/Hero/HeroBannerItem.tsx",
-        lineNumber: 13,
+        lineNumber: 17,
         columnNumber: 5
     }, this);
 }

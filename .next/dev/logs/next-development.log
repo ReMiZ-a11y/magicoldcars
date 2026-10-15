@@ -1,674 +1,141 @@
-[00:00:06.569] Server  LOG      ✓ Ready in 5.3s
-[00:01:21.413] Server  LOG      ○ Compiling / ...
-[00:01:38.756] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:01:39.297] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:01:42.844] Browser ERROR   uncaughtError: Error: Configuration must contain `projectId`
-[00:03:32.788] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:03:34.393] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:03:35.405] Browser ERROR   uncaughtError: Error: Configuration must contain `projectId`
-[00:06:25.258] Server  LOG      ✓ Compiled in 2.1s
-[00:06:29.432] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:06:30.115] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:06:30.911] Browser ERROR   uncaughtError: Error: Configuration must contain `projectId`
-[00:07:57.862] Server  LOG      ✓ Compiled in 395ms
-[00:07:59.664] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:08:00.090] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:08:00.626] Browser ERROR   uncaughtError: Error: Configuration must contain `projectId`
-[00:08:34.355] Server  LOG        Reload env: .env
-[00:08:43.284] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:08:43.680] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:08:44.486] Browser ERROR   uncaughtError: Error: Configuration must contain `projectId`
-[00:09:51.954] Server  LOG        Reload env: .env
-[00:09:57.934] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:09:58.329] Server  ERROR    ⨯ Error: Configuration must contain `projectId`
-[00:09:59.013] Browser ERROR   uncaughtError: Error: Configuration must contain `projectId`
-[00:10:24.766] Server  LOG        Reload env: .env
-[00:10:31.871] Server  WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
-[00:10:35.580] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:36.554] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
-[00:10:39.528] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.528] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.529] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.529] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.529] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.529] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.529] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.657] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b2669d03f86219c8b49fcead04fa6bb8f1dc169d-81x51.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.657] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1e340620f72ea84245fe17af2642979786f9f8dd-61x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.657] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/71de8e3fb7e6f757e0716825b945ef6e47ced708-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.657] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/04abfed6b65add277bdcc2bc40419c9c5d6570de-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.657] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1c64b65f5a410e78dafe4f144ff97517547f4e5a-76x76.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.657] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/57cb3566544286b2ee0944cbbc646f461deead00-83x62.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:39.657] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c0e47fbf7172c3ff154e3fb5faeae5947d976ca6-78x67.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:40.546] Server  LOG      ○ Compiling /api/auth/[...nextauth] ...
-[00:10:45.872] Server  WARN    [next-auth][warn][NEXTAUTH_URL] "\nhttps://next-auth.js.org/warnings#nextauth_url"
-[00:10:45.873] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
-[00:12:58.879] Browser WARN    Image with src "/images/shapes/newsletter-bg.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:58.879] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:59.245] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:59.440] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:24:07.279] Server  LOG      ○ Compiling /admin/[[...index]] ...
-[00:24:54.270] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:29:44.911] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:29:45.612] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
-[00:29:46.830] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.830] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.958] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b2669d03f86219c8b49fcead04fa6bb8f1dc169d-81x51.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.958] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1e340620f72ea84245fe17af2642979786f9f8dd-61x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.958] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/71de8e3fb7e6f757e0716825b945ef6e47ced708-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.958] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/04abfed6b65add277bdcc2bc40419c9c5d6570de-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.958] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1c64b65f5a410e78dafe4f144ff97517547f4e5a-76x76.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.958] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/57cb3566544286b2ee0944cbbc646f461deead00-83x62.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:46.958] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c0e47fbf7172c3ff154e3fb5faeae5947d976ca6-78x67.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:23.316] Browser WARN    `configContext.client` is deprecated and will be removed in the next release! Use `context.getClient({apiVersion: "2021-06-07"})` instead
-[00:30:30.068] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:30:30.961] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
-[00:30:31.642] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.642] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.833] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1c64b65f5a410e78dafe4f144ff97517547f4e5a-76x76.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.833] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1e340620f72ea84245fe17af2642979786f9f8dd-61x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.833] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/71de8e3fb7e6f757e0716825b945ef6e47ced708-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.833] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b2669d03f86219c8b49fcead04fa6bb8f1dc169d-81x51.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.833] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/04abfed6b65add277bdcc2bc40419c9c5d6570de-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.833] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/57cb3566544286b2ee0944cbbc646f461deead00-83x62.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:31.833] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c0e47fbf7172c3ff154e3fb5faeae5947d976ca6-78x67.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:19.119] Browser WARN    `configContext.client` is deprecated and will be removed in the next release! Use `context.getClient({apiVersion: "2021-06-07"})` instead
-[00:31:23.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:31:24.228] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
-[00:31:25.120] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.120] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.120] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.120] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.120] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1e340620f72ea84245fe17af2642979786f9f8dd-61x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b2669d03f86219c8b49fcead04fa6bb8f1dc169d-81x51.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/71de8e3fb7e6f757e0716825b945ef6e47ced708-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1c64b65f5a410e78dafe4f144ff97517547f4e5a-76x76.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/57cb3566544286b2ee0944cbbc646f461deead00-83x62.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/04abfed6b65add277bdcc2bc40419c9c5d6570de-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:25.121] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c0e47fbf7172c3ff154e3fb5faeae5947d976ca6-78x67.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:37:32.084] Browser ERROR   {}
-[00:37:32.091] Browser ERROR   {}
-[00:37:32.103] Browser ERROR   {}
-[00:37:32.104] Browser ERROR   {}
-[00:37:32.105] Browser ERROR   {}
-[00:37:32.105] Browser ERROR   {}
-[00:37:32.105] Browser ERROR   {}
-[00:37:32.105] Browser ERROR   {}
-[00:37:32.105] Browser ERROR   {}
-[00:37:32.105] Browser ERROR   {}
-[00:37:32.105] Browser ERROR   {}
-[00:37:32.105] Browser ERROR   unhandledRejection: TypeError: network error
-[00:37:32.105] Browser ERROR   {}
-[00:37:32.990] Browser ERROR   {}
-[00:37:32.990] Browser ERROR   {}
-[00:37:32.990] Browser ERROR   {}
-[00:37:32.990] Browser ERROR   {}
-[00:37:32.990] Browser ERROR   {}
-[00:37:32.990] Browser ERROR   {}
-[00:37:33.744] Browser ERROR   {}
-[00:37:33.744] Browser ERROR   {}
-[00:37:33.750] Browser ERROR   {}
-[00:37:33.750] Browser ERROR   {}
-[00:37:33.750] Browser ERROR   {}
-[00:37:33.750] Browser ERROR   {}
-[00:37:33.750] Browser ERROR   {}
-[00:37:33.750] Browser ERROR   {}
-[00:37:33.750] Browser ERROR   {}
-[00:37:33.751] Browser ERROR   {}
-[00:37:33.751] Browser ERROR   {}
-[00:37:33.751] Browser ERROR   {}
-[00:37:33.751] Browser ERROR   {}
-[00:37:33.751] Browser ERROR   {}
-[00:37:33.751] Browser ERROR   {}
-[00:37:33.751] Browser ERROR   {}
-[00:37:33.751] Browser ERROR   {}
-[00:37:35.877] Browser ERROR   {}
-[00:37:35.877] Browser ERROR   {}
-[00:37:35.877] Browser ERROR   {}
-[00:37:35.877] Browser ERROR   {}
-[00:37:35.877] Browser ERROR   {}
-[00:37:35.877] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:36.446] Browser ERROR   {}
-[00:37:37.106] Browser ERROR   {}
-[00:37:37.106] Browser ERROR   {}
-[00:37:37.106] Browser ERROR   {}
-[00:37:37.106] Browser ERROR   {}
-[00:37:37.106] Browser ERROR   {}
-[00:37:37.106] Browser ERROR   {}
-[00:37:39.148] Browser ERROR   {}
-[00:37:39.148] Browser ERROR   {}
-[00:37:39.148] Browser ERROR   {}
-[00:37:39.148] Browser ERROR   {}
-[00:37:39.149] Browser ERROR   {}
-[00:37:39.149] Browser ERROR   {}
-[00:37:40.078] Browser ERROR   {}
-[00:37:40.078] Browser ERROR   {}
-[00:37:40.079] Browser ERROR   {}
-[00:37:40.079] Browser ERROR   {}
-[00:37:40.079] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:40.080] Browser ERROR   {}
-[00:37:41.100] Browser ERROR   {}
-[00:37:41.100] Browser ERROR   {}
-[00:37:41.101] Browser ERROR   {}
-[00:37:41.101] Browser ERROR   {}
-[00:37:41.101] Browser ERROR   {}
-[00:37:41.101] Browser ERROR   {}
-[00:37:43.161] Browser ERROR   {}
-[00:37:43.161] Browser ERROR   {}
-[00:37:43.161] Browser ERROR   {}
-[00:37:43.161] Browser ERROR   {}
-[00:37:43.161] Browser ERROR   {}
-[00:37:43.161] Browser ERROR   {}
-[00:37:47.142] Browser ERROR   {}
-[00:37:47.142] Browser ERROR   {}
-[00:37:47.142] Browser ERROR   {}
-[00:37:47.143] Browser ERROR   {}
-[00:37:47.143] Browser ERROR   {}
-[00:37:47.143] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:48.116] Browser ERROR   {}
-[00:37:49.128] Browser ERROR   {}
-[00:37:49.128] Browser ERROR   {}
-[00:37:49.128] Browser ERROR   {}
-[00:37:49.128] Browser ERROR   {}
-[00:37:49.128] Browser ERROR   {}
-[00:37:49.128] Browser ERROR   {}
-[00:37:51.144] Browser ERROR   {}
-[00:37:51.144] Browser ERROR   {}
-[00:37:51.144] Browser ERROR   {}
-[00:37:51.144] Browser ERROR   {}
-[00:37:51.144] Browser ERROR   {}
-[00:37:51.144] Browser ERROR   {}
-[00:37:55.159] Browser ERROR   {}
-[00:37:55.159] Browser ERROR   {}
-[00:37:55.159] Browser ERROR   {}
-[00:37:55.159] Browser ERROR   {}
-[00:37:55.159] Browser ERROR   {}
-[00:37:55.159] Browser ERROR   {}
-[00:38:03.172] Browser ERROR   {}
-[00:38:03.172] Browser ERROR   {}
-[00:38:03.172] Browser ERROR   {}
-[00:38:03.172] Browser ERROR   {}
-[00:38:03.172] Browser ERROR   {}
-[00:38:03.172] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:04.142] Browser ERROR   {}
-[00:38:05.145] Browser ERROR   {}
-[00:38:05.145] Browser ERROR   {}
-[00:38:05.145] Browser ERROR   {}
-[00:38:05.145] Browser ERROR   {}
-[00:38:05.145] Browser ERROR   {}
-[00:38:05.145] Browser ERROR   {}
-[00:38:07.160] Browser ERROR   {}
-[00:38:07.160] Browser ERROR   {}
-[00:38:07.160] Browser ERROR   {}
-[00:38:07.160] Browser ERROR   {}
-[00:38:07.160] Browser ERROR   {}
-[00:38:07.160] Browser ERROR   {}
-[00:38:11.176] Browser ERROR   {}
-[00:38:11.176] Browser ERROR   {}
-[00:38:11.176] Browser ERROR   {}
-[00:38:11.176] Browser ERROR   {}
-[00:38:11.176] Browser ERROR   {}
-[00:38:11.176] Browser ERROR   {}
-[00:38:19.193] Browser ERROR   {}
-[00:38:19.193] Browser ERROR   {}
-[00:38:19.193] Browser ERROR   {}
-[00:38:19.193] Browser ERROR   {}
-[00:38:19.193] Browser ERROR   {}
-[00:38:19.193] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:20.158] Browser ERROR   {}
-[00:38:21.156] Browser ERROR   {}
-[00:38:21.156] Browser ERROR   {}
-[00:38:21.156] Browser ERROR   {}
-[00:38:21.156] Browser ERROR   {}
-[00:38:21.156] Browser ERROR   {}
-[00:38:21.156] Browser ERROR   {}
-[00:38:23.172] Browser ERROR   {}
-[00:38:23.172] Browser ERROR   {}
-[00:38:23.172] Browser ERROR   {}
-[00:38:23.172] Browser ERROR   {}
-[00:38:23.172] Browser ERROR   {}
-[00:38:23.172] Browser ERROR   {}
-[00:38:27.189] Browser ERROR   {}
-[00:38:27.189] Browser ERROR   {}
-[00:38:27.189] Browser ERROR   {}
-[00:38:27.189] Browser ERROR   {}
-[00:38:27.189] Browser ERROR   {}
-[00:38:27.189] Browser ERROR   {}
-[00:38:35.202] Browser ERROR   {}
-[00:38:35.202] Browser ERROR   {}
-[00:38:35.202] Browser ERROR   {}
-[00:38:35.202] Browser ERROR   {}
-[00:38:35.202] Browser ERROR   {}
-[00:38:35.202] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:36.177] Browser ERROR   {}
-[00:38:37.195] Browser ERROR   {}
-[00:38:37.196] Browser ERROR   {}
-[00:38:37.196] Browser ERROR   {}
-[00:38:37.196] Browser ERROR   {}
-[00:38:37.196] Browser ERROR   {}
-[00:38:37.196] Browser ERROR   {}
-[00:38:39.211] Browser ERROR   {}
-[00:38:39.212] Browser ERROR   {}
-[00:38:39.212] Browser ERROR   {}
-[00:38:39.212] Browser ERROR   {}
-[00:38:39.212] Browser ERROR   {}
-[00:38:39.212] Browser ERROR   {}
-[00:38:43.225] Browser ERROR   {}
-[00:38:43.226] Browser ERROR   {}
-[00:38:43.226] Browser ERROR   {}
-[00:38:43.226] Browser ERROR   {}
-[00:38:43.226] Browser ERROR   {}
-[00:38:43.226] Browser ERROR   {}
-[00:38:51.240] Browser ERROR   {}
-[00:38:51.240] Browser ERROR   {}
-[00:38:51.241] Browser ERROR   {}
-[00:38:51.241] Browser ERROR   {}
-[00:38:51.241] Browser ERROR   {}
-[00:38:51.241] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:52.196] Browser ERROR   {}
-[00:38:53.211] Browser ERROR   {}
-[00:38:53.211] Browser ERROR   {}
-[00:38:53.211] Browser ERROR   {}
-[00:38:53.211] Browser ERROR   {}
-[00:38:53.211] Browser ERROR   {}
-[00:38:53.211] Browser ERROR   {}
-[00:38:55.226] Browser ERROR   {}
-[00:38:55.226] Browser ERROR   {}
-[00:38:55.226] Browser ERROR   {}
-[00:38:55.226] Browser ERROR   {}
-[00:38:55.226] Browser ERROR   {}
-[00:38:55.226] Browser ERROR   {}
-[00:38:59.244] Browser ERROR   {}
-[00:38:59.244] Browser ERROR   {}
-[00:38:59.245] Browser ERROR   {}
-[00:38:59.245] Browser ERROR   {}
-[00:38:59.245] Browser ERROR   {}
-[00:38:59.245] Browser ERROR   {}
-[00:39:10.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:40:06.118] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:40:07.029] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
-[00:40:07.882] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:07.883] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:08.179] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b2669d03f86219c8b49fcead04fa6bb8f1dc169d-81x51.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:08.179] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1e340620f72ea84245fe17af2642979786f9f8dd-61x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:08.179] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/71de8e3fb7e6f757e0716825b945ef6e47ced708-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:08.179] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/04abfed6b65add277bdcc2bc40419c9c5d6570de-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:08.179] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1c64b65f5a410e78dafe4f144ff97517547f4e5a-76x76.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:08.179] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/57cb3566544286b2ee0944cbbc646f461deead00-83x62.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:40:08.179] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c0e47fbf7172c3ff154e3fb5faeae5947d976ca6-78x67.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:02:43.699] Server  LOG      ✓ Compiled in 4.5s
-[01:17:21.373] Browser INFO    Starting from the next major version, InstantSearch will change how widgets state is preserved when they are removed. InstantSearch will keep the state of unmounted widgets to be usable by other widgets with the same attribute.
-
-We recommend setting `future.preserveSharedStateOnUnmount` to true to adopt this change today.
-To stay with the current behaviour and remove this warning, set the option to false.
-
-See documentation: https://www.algolia.com/doc/api-reference/widgets/instantsearch/js/#widget-param-future
-          
-[01:17:21.374] Browser WARN    [InstantSearch] We've detected you are using Next.js with the App Router.
-We released an **experimental** package called "react-instantsearch-nextjs" that makes SSR work with the App Router.
-Please check its usage instructions: https://www.algolia.com/doc/guides/building-search-ui/going-further/server-side-rendering/react/#with-nextjs
-
-This warning will not be outputted in production builds.
-[01:17:21.374] Browser WARN    [InstantSearch.js]: No indexName provided, nor an explicit index widget in the widgets tree. This is required to be able to display results.
-[01:19:27.879] Browser WARN    Image with src "/images/shapes/newsletter-bg.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:19:28.099] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:19:28.099] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:19:28.099] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:39:57.758] Server  LOG        Reload env: .env
-[01:40:34.396] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:40:40.278] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:40:41.585] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
-[01:40:42.033] Server  WARN    [next-auth][warn][NEXTAUTH_URL] "\nhttps://next-auth.js.org/warnings#nextauth_url"
-[01:40:42.034] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
-[01:46:54.249] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.249] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:54.766] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:55.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:55.013] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:55.013] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:55.013] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/71de8e3fb7e6f757e0716825b945ef6e47ced708-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:55.013] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1e340620f72ea84245fe17af2642979786f9f8dd-61x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:55.013] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b2669d03f86219c8b49fcead04fa6bb8f1dc169d-81x51.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:55.013] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/04abfed6b65add277bdcc2bc40419c9c5d6570de-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:55.186] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c0e47fbf7172c3ff154e3fb5faeae5947d976ca6-78x67.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:55.186] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1c64b65f5a410e78dafe4f144ff97517547f4e5a-76x76.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:46:55.186] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/57cb3566544286b2ee0944cbbc646f461deead00-83x62.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:21.464] Server  LOG        Reload env: .env
-[02:25:38.480] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:25:43.916] Browser INFO    Starting from the next major version, InstantSearch will change how widgets state is preserved when they are removed. InstantSearch will keep the state of unmounted widgets to be usable by other widgets with the same attribute.
-
-We recommend setting `future.preserveSharedStateOnUnmount` to true to adopt this change today.
-To stay with the current behaviour and remove this warning, set the option to false.
-
-See documentation: https://www.algolia.com/doc/api-reference/widgets/instantsearch/js/#widget-param-future
-          
-[02:25:43.916] Browser WARN    [InstantSearch] We've detected you are using Next.js with the App Router.
-We released an **experimental** package called "react-instantsearch-nextjs" that makes SSR work with the App Router.
-Please check its usage instructions: https://www.algolia.com/doc/guides/building-search-ui/going-further/server-side-rendering/react/#with-nextjs
-
-This warning will not be outputted in production builds.
-[02:25:43.916] Browser ERROR   unhandledRejection: RetryError: Unreachable hosts - your application id may be incorrect. If the error persists, please reach out to the Algolia Support team: https://alg.li/support .
-[02:25:45.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:25:46.349] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
-[02:25:47.847] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.847] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:47.849] Server  WARN    [next-auth][warn][NEXTAUTH_URL] "\nhttps://next-auth.js.org/warnings#nextauth_url"
-[02:25:47.852] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
-[02:25:48.134] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/71de8e3fb7e6f757e0716825b945ef6e47ced708-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:48.134] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1e340620f72ea84245fe17af2642979786f9f8dd-61x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:48.134] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b2669d03f86219c8b49fcead04fa6bb8f1dc169d-81x51.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:48.134] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/04abfed6b65add277bdcc2bc40419c9c5d6570de-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:48.134] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1c64b65f5a410e78dafe4f144ff97517547f4e5a-76x76.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:48.134] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/57cb3566544286b2ee0944cbbc646f461deead00-83x62.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:48.134] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c0e47fbf7172c3ff154e3fb5faeae5947d976ca6-78x67.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:48.988] Browser INFO    Starting from the next major version, InstantSearch will change how widgets state is preserved when they are removed. InstantSearch will keep the state of unmounted widgets to be usable by other widgets with the same attribute.
-
-We recommend setting `future.preserveSharedStateOnUnmount` to true to adopt this change today.
-To stay with the current behaviour and remove this warning, set the option to false.
-
-See documentation: https://www.algolia.com/doc/api-reference/widgets/instantsearch/js/#widget-param-future
-          
-[02:25:48.988] Browser WARN    [InstantSearch] We've detected you are using Next.js with the App Router.
-We released an **experimental** package called "react-instantsearch-nextjs" that makes SSR work with the App Router.
-Please check its usage instructions: https://www.algolia.com/doc/guides/building-search-ui/going-further/server-side-rendering/react/#with-nextjs
-
-This warning will not be outputted in production builds.
-[02:25:48.988] Browser WARN    [InstantSearch.js]: No indexName provided, nor an explicit index widget in the widgets tree. This is required to be able to display results.
-[02:25:55.073] Server  LOG      ✓ Compiled in 361ms
-[02:25:55.107] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:25:58.126] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:26:00.621] Server  WARN    [next-auth][warn][NEXTAUTH_URL] "\nhttps://next-auth.js.org/warnings#nextauth_url"
-[02:26:00.622] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
-[02:26:01.149] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
-[02:26:01.149] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:01.149] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:01.149] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:01.149] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:01.149] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.032] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.032] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.032] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.032] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b2669d03f86219c8b49fcead04fa6bb8f1dc169d-81x51.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/04abfed6b65add277bdcc2bc40419c9c5d6570de-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1e340620f72ea84245fe17af2642979786f9f8dd-61x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/71de8e3fb7e6f757e0716825b945ef6e47ced708-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1c64b65f5a410e78dafe4f144ff97517547f4e5a-76x76.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/57cb3566544286b2ee0944cbbc646f461deead00-83x62.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:26:05.033] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c0e47fbf7172c3ff154e3fb5faeae5947d976ca6-78x67.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:34.397] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:27:35.245] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
-[02:27:36.496] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/71de8e3fb7e6f757e0716825b945ef6e47ced708-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1e340620f72ea84245fe17af2642979786f9f8dd-61x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b2669d03f86219c8b49fcead04fa6bb8f1dc169d-81x51.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1c64b65f5a410e78dafe4f144ff97517547f4e5a-76x76.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/04abfed6b65add277bdcc2bc40419c9c5d6570de-74x74.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/57cb3566544286b2ee0944cbbc646f461deead00-83x62.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:36.496] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c0e47fbf7172c3ff154e3fb5faeae5947d976ca6-78x67.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:27:37.388] Browser INFO    Starting from the next major version, InstantSearch will change how widgets state is preserved when they are removed. InstantSearch will keep the state of unmounted widgets to be usable by other widgets with the same attribute.
-
-We recommend setting `future.preserveSharedStateOnUnmount` to true to adopt this change today.
-To stay with the current behaviour and remove this warning, set the option to false.
-
-See documentation: https://www.algolia.com/doc/api-reference/widgets/instantsearch/js/#widget-param-future
-          
-[02:27:37.388] Browser WARN    [InstantSearch] We've detected you are using Next.js with the App Router.
-We released an **experimental** package called "react-instantsearch-nextjs" that makes SSR work with the App Router.
-Please check its usage instructions: https://www.algolia.com/doc/guides/building-search-ui/going-further/server-side-rendering/react/#with-nextjs
-
-This warning will not be outputted in production builds.
-[02:27:37.388] Browser WARN    [InstantSearch.js]: No indexName provided, nor an explicit index widget in the widgets tree. This is required to be able to display results.
-[02:41:52.385] Server  LOG        Reload env: .env
-[02:42:07.682] Server  LOG      ✓ Compiled in 15.2s
-[03:06:40.177] Server  LOG      ✓ Compiled in 548ms
-[03:11:18.809] Server  LOG      ✓ Compiled in 340ms
-[03:19:59.926] Server  LOG      ✓ Compiled in 704ms
-[03:20:11.820] Server  LOG      ✓ Compiled in 299ms
-[03:22:49.299] Server  LOG      ✓ Compiled in 391ms
-[03:27:19.290] Server  LOG      ✓ Compiled in 623ms
-[03:32:34.520] Server  LOG      ✓ Compiled in 542ms
-[03:33:54.340] Server  LOG      ✓ Compiled in 953ms
-[03:35:19.652] Server  LOG      ✓ Compiled in 1089ms
-[03:41:52.314] Server  LOG      ✓ Compiled in 788ms
-[03:42:41.589] Server  LOG      ✓ Compiled in 407ms
-[03:43:31.124] Server  LOG      ✓ Compiled in 320ms
-[04:01:00.157] Server  LOG      ✓ Compiled in 774ms
-[04:01:26.668] Server  LOG      ✓ Compiled in 306ms
-[04:02:05.023] Server  LOG      ✓ Compiled in 325ms
-[04:05:52.079] Server  LOG      ✓ Compiled in 1225ms
-[04:19:35.526] Server  LOG      ✓ Compiled in 1421ms
-[04:32:29.800] Server  LOG      ✓ Compiled in 369ms
-[04:33:03.210] Server  LOG      ✓ Compiled in 559ms
-[04:41:30.390] Server  LOG      ✓ Compiled in 410ms
-[05:09:19.791] Server  LOG      ✓ Compiled in 297ms
-[05:09:25.018] Server  LOG      ✓ Compiled in 492ms
-[05:15:11.018] Server  LOG      ✓ Compiled in 521ms
+[00:00:04.709] Server  LOG      ✓ Ready in 3.4s
+[00:00:07.802] Server  LOG      ○ Compiling / ...
+[00:00:27.212] Server  WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[00:00:29.660] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:30.053] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[00:00:31.908] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.908] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.908] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.908] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.909] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.909] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.910] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.910] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.910] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.910] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.910] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.910] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.911] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.911] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.911] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.911] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.911] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.911] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:32.030] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c169e76815d2f2f3a2727ce99d8307972ec5e7c5-373x249.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:32.030] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/09f03c32d94a6f07f82d1b3e212ae6335c381054-271x246.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:32.030] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/9f737a1599f680d4f687f860ab990ffc4a57b8da-292x267.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:32.030] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1b0356ee4a8c3c45274f171bab44647c9df7165b-305x197.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:32.030] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/55e62fd4a05379347ef1fc2dde14048f09ffc9f6-266x232.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:32.030] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/ea40e79692ecf91b7c6b45bbac2fc4947058145c-246x207.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:32.030] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/dfc7996843e993e6b856feb8e9608d6e14c40e3d-263x226.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:36.384] Server  WARN    [next-auth][warn][NEXTAUTH_URL] "\nhttps://next-auth.js.org/warnings#nextauth_url"
+[00:00:36.385] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
+[00:00:57.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:58.313] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[00:00:59.681] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.681] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.682] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.682] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.682] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.682] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.886] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c169e76815d2f2f3a2727ce99d8307972ec5e7c5-373x249.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.886] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/09f03c32d94a6f07f82d1b3e212ae6335c381054-271x246.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.886] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/9f737a1599f680d4f687f860ab990ffc4a57b8da-292x267.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.886] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/55e62fd4a05379347ef1fc2dde14048f09ffc9f6-266x232.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.886] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1b0356ee4a8c3c45274f171bab44647c9df7165b-305x197.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.886] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/ea40e79692ecf91b7c6b45bbac2fc4947058145c-246x207.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:59.886] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/dfc7996843e993e6b856feb8e9608d6e14c40e3d-263x226.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:26.344] Server  LOG      ✓ Compiled in 1191ms
+[00:01:48.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:49.141] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[00:01:49.761] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.761] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.954] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c169e76815d2f2f3a2727ce99d8307972ec5e7c5-373x249.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.954] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/9f737a1599f680d4f687f860ab990ffc4a57b8da-292x267.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.954] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/55e62fd4a05379347ef1fc2dde14048f09ffc9f6-266x232.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.954] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/09f03c32d94a6f07f82d1b3e212ae6335c381054-271x246.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.954] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1b0356ee4a8c3c45274f171bab44647c9df7165b-305x197.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.954] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/ea40e79692ecf91b7c6b45bbac2fc4947058145c-246x207.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:49.954] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/dfc7996843e993e6b856feb8e9608d6e14c40e3d-263x226.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:54.453] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:55.893] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[00:01:55.893] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:55.893] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:03.869] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/09f03c32d94a6f07f82d1b3e212ae6335c381054-271x246.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:03.869] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c169e76815d2f2f3a2727ce99d8307972ec5e7c5-373x249.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:03.869] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/9f737a1599f680d4f687f860ab990ffc4a57b8da-292x267.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:03.869] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/55e62fd4a05379347ef1fc2dde14048f09ffc9f6-266x232.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:03.869] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1b0356ee4a8c3c45274f171bab44647c9df7165b-305x197.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:03.869] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/ea40e79692ecf91b7c6b45bbac2fc4947058145c-246x207.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:03.869] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/dfc7996843e993e6b856feb8e9608d6e14c40e3d-263x226.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:08.445] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:09.285] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[00:02:10.011] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.011] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.147] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c169e76815d2f2f3a2727ce99d8307972ec5e7c5-373x249.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.147] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/55e62fd4a05379347ef1fc2dde14048f09ffc9f6-266x232.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.147] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/9f737a1599f680d4f687f860ab990ffc4a57b8da-292x267.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.147] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/09f03c32d94a6f07f82d1b3e212ae6335c381054-271x246.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.147] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1b0356ee4a8c3c45274f171bab44647c9df7165b-305x197.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.147] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/ea40e79692ecf91b7c6b45bbac2fc4947058145c-246x207.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.147] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/dfc7996843e993e6b856feb8e9608d6e14c40e3d-263x226.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

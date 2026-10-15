@@ -68,10 +68,10 @@
     --color-gray-5: #9ca3af;
     --color-gray-6: #6b7280;
     --color-gray-7: #374151;
-    --color-blue: #3c50e0;
-    --color-blue-dark: #1c3fb7;
-    --color-blue-light: #5475e5;
-    --color-blue-light-4: #c3cef6;
+    --color-blue: #f54e00;
+    --color-blue-dark: #c43e00;
+    --color-blue-light: #ff6826;
+    --color-blue-light-4: #ffc7ae;
     --color-red: #f23030;
     --color-red-light-4: #fdd8d8;
     --color-red-light-6: #fef3f3;
@@ -2222,6 +2222,10 @@
 
   .bg-\[\#FFECE1\] {
     background-color: #ffece1;
+  }
+
+  .bg-\[\#FFFFFF\] {
+    background-color: #fff;
   }
 
   .bg-\[\#f3f4f6\] {

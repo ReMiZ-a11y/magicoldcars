@@ -1815,7 +1815,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Common$
 ;
 const algoliaAppId = ("TURBOPACK compile-time value", "ZR7O4TD21I");
 const algoliaSearchApiKey = ("TURBOPACK compile-time value", "e432ebc24692f0bcd1d8efb35e32a937");
-const algoliaIndexName = process.env.NEXT_PUBLIC_ALGOLIA_INDEX;
+const algoliaIndexName = ("TURBOPACK compile-time value", "REPLACE_WITH_INDEX_NAME");
 const algoliaClient = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$algoliasearch$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(algoliaAppId, algoliaSearchApiKey);
 const GlobalSearchModal = (props)=>{
     const { searchModalOpen, setSearchModalOpen, currentFilter } = props;
@@ -2085,9 +2085,16 @@ const productData = `
   offers,
   status,
   price_id,
-  body, 
+  body,
   currency,
-  'reviews': *[_type == "review" &&  references(^._id)] | order(publishedAt desc) {_id, name, email, comment}
+  'reviews': *[
+    _type == "review" && references(^._id)
+  ] | order(publishedAt desc) {
+    _id,
+    name,
+    email,
+    comment
+  }
 }
 `;
 const orderData = `{
@@ -2099,71 +2106,101 @@ const orderData = `{
   quantity,
   orderTitle,
   _createdAt
-}
-`;
+}`;
 const allCategoriesQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
-    *[_type == "category" && count(*[_type == "product" && references(^._id)]) > 0]  {
+  *[
+    _type == "category" &&
+    count(*[_type == "product" && references(^._id)]) > 0
+  ] {
+    _id,
+    title,
+    image,
+    slug,
+    "productCount": count(
+      *[_type == "product" && references(^._id)]
+    )
+  }
+`;
+const singleCategoryQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "category" && slug.current == $slug][0] {
+    _id,
+    title,
+    image,
+    slug,
+    "productCount": count(
+      *[_type == "product" && references(^._id)]
+    )
+  }
+`;
+const categoryByIdQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "category" && _id == $id][0] {
+    _id,
+    title
+  }
+`;
+const allProductsQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "product"] | order(_createdAt desc) ${productData}
+`;
+const bestSellerQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "product"] | order(count(reviews) desc) ${productData}
+`;
+const singleProductQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "product" && slug.current == $slug][0] ${productData}
+`;
+const productByCategoryQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[
+    _type == "product" &&
+    category->slug.current == $slug
+  ] | order(_createdAt desc) ${productData}
+`;
+const allOrdersQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "order"] | order(_createdAt desc) ${orderData}
+`;
+const orderByIdQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "order" && orderId == $orderId][0] ${orderData}
+`;
+const heroBannerQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "heroBanner"] | order(_createdAt desc) {
+    _id,
+    name,
+    slug,
+    image,
+    "post": post->{
       _id,
       title,
-      image,
       slug,
-      "productCount": count(*[_type == "product" && references(^._id)])
-    }`;
-const singleCategoryQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
-*[_type == "category" && slug.current == $slug][0] {
-  _id,
-  title,
-  image,
-  slug,
-  "productCount": count(*[_type == "product" && references(^._id)])
-}
+      publishedAt
+    }
+  }
 `;
-const categoryByIdQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "category" && _id == $id][0] {
-  _id,
-  title,
-}`;
-const allProductsQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "product"] | order(_createdAt desc) ${productData}`;
-const bestSellerQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "product"] | order(count(reviews) desc) ${productData}`;
-const singleProductQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "product" && slug.current == $slug][0] ${productData}`;
-const productByCategoryQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "product" && category->slug.current == $slug] | order(_createdAt desc) ${productData}`;
-const allOrdersQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "order"] | order(_createdAt desc)  ${orderData}`;
-const orderByIdQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "order" && orderId == $orderId][0] ${orderData}`;
-const heroBannerQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "heroBanner"] | order(_createdAt desc) {
-  _id,
-  name,
-  image,
-  product->{
-    shortDescription,
-    slug,
+const heroSliderQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "heroSlider"] | order(_createdAt desc) {
+    _id,
     name,
-    discountedPrice,
-    price
+    image,
+    discount,
+    description,
+    "post": post->{
+      _id,
+      title,
+      slug,
+      publishedAt
+    }
   }
-}`;
-const heroSliderQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "heroSlider"] | order(_createdAt desc) {
-  _id,
-  name,
-  image,
-  discount,
-  product->{
-    shortDescription,
-    slug,
-    name,
-    discountedPrice,
-    price
+`;
+const countdownQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`
+  *[_type == "countdown"][0] {
+    _id,
+    title,
+    image,
+    subtitle,
+    date,
+    product->{
+      slug,
+      name
+    }
   }
-}`;
-const countdownQuery = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type == "countdown"][0] {
-  _id,
-  title,
-  image,
-  subtitle,
-  date,
-  product->{
-    slug,
-    name,
-  }
-}`;
+`;
 }),
 "[project]/src/sanity/sanity-utils.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
