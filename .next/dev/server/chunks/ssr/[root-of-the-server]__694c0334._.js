@@ -2563,7 +2563,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const CustomSelect = ()=>{
     const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [selectedOption, setSelectedOption] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
-        title: "All Categories"
+        title: "Kategorie"
     });
     const { data = [] } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$features$2f$api$2f$category$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useGetCategoriesQuery"])();
     const toggleDropdown = ()=>{
@@ -2909,73 +2909,73 @@ __turbopack_context__.s([
 const menuData = [
     {
         id: 1,
-        title: "Popular",
+        title: "Popularne",
         newTab: false,
         path: "/popular?sort=popular"
     },
     {
         id: 2,
-        title: "Shop",
+        title: "Pojazdy",
         newTab: false,
         path: "/shop-with-sidebar"
     },
     {
         id: 3,
-        title: "Contact",
+        title: "Kontakt",
         newTab: false,
         path: "/contact"
     },
     {
         id: 6,
-        title: "pages",
+        title: "Strony",
         newTab: false,
         path: "/",
         submenu: [
             {
                 id: 61,
-                title: "Shop With Sidebar",
+                title: "Sklep z paskiem bocznym",
                 newTab: false,
                 path: "/shop-with-sidebar"
             },
             {
                 id: 62,
-                title: "Shop Without Sidebar",
+                title: "Sklep bez paska bocznego",
                 newTab: false,
                 path: "/shop-without-sidebar"
             },
             {
                 id: 64,
-                title: "Checkout",
+                title: "Płatność",
                 newTab: false,
                 path: "/checkout"
             },
             {
                 id: 65,
-                title: "Cart",
+                title: "Koszyk",
                 newTab: false,
                 path: "/cart"
             },
             {
                 id: 66,
-                title: "Wishlist",
+                title: "Życzenia",
                 newTab: false,
                 path: "/wishlist"
             },
             {
                 id: 67,
-                title: "Sign in",
+                title: "Logowanie",
                 newTab: false,
                 path: "/signin"
             },
             {
                 id: 68,
-                title: "Sign up",
+                title: "Rejestracja",
                 newTab: false,
                 path: "/signup"
             },
             {
                 id: 70,
-                title: "Contact",
+                title: "Kontakt",
                 newTab: false,
                 path: "/contact"
             },
@@ -2987,7 +2987,7 @@ const menuData = [
             },
             {
                 id: 63,
-                title: "Mail Success",
+                title: "Poprawny Email",
                 newTab: false,
                 path: "/mail-success"
             }
@@ -2995,31 +2995,31 @@ const menuData = [
     },
     {
         id: 7,
-        title: "blogs",
+        title: "Blogs",
         newTab: false,
         path: "/",
         submenu: [
             {
                 id: 71,
-                title: "Blog Grid with sidebar",
+                title: "Blog z paskiem bocznym",
                 newTab: false,
                 path: "/blogs/blog-grid-with-sidebar"
             },
             {
                 id: 72,
-                title: "Blog Grid",
+                title: "Blog z siatką",
                 newTab: false,
                 path: "/blogs/blog-grid"
             },
             {
                 id: 73,
-                title: "Blog details with sidebar",
+                title: "Blog szczegóły z paskiem bocznym",
                 newTab: false,
                 path: "/blogs/blog-details-with-sidebar"
             },
             {
                 id: 74,
-                title: "Blog details",
+                title: "Blog szczegóły",
                 newTab: false,
                 path: "/blogs/blog-details"
             }
@@ -3742,7 +3742,7 @@ const Header = ()=>{
                                                                     type: "search",
                                                                     name: "search",
                                                                     id: "search",
-                                                                    placeholder: "I am shopping for...",
+                                                                    placeholder: "Wyszukaj...",
                                                                     autoComplete: "off",
                                                                     className: "custom-search  w-full rounded-full bg-gray-1  border border-gray-3 h-[42px] py-2.5 pl-5 pr-10 outline-hidden ease-in duration-200"
                                                                 }, void 0, false, {
@@ -3838,7 +3838,7 @@ const Header = ()=>{
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         className: "block uppercase font-medium text-2xs text-dark-4",
-                                                                        children: "account"
+                                                                        children: "Konto"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Header/index.tsx",
                                                                         lineNumber: 129,
@@ -3846,7 +3846,7 @@ const Header = ()=>{
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         className: "font-medium text-custom-sm text-dark hover:text-blue",
-                                                                        children: session?.user.name?.split(" ")[0] || "Sign In / Register"
+                                                                        children: session?.user.name?.split(" ")[0] || "Logowanie / Rejestracja"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Header/index.tsx",
                                                                         lineNumber: 132,
@@ -4100,10 +4100,10 @@ const Header = ()=>{
                                             href: "/popular?sort=popular",
                                             className: "text-sm text-dark flex items-center font-medium hover:text-blue",
                                             children: [
-                                                "Best Selling",
+                                                "Polskie Ikony",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "bg-red text-white font-semibold text-[10px] inline-flex items-center justify-center rounded-full ml-2.5  px-2 h-5 uppercase",
-                                                    children: "SALE"
+                                                    children: "Motoryzacji"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Header/index.tsx",
                                                     lineNumber: 280,
@@ -4304,7 +4304,7 @@ const Header = ()=>{
                                                         lineNumber: 403,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    "Wishlist"
+                                                    "Lista"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Header/index.tsx",

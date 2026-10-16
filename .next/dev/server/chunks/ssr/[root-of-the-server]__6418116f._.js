@@ -1039,23 +1039,23 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 const featureData = [
     {
         img: "/images/icons/icon-01.svg",
-        title: "Free Shipping",
-        description: "For all orders $200"
+        title: "+350 wydarzeń",
+        description: "Spoty i zloty"
     },
     {
         img: "/images/icons/icon-02.svg",
-        title: "1 & 1 Returns",
-        description: "Cancellation after 1 day"
+        title: "7 lat działalności",
+        description: "Pasja i doświadczenie"
     },
     {
         img: "/images/icons/icon-03.svg",
-        title: "100% Secure Payments",
-        description: "Gurantee secure payments"
+        title: "Tysiące samochodów",
+        description: "Klasyka i legendy"
     },
     {
         img: "/images/icons/icon-04.svg",
-        title: "24/7 Dedicated Support",
-        description: "Anywhere & anytime"
+        title: "+3000 pasjonatów",
+        description: "Jedna motoryzacyjna społeczność"
     }
 ];
 const HeroFeature = ()=>{
@@ -1073,7 +1073,7 @@ const HeroFeature = ()=>{
                             height: 41
                         }, void 0, false, {
                             fileName: "[project]/src/components/Home/Hero/HeroFeature.tsx",
-                            lineNumber: 33,
+                            lineNumber: 34,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1083,7 +1083,7 @@ const HeroFeature = ()=>{
                                     children: item.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Home/Hero/HeroFeature.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 37,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1091,29 +1091,29 @@ const HeroFeature = ()=>{
                                     children: item.description
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Home/Hero/HeroFeature.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 38,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Home/Hero/HeroFeature.tsx",
-                            lineNumber: 35,
+                            lineNumber: 36,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, key, true, {
                     fileName: "[project]/src/components/Home/Hero/HeroFeature.tsx",
-                    lineNumber: 32,
+                    lineNumber: 33,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)))
         }, void 0, false, {
             fileName: "[project]/src/components/Home/Hero/HeroFeature.tsx",
-            lineNumber: 30,
+            lineNumber: 31,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/Home/Hero/HeroFeature.tsx",
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
