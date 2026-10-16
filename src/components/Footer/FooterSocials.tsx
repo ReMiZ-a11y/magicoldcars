@@ -4,26 +4,26 @@ import Link from 'next/link'
 const socials = [
   {
     id: 1,
-    href: '#',
+    href: 'https://www.facebook.com/profile.php?id=100028847900133',
     name: 'Facebook',
     icon: FacebookIcon,
   },
   {
     id: 2,
-    href: '#',
-    name: 'Twitter',
+    href: 'https://www.tiktok.com/@magic.old.cars',
+    name: 'TickTok',
     icon: TwitterIcon,
   },
   {
     id: 3,
-    href: '#',
+    href: 'https://www.instagram.com/magic_old_cars_lubawa',
     name: 'Instagram',
     icon: InstagramIcon,
   },
   {
     id: 4,
-    href: '#',
-    name: 'LinkedIn',
+    href: 'https://www.youtube.com/@MagicOldCarsTV',
+    name: 'Youtube',
     icon: LinkedInIcon,
   },
 ]

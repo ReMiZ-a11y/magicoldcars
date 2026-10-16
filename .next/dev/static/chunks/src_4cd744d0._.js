@@ -4424,7 +4424,7 @@ const Header = ()=>{
                                                         lineNumber: 384,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    session?.user?.name?.split(" ")[0] || "Sign In / Register"
+                                                    session?.user?.name?.split(" ")[0] || "Logowanie / Rejestracja"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Header/index.tsx",

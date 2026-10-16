@@ -5,17 +5,17 @@ const aboutData = [
   {
     id: 1,
     icon: MapIcon,
-    text: "685 Market Street,Las Vegas, LA 95820,United States.",
+    text: "14-260 Lubawa, woj. warmińsko-mazurskie",
   },
   {
     id: 2,
     icon: CallIcon,
-    text: "(+099) 532-786-9843",
+    text: "508575891",
   },
   {
     id: 3,
     icon: EmailIcon,
-    text: "support@example.com",
+    text: "magicoldcars@wp.pl",
   },
 ];
 
@@ -23,7 +23,7 @@ export default function FooterAbout() {
   return (
     <div className="max-w-[330px] w-full">
       <h2 className="mb-7.5 text-custom-1 font-medium text-dark">
-        Help & Support
+        pomoc i kontakt
       </h2>
 
       <ul className="flex flex-col gap-3">

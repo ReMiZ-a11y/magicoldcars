@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="flex flex-wrap xl:flex-nowrap gap-10 xl:gap-19 xl:justify-between pt-17.5 xl:pt-22.5 pb-10 xl:pb-15">
           <div className="max-w-[330px] w-full">
             <h2 className="mb-7.5 text-custom-1 font-medium text-dark">
-              Help & Support
+                Pomoc i kontakt
             </h2>
 
             <ul className="flex flex-col gap-3">
@@ -27,26 +27,26 @@ const Footer = () => {
                 <span className="shrink-0">
                   <MapIcon className="w-6 h-6 text-blue" />
                 </span>
-                685 Market Street,Las Vegas, LA 95820,United States.
+                14-260 Lubawa, woj. warmińsko-mazurskie
               </li>
 
               <li>
                 <Link
-                  href="tel:+099 532-786-9843"
+                  href="tel:+48 508-575-891"
                   className="flex items-center gap-4.5"
                 >
                   <CallIcon className="w-6 h-6 text-blue" />
-                  (+099) 532-786-9843
+                  (+48) 508-575-891
                 </Link>
               </li>
 
               <li>
                 <Link
-                  href="mailto:support@example.com"
+                  href="mailto:magicoldcars@wp.pl"
                   className="flex items-center gap-4.5"
                 >
                   <EmailIcon className="w-6 h-6 text-blue" />
-                  support@example.com
+                  magicoldcars@wp.pl
                 </Link>
               </li>
             </ul>
@@ -95,40 +95,24 @@ const Footer = () => {
 
           <div className="w-full sm:w-auto">
             <h2 className="mb-7.5 text-custom-1 font-medium text-dark lg:text-right">
-              Download App
+             Głowny Sponsor 
             </h2>
 
             <p className="mb-4 lg:text-right text-custom-sm">
-              Save $3 With App & New User only
+            Miasto Lubawa 
             </p>
 
             <ul className="flex flex-col gap-3 lg:items-end">
               <li>
                 <Link
-                  className="inline-flex items-center gap-3 py-[9px] pl-4 pr-7.5 text-white rounded-xl bg-dark ease-out duration-200 hover:bg-opacity-95"
-                  href="#"
-                >
-                  <AppStoreIcon />
-
-                  <div>
-                    <span className="block text-custom-xs">
-                      Download on the
-                    </span>
-                    <p className="font-medium">App Store</p>
-                  </div>
-                </Link>
-              </li>
-
-              <li>
-                <Link
                   className="inline-flex items-center gap-3 py-[9px] pl-4 pr-8.5 text-white rounded-xl bg-blue ease-out duration-200 hover:bg-opacity-95"
-                  href="#"
+                   href="https://lubawa.pl/"
                 >
                   <GooglePlayIcon />
 
                   <div>
-                    <span className="block text-custom-xs"> Get in On </span>
-                    <p className="font-medium">Google Play</p>
+                    <span className="block text-custom-xs"> Miasto lubawa </span>
+                    <p className="font-medium">orzeły</p>
                   </div>
                 </Link>
               </li>

@@ -384,7 +384,7 @@ const Header = () => {
                 <span className="inline-flex items-center justify-center w-8 h-8 bg-gray-200 rounded-full">
                   <UserIcon className="w-5 h-5" />
                 </span>
-                {session?.user?.name?.split(" ")[0] || "Sign In / Register"}
+                {session?.user?.name?.split(" ")[0] || "Logowanie / Rejestracja"}
               </Link>
               <Link
                 href="/wishlist"

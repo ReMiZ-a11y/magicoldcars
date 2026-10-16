@@ -3,17 +3,17 @@ import Link from 'next/link'
 const quickLinks = [
   {
     id: 1,
-    label: 'Privacy Policy',
+    label: 'Polityka Prywatności',
     href: '#',
   },
   {
     id: 2,
-    label: 'Refund Policy',
+    label: 'Regulamin Spotkan',
     href: '#',
   },
   {
     id: 3,
-    label: 'Terms of Use',
+    label: 'Regulamin Konkursów',
     href: '#',
   },
   {
@@ -23,7 +23,7 @@ const quickLinks = [
   },
   {
     id: 5,
-    label: 'Contact',
+    label: 'Kontakt',
     href: '/contact',
   },
 ]
@@ -32,7 +32,7 @@ export default function QuickLinks() {
   return (
     <div className="w-full sm:w-auto">
       <h2 className="mb-7.5 text-custom-1 font-medium text-dark">
-        Quick Link
+        Polityka i Regulamin
       </h2>
 
       <ul className="flex flex-col gap-3">

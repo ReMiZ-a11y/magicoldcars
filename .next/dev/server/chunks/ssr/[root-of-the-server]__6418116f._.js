@@ -67,7 +67,7 @@ function NewsletterForm() {
                     type: "email",
                     name: "email",
                     id: "email",
-                    placeholder: "Enter your email",
+                    placeholder: "Twój adres e-mail",
                     className: "w-full bg-gray-1 border border-gray-3 outline-hidden rounded-full placeholder:text-dark-4 py-3 px-5"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Common/Newsletter/NewsletterForm.tsx",
@@ -77,7 +77,7 @@ function NewsletterForm() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     type: "submit",
                     className: "inline-flex justify-center py-3 px-7 text-white bg-blue font-medium rounded-full ease-out duration-200 hover:bg-blue-dark",
-                    children: "Subscribe"
+                    children: "Wyślij"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Common/Newsletter/NewsletterForm.tsx",
                     lineNumber: 12,
@@ -130,7 +130,7 @@ const Newsletter = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "max-w-[399px] text-white font-bold text-lg sm:text-xl xl:text-heading-4 mb-3",
-                                        children: "Don't Miss Out Latest Trends & Offers"
+                                        children: "Masz pomysł na współpracę? Porozmawiajmy!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Common/Newsletter/index.tsx",
                                         lineNumber: 13,
@@ -138,7 +138,7 @@ const Newsletter = ()=>{
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-white",
-                                        children: "Register to receive news about the latest offers & discount codes"
+                                        children: "Szukasz partnera do współpracy w branży motoryzacyjnej? Skontaktuj się z nami i wspólnie realizujmy wyjątkowe projekty. Jesteśmy otwarci na nowe możliwości współpracy, partnerstwa biznesowe, działania promocyjne oraz inicjatywy związane z klasyczną motoryzacją."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Common/Newsletter/index.tsx",
                                         lineNumber: 16,
@@ -154,12 +154,12 @@ const Newsletter = ()=>{
                                 className: "max-w-[477px] w-full",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Common$2f$Newsletter$2f$NewsletterForm$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/src/components/Common/Newsletter/index.tsx",
-                                    lineNumber: 23,
+                                    lineNumber: 21,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Common/Newsletter/index.tsx",
-                                lineNumber: 22,
+                                lineNumber: 20,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -1262,7 +1262,7 @@ function NewArrivalTitle() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                     className: "font-semibold text-xl xl:text-heading-5 text-dark",
-                    children: "New Arrivals"
+                    children: "Nowe Pojazdy"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Home/NewArrivals/NewArrivalTitle.tsx",
                     lineNumber: 7,
@@ -1276,7 +1276,7 @@ function NewArrivalTitle() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 href: "/shop-with-sidebar",
                 className: "inline-flex font-medium text-custom-sm py-2.5 px-7 rounded-full border-gray-3 border bg-gray-1 text-dark ease-out duration-200 hover:bg-dark hover:text-white hover:border-transparent",
-                children: "View All"
+                children: "Wiecej"
             }, void 0, false, {
                 fileName: "[project]/src/components/Home/NewArrivals/NewArrivalTitle.tsx",
                 lineNumber: 12,
