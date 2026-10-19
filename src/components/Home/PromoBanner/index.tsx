@@ -90,7 +90,7 @@ const PromoBanner = () => {
   />
 
 <SmallPromoBanner
-  imageUrl="/images/promo/promo-3.png"
+  imageUrl="/images/promo/promo-03.png"
   subtitle="Piękno ktore zachwyca"
   title="Wynajmij klasyka"
   description="Marzysz o przejażdżce wyjątkowym samochodem? Sprawdź możliwość wynajmu klasyków na śluby, sesje zdjęciowe i inne wyjątkowe okazje."
