@@ -1,7 +1,4 @@
 {
-  "/(site)/(pages)/(auth)/signin/page": "app/(site)/(pages)/(auth)/signin/page.js",
-  "/(site)/(pages)/cart/page": "app/(site)/(pages)/cart/page.js",
-  "/(site)/(pages)/checkout/page": "app/(site)/(pages)/checkout/page.js",
   "/(site)/page": "app/(site)/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"

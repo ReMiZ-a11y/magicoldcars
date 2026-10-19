@@ -1977,22 +1977,22 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const quickLinks = [
     {
         id: 1,
-        label: 'Polityka Prywatności',
-        href: '#'
+        label: 'Polityka prywatności',
+        href: '/public/agreements/polityka_prywatnosci.pdf'
     },
     {
         id: 2,
-        label: 'Regulamin Spotkan',
-        href: '#'
+        label: 'Polityka cookies i podobnych technologii',
+        href: '/public/agreements/polityka_cookies_i_podobnych_technologii.pdf'
     },
     {
         id: 3,
-        label: 'Regulamin Konkursów',
+        label: 'Regulamin Zgromadzen',
         href: '#'
     },
     {
         id: 4,
-        label: "FAQ's",
+        label: "Najczęściej Zadawane Pytania",
         href: '#'
     },
     {
