@@ -44,7 +44,7 @@ export default function SmallPromoBanner({
         </h2>
         {description ? (
           <p
-            className={`max-w-[286px] xl:max-w-[500px] text-custom-sm mb-2.5 ${rightAlign ? "ml-auto" : ""}`}
+            className={`max-w-[200px] xl:max-w-[285px] text-custom-sm mb-2.5 ${rightAlign ? "ml-auto" : ""}`}
           >
             {description}
           </p>

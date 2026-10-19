@@ -73,7 +73,7 @@ const PromoBanner = () => {
   subtitle="Klasyki łączą pasja zbliża"
   title="DOŁĄCZ DO NAS"
   description="Kochasz klasyczną motoryzację? Dołącz do naszej społeczności, poznawaj pasjonatów, bierz udział w zlotach i wspólnie twórz historię motoryzacji."
-  link="/dolacz-do-klubu"
+  link="https://www.magicoldcars.pl/blogs/dolacz-do-klubu"
   buttonText="Dołącz"
 />
         <div className="grid gap-7.5 grid-cols-1 lg:grid-cols-2">
@@ -82,7 +82,7 @@ const PromoBanner = () => {
     subtitle="Wspieraj Magic Old Cars"
     title="Razem dla motoryzacyjnej pasji"
     discount="Każde wsparcie ma znaczenie"
-    link="/fundacja"
+    link="/blog/wsparcie"
     buttonText="Wesprzyj"
     bgColor="#DBF4F3"
     buttonColor="bg-orange hover:bg-orange-dark"
@@ -94,7 +94,7 @@ const PromoBanner = () => {
   subtitle="Piękno ktore zachwyca"
   title="Wynajmij klasyka"
   description="Marzysz o przejażdżce wyjątkowym samochodem? Sprawdź możliwość wynajmu klasyków na śluby, sesje zdjęciowe i inne wyjątkowe okazje."
-  link="/wynajem-samochodow"
+  link="/blog/wynajem-samochodow"
   buttonText="Sprawdź"
   bgColor="#FFECE1"
   buttonColor="bg-orange hover:bg-orange-dark"
