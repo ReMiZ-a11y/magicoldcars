@@ -1407,8 +1407,8 @@ __turbopack_context__.s([
     ()=>InstagramIcon,
     "LinkedInIcon",
     ()=>LinkedInIcon,
-    "TwitterIcon",
-    ()=>TwitterIcon
+    "TikTokIcon",
+    ()=>TikTokIcon
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 ;
@@ -1444,7 +1444,7 @@ function FacebookIcon(props) {
         columnNumber: 5
     }, this);
 }
-function TwitterIcon(props) {
+function TikTokIcon(props) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         ...props,
         width: "20",
@@ -1452,13 +1452,12 @@ function TwitterIcon(props) {
         viewBox: "0 0 24 24",
         fill: "none",
         xmlns: "http://www.w3.org/2000/svg",
-        transform: "rotate(0 0 0)",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-            d: "M17.7512 2.96094H20.818L14.1179 10.6187L22 21.0391H15.8284L10.9946 14.7191L5.4636 21.0391H2.39492L9.56132 12.8483L2 2.96094H8.32824L12.6976 8.73762L17.7512 2.96094ZM16.6748 19.2035H18.3742L7.40492 4.70014H5.58132L16.6748 19.2035Z",
+            d: "M19.321 5.562a5.124 5.124 0 0 1-3.03-4.195V1h-4.123v15.85a3.027 3.027 0 0 1-3.03 2.904 3.027 3.027 0 0 1-3.03-3.03 3.027 3.027 0 0 1 3.03-3.03c.316 0 .62.05.906.14V9.62a7.17 7.17 0 0 0-.906-.058A7.163 7.163 0 0 0 2 16.724a7.163 7.163 0 0 0 7.138 7.162 7.163 7.163 0 0 0 7.163-7.138V8.65a9.18 9.18 0 0 0 5.37 1.727V6.254a5.12 5.12 0 0 1-2.35-.692Z",
             fill: "currentColor"
         }, void 0, false, {
             fileName: "[project]/src/assets/icons/social.tsx",
-            lineNumber: 36,
+            lineNumber: 35,
             columnNumber: 7
         }, this)
     }, void 0, false, {
@@ -1830,7 +1829,7 @@ function FooterBottom() {
                         children: [
                             "© ",
                             year,
-                            ". All rights reserved by",
+                            ". Wszystkie Prawa Zastrzezone ",
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 className: "text-dark",
@@ -1841,6 +1840,18 @@ function FooterBottom() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Footer/FooterBottom.tsx",
                                 lineNumber: 45,
+                                columnNumber: 13
+                            }, this),
+                            ",",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                className: "text-dark",
+                                href: "https://github.com/ReMiZ-a11y",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: "ReMiZ-a11y"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Footer/FooterBottom.tsx",
+                                lineNumber: 54,
                                 columnNumber: 13
                             }, this),
                             "."
@@ -1855,10 +1866,10 @@ function FooterBottom() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "font-medium text-sm text-dark-3",
-                                children: "We Accept:"
+                                children: "Wspłpracujemy z miastami:"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Footer/FooterBottom.tsx",
-                                lineNumber: 57,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1872,23 +1883,23 @@ function FooterBottom() {
                                             height: 20
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/FooterBottom.tsx",
-                                            lineNumber: 65,
+                                            lineNumber: 74,
                                             columnNumber: 19
                                         }, this)
                                     }, payment.id, false, {
                                         fileName: "[project]/src/components/Footer/FooterBottom.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 70,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Footer/FooterBottom.tsx",
-                                lineNumber: 59,
+                                lineNumber: 68,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Footer/FooterBottom.tsx",
-                        lineNumber: 56,
+                        lineNumber: 65,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1987,13 +1998,13 @@ const quickLinks = [
     },
     {
         id: 3,
-        label: 'Regulamin Zgromadzen',
-        href: '#'
+        label: 'Regulamin zlotów samochodowych o charakterze nie masowym',
+        href: '/agreements/regulamin_zlotow_samochodowych_o_charakterze_niem_masowym.pdf'
     },
     {
         id: 4,
         label: "Najczęściej Zadawane Pytania",
-        href: '#'
+        href: '#/agreements/najczesciej zadawane pytania.pdf'
     },
     {
         id: 5,

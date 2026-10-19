@@ -2,13 +2,12 @@ import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
 import {
   FacebookIcon,
   InstagramIcon,
-  LinkedInIcon,
-  TwitterIcon,
+  YouTubeIcon,
+  TikTokIcon,
 } from "@/assets/icons/social";
 import Link from "next/link";
 import AccountLinks from "./AccountLinks";
 import FooterBottom from "./FooterBottom";
-import { AppStoreIcon, GooglePlayIcon } from "./icons";
 import QuickLinks from "./QuickLinks";
 
 const Footer = () => {
@@ -19,7 +18,7 @@ const Footer = () => {
         <div className="flex flex-wrap xl:flex-nowrap gap-10 xl:gap-19 xl:justify-between pt-17.5 xl:pt-22.5 pb-10 xl:pb-15">
           <div className="max-w-[330px] w-full">
             <h2 className="mb-7.5 text-custom-1 font-medium text-dark">
-                Pomoc i kontakt
+               Informacje
             </h2>
 
             <ul className="flex flex-col gap-3">
@@ -54,7 +53,7 @@ const Footer = () => {
             {/* <!-- Social Links start --> */}
             <div className="flex items-center gap-4 mt-7.5">
               <Link
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100028847900133"
                 className="flex duration-200 ease-out hover:text-blue"
               >
                 <span className="sr-only">Facebook link</span>
@@ -62,15 +61,15 @@ const Footer = () => {
               </Link>
 
               <Link
-                href="#"
+                href="https://www.tiktok.com/@magic.old.cars"
                 className="flex duration-200 ease-out hover:text-blue"
               >
                 <span className="sr-only">Twitter link</span>
-                <TwitterIcon />
+                <TikTokIcon />
               </Link>
 
               <Link
-                href="#"
+                href="https://www.instagram.com/magic_old_cars_lubawa"
                 className="flex duration-200 ease-out hover:text-blue"
               >
                 <span className="sr-only">Instagram link</span>
@@ -78,12 +77,11 @@ const Footer = () => {
               </Link>
 
               <Link
-                href="#"
-                aria-label="Linkedin Social Link"
+                href="https://www.youtube.com/@MagicOldCarsTV"
                 className="flex duration-200 ease-out hover:text-blue"
               >
-                <span className="sr-only">LinkedIn link</span>
-                <LinkedInIcon />
+                <span className="sr-only">Youtube link</span>
+                <YouTubeIcon />
               </Link>
             </div>
             {/* <!-- Social Links end --> */}
@@ -99,27 +97,27 @@ const Footer = () => {
             </h2>
 
             <p className="mb-4 lg:text-right text-custom-sm">
-            Miasto Lubawa 
+           Poszukiwany
             </p>
 
-            <ul className="flex flex-col gap-3 lg:items-end">
+           {/* <!-- footer menu end  <ul className="flex flex-col gap-3 lg:items-end">
               <li>
                 <Link
                   className="inline-flex items-center gap-3 py-[9px] pl-4 pr-8.5 text-white rounded-xl bg-blue ease-out duration-200 hover:bg-opacity-95"
-                   href="https://lubawa.pl/"
+                   href="#"
                 >
                   <GooglePlayIcon />
 
                   <div>
-                    <span className="block text-custom-xs"> Miasto lubawa </span>
-                    <p className="font-medium">orzeły</p>
+                    <span className="block text-custom-xs"></span>
+                    <p className="font-medium">y</p>
                   </div>
                 </Link>
               </li>
-            </ul>
+            </ul> --> */}
           </div>
         </div>
-        {/* <!-- footer menu end --> */}
+      
       </div>
 
       <FooterBottom />

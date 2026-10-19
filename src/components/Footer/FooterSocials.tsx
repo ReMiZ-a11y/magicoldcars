@@ -1,4 +1,4 @@
-import { FacebookIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from '@/assets/icons/social'
+import { FacebookIcon, InstagramIcon, YouTubeIcon, TikTokIcon } from '@/assets/icons/social'
 import Link from 'next/link'
 
 const socials = [
@@ -12,7 +12,7 @@ const socials = [
     id: 2,
     href: 'https://www.tiktok.com/@magic.old.cars',
     name: 'TickTok',
-    icon: TwitterIcon,
+    icon: TikTokIcon,
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const socials = [
     id: 4,
     href: 'https://www.youtube.com/@MagicOldCarsTV',
     name: 'Youtube',
-    icon: LinkedInIcon,
+    icon: YouTubeIcon,
   },
 ]
 

@@ -137,3 +137,868 @@
 [02:18:24.195] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [02:21:53.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [02:26:59.052] Server  LOG      ✓ Compiled in 2s
+[02:28:05.432] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:28:09.206] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:28:10.237] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[02:28:12.205] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:12.205] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:12.205] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:12.205] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:12.205] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:12.205] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:12.205] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:12.205] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "/images/shapes/newsletter-bg.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:50.064] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:15.550] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:29:18.364] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:29:18.923] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[02:29:19.765] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:19.765] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:22.125] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:31:39.549] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:31:40.097] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[02:31:42.087] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:31:42.087] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:32:55.113] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:32:55.113] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:32:55.113] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:32:55.113] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:32:55.113] Browser WARN    Image with src "/images/shapes/newsletter-bg.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:32:56.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:33:00.664] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:33:07.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:33:13.328] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:33:15.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:34:22.766] Server  LOG      ✓ Compiled in 638ms
+[02:43:21.341] Server  LOG      ✓ Compiled in 1744ms
+[02:44:13.301] Server  LOG      ✓ Compiled in 344ms
+[02:55:48.716] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:55:49.123] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[02:55:50.208] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.208] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.447] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/55e62fd4a05379347ef1fc2dde14048f09ffc9f6-266x232.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.447] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/09f03c32d94a6f07f82d1b3e212ae6335c381054-271x246.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.447] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c169e76815d2f2f3a2727ce99d8307972ec5e7c5-373x249.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.447] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1b0356ee4a8c3c45274f171bab44647c9df7165b-305x197.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.447] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/9f737a1599f680d4f687f860ab990ffc4a57b8da-292x267.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.447] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/ea40e79692ecf91b7c6b45bbac2fc4947058145c-246x207.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:50.447] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/dfc7996843e993e6b856feb8e9608d6e14c40e3d-263x226.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:52.857] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:52.857] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:55:52.857] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:14:04.388] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:14:04.824] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[03:27:35.090] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:27:48.098] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:28:07.088] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:28:09.514] Server  ERROR    ⨯ ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[03:28:09.642] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:28:12.537] Server  LOG      ○ Compiling /_error ...
+[03:28:12.916] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:28:13.420] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:28:16.980] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:28:18.479] Browser ERROR   uncaughtError: Error: ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[03:28:19.068] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:28:19.068] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:28:19.068] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:28:19.068] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:28:19.068] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:29:25.148] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:29:47.089] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:30:39.898] Server  ERROR    ⨯ ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[03:30:40.923] Browser ERROR   uncaughtError: Error: ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[03:30:40.924] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:30:41.174] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export TwitterIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   LinkedInIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TwitterIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export TwitterIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import TikTokIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:31:45.468] Server  LOG      ✓ Compiled in 792ms
+[03:31:49.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:31:50.308] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[03:31:51.976] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:51.976] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:52.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c169e76815d2f2f3a2727ce99d8307972ec5e7c5-373x249.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:52.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/09f03c32d94a6f07f82d1b3e212ae6335c381054-271x246.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:52.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/9f737a1599f680d4f687f860ab990ffc4a57b8da-292x267.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:52.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/55e62fd4a05379347ef1fc2dde14048f09ffc9f6-266x232.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:52.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1b0356ee4a8c3c45274f171bab44647c9df7165b-305x197.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:52.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/ea40e79692ecf91b7c6b45bbac2fc4947058145c-246x207.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:52.120] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/dfc7996843e993e6b856feb8e9608d6e14c40e3d-263x226.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:53.970] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:53.970] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:53.970] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:38:20.242] Server  LOG      ✓ Compiled in 1069ms
+[03:38:30.282] Server  ERROR    ⨯ ReferenceError: YoutubeIcon is not defined
+[03:38:31.097] Browser ERROR   uncaughtError: ReferenceError: YoutubeIcon is not defined
+[03:39:33.313] Server  ERROR    ⨯ ReferenceError: YoutubeIcon is not defined
+[03:39:37.168] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:39:38.099] Browser ERROR   uncaughtError: ReferenceError: YoutubeIcon is not defined
+[03:39:57.083] Server  ERROR    ⨯ ReferenceError: YoutubeIcon is not defined
+[03:40:00.068] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:40:01.097] Browser ERROR   uncaughtError: ReferenceError: YoutubeIcon is not defined
+[03:40:50.092] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export YoutubeIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   YoutubeIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TikTokIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export YoutubeIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import YouTubeIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:40:54.093] Browser ERROR   ./src/components/Footer/index.tsx:2:1
+Export YoutubeIcon doesn't exist in target module
+   1 | import { CallIcon, EmailIcon, MapIcon } from "@/assets/icons";
+>  2 | import {
+     | ^^^^^^^^
+>  3 |   FacebookIcon,
+     | ^^^^^^^^^^^^^^^
+>  4 |   InstagramIcon,
+     | ^^^^^^^^^^^^^^^
+>  5 |   YoutubeIcon,
+     | ^^^^^^^^^^^^^^^
+>  6 |   TikTokIcon,
+     | ^^^^^^^^^^^^^^^
+>  7 | } from "@/assets/icons/social";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 | import AccountLinks from "./AccountLinks";
+  10 | import FooterBottom from "./FooterBottom";
+
+The export YoutubeIcon was not found in module [project]/src/assets/icons/social.tsx [app-rsc] (ecmascript).
+Did you mean to import YouTubeIcon?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[03:41:15.669] Server  LOG      ✓ Compiled in 488ms
+[03:41:19.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:41:21.108] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[03:42:04.887] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:04.887] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c169e76815d2f2f3a2727ce99d8307972ec5e7c5-373x249.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/09f03c32d94a6f07f82d1b3e212ae6335c381054-271x246.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/9f737a1599f680d4f687f860ab990ffc4a57b8da-292x267.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/55e62fd4a05379347ef1fc2dde14048f09ffc9f6-266x232.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/ea40e79692ecf91b7c6b45bbac2fc4947058145c-246x207.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1b0356ee4a8c3c45274f171bab44647c9df7165b-305x197.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:05.257] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/dfc7996843e993e6b856feb8e9608d6e14c40e3d-263x226.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:06.962] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:06.962] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:42:06.962] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:24.627] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:44:25.435] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[03:44:26.405] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.405] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.405] Browser WARN    Image with src "http://localhost:3000/images/payment/payment-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.405] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.405] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.405] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.405] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.405] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/c169e76815d2f2f3a2727ce99d8307972ec5e7c5-373x249.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/09f03c32d94a6f07f82d1b3e212ae6335c381054-271x246.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/9f737a1599f680d4f687f860ab990ffc4a57b8da-292x267.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/55e62fd4a05379347ef1fc2dde14048f09ffc9f6-266x232.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/1b0356ee4a8c3c45274f171bab44647c9df7165b-305x197.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/ea40e79692ecf91b7c6b45bbac2fc4947058145c-246x207.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:44:26.653] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/dfc7996843e993e6b856feb8e9608d6e14c40e3d-263x226.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:21:56.944] Server  LOG      ✓ Compiled in 1005ms
+[04:22:32.062] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/herb-lubawa.png" "received" null
+[04:27:06.588] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:27:08.314] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[04:27:19.907] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:27:19.907] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:27:20.342] Browser WARN    Image with src "http://localhost:3000/images/city/herb-lubawa.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:27:20.342] Browser WARN    Image with src "http://localhost:3000/images/city/herb-ilawa.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:27:20.342] Browser WARN    Image with src "http://localhost:3000/images/city/herb-grunwald.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:27:20.342] Browser WARN    Image with src "http://localhost:3000/images/city/herb-lidzbark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:27:20.342] Browser WARN    Image with src "http://localhost:3000/images/city/herb-ostroda.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:27:20.342] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:27:20.342] Browser WARN    Image with src "http://localhost:3000/images/city/herb-zalewo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:27:20.342] Browser WARN    Image with src "/images/shapes/newsletter-bg.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:32:54.281] Browser ERROR   ./src/components/Footer/FooterBottom.tsx:23:5
+Parsing ecmascript source code failed
+  21 |     alt: "Grunwald",
+  22 |     href:''
+> 23 |     width: 33,
+     |     ^^^^^
+  24 |   },
+  25 |   {
+  26 |     id: 4,
+
+Expected ',', got 'width'
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/FooterBottom.tsx
+    ./src/components/Footer/index.tsx
+    ./src/app/(site)/layout.tsx
+[04:38:47.279] Server  LOG      ✓ Compiled in 566ms
+[04:39:11.147] Server  LOG      ✓ Compiled in 2.3s
+[04:40:11.171] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:40:11.733] Browser WARN    Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/city/herb-lubawa.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/city/herb-ilawa.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/city/herb-grunwald.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/city/herb-lidzbark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/city/herb-ostroda.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/city/herb-zalewo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/logo/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-01.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-02.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-03.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "http://localhost:3000/images/icons/icon-04.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/06f9e41c283ad980b8806803055a8317bafdd680-1080x810.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/b462879358ae58225d5147938e8a678b5902d341-810x540.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/d5e6cc8a016057b6ef12174fd9fac9c64f1a3263-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0e9a19b927fde251ee542f3fdd6767b2e75c8f60-175x213.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/e5c57afcfb88cd4f47f0b7b177669b7489b2b4cb-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/abe51ce4a2d8df756aa6a823f58d3f646ef9a3f3-571x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0766155169a618af5f1336006bfe004994191fa9-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/7683842eedd40dfda0d5fbdc29e13a3fd02c5e4f-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/af403fd1c9e6d18995f9fcc86bc0f1ff4fa8a51e-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:13.854] Browser WARN    Image with src "/images/promo/promo-01.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

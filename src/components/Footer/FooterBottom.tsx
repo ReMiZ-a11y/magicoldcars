@@ -3,33 +3,45 @@ import Image from "next/image";
 const paymentsData = [
   {
     id: 1,
-    image: "/images/payment/payment-01.svg",
-    alt: "visa card",
+    image: "/images/city/herb-lubawa.svg",
+    href:'https://samorzad.gov.pl/web/miasto-lubawa',
+    alt: "Lubawa",
     width: 33,
   },
   {
     id: 2,
-    image: "/images/payment/payment-02.svg",
-    alt: "paypal",
+    image: "/images/city/herb-ilawa.svg",
+    href:'https://miastoilawa.pl/samorzad-administracja/urzad-miasta',
+    alt: "Iława",
     width: 33,
   },
   {
     id: 3,
-    image: "/images/payment/payment-03.svg",
-    alt: "master card",
-    width: 42,
+    image: "/images/city/herb-grunwald.svg",
+    alt: "Grunwald",
+    href:'https://www.gminagrunwald.pl/asp/pl_start.asp?typ=14&submenu=134&menu=134&strona=1&schemat=',
+    width: 33,
   },
   {
     id: 4,
-    image: "/images/payment/payment-04.svg",
-    alt: "apple pay",
-    width: 50,
+    image: "/images/city/herb-lidzbark.svg",
+    alt: "Lidzbark",
+    href:'https://bip.umig.lidzbark.pl/',
+    width: 33,
   },
   {
     id: 5,
-    image: "/images/payment/payment-05.svg",
-    alt: "google pay",
-    width: 52,
+    image: "/images/city/herb-ostroda.svg",
+    alt: "Ostroda",
+    href:'https://www.gminaostroda.pl/',
+    width: 33,
+  },
+    {
+    id: 6,
+    image: "/images/city/herb-zalewo.svg",
+    alt: "Zalewo",
+    href:'https://zalewo.pl/',
+    width: 33,
   },
 ];
 
@@ -41,7 +53,7 @@ export default function FooterBottom() {
       <div className="w-full px-4 mx-auto max-w-7xl sm:px-6 xl:px-0">
         <div className="flex flex-wrap items-center justify-between gap-5">
           <p className="font-medium text-dark-3 text-sm">
-            &copy; {year}. All rights reserved by{" "}
+            &copy; {year}. Wszystkie Prawa Zastrzezone {" "}
             <a
               className="text-dark"
               href="https://pimjo.com/"
@@ -50,11 +62,20 @@ export default function FooterBottom() {
             >
               Pimjo
             </a>
+            ,
+            <a
+              className="text-dark"
+              href="https://github.com/ReMiZ-a11y"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ReMiZ-a11y
+            </a>
             .
           </p>
 
           <div className="flex flex-wrap items-center gap-4">
-            <p className="font-medium text-sm text-dark-3">We Accept:</p>
+            <p className="font-medium text-sm text-dark-3">Wspłpracujemy z samorządami:</p>
 
             <div className="flex flex-wrap items-center gap-4">
               {paymentsData.map((payment) => (

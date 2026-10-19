@@ -13,13 +13,13 @@ const quickLinks = [
   },
   {
     id: 3,
-    label: 'Regulamin Zgromadzen',
-    href: '#',
+    label: 'Regulamin zlotów samochodowych o charakterze nie masowym',
+    href: '/agreements/regulamin_zlotow_samochodowych_o_charakterze_niem_masowym.pdf',
   },
   {
     id: 4,
     label: "Najczęściej Zadawane Pytania",
-    href: '#',
+    href: '#/agreements/najczesciej zadawane pytania.pdf',
   },
   {
     id: 5,
