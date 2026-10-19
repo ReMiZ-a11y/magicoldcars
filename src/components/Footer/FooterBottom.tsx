@@ -29,7 +29,7 @@ const paymentsData = [
     href:'https://bip.umig.lidzbark.pl/',
     width: 33,
   },
-  {
+  { 
     id: 5,
     image: "/images/city/herb-ostroda.svg",
     alt: "Ostroda",
