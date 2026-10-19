@@ -4,12 +4,12 @@ const quickLinks = [
   {
     id: 1,
     label: 'Polityka prywatności',
-    href:'/public/agreements/polityka_prywatnosci.pdf',
+    href:'/agreements/polityka_prywatnosci.pdf',
   },
   {
     id: 2,
     label: 'Polityka cookies i podobnych technologii',
-    href:'/public/agreements/polityka_cookies_i_podobnych_technologii.pdf',
+    href:'/agreements/polityka_cookies_i_podobnych_technologii.pdf',
   },
   {
     id: 3,
