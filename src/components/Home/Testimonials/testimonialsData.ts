@@ -21,7 +21,7 @@ const testimonialsData = [
   {
     review: `Świetne miejsce dla miłośników klasycznej motoryzacji!`,
     authorName: 'MaCieJ kOrZeN ',
-    authorImg: '/images/users/Maciejkorzen.ico',
+    authorImg: '/images/users/maciejkorzen.ico',
     authorRole: '5/5 Opinia z google',
   },
 

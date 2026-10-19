@@ -676,7 +676,7 @@ const CountdownTimer = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$Countdown$2f$TimeDisplay$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 value: date.days,
-                label: "Days"
+                label: "Dni"
             }, void 0, false, {
                 fileName: "[project]/src/components/Home/Countdown/CountdownTimer.tsx",
                 lineNumber: 37,
@@ -684,7 +684,7 @@ const CountdownTimer = ()=>{
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$Countdown$2f$TimeDisplay$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 value: date.hours,
-                label: "Hours"
+                label: "Godziny"
             }, void 0, false, {
                 fileName: "[project]/src/components/Home/Countdown/CountdownTimer.tsx",
                 lineNumber: 38,
@@ -692,7 +692,7 @@ const CountdownTimer = ()=>{
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$Countdown$2f$TimeDisplay$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 value: date.minutes,
-                label: "Minutes"
+                label: "Minuty"
             }, void 0, false, {
                 fileName: "[project]/src/components/Home/Countdown/CountdownTimer.tsx",
                 lineNumber: 39,
@@ -700,7 +700,7 @@ const CountdownTimer = ()=>{
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$Countdown$2f$TimeDisplay$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 value: date.seconds,
-                label: "Seconds"
+                label: "Sekundy"
             }, void 0, false, {
                 fileName: "[project]/src/components/Home/Countdown/CountdownTimer.tsx",
                 lineNumber: 40,
@@ -1446,7 +1446,7 @@ const testimonialsData = [
     {
         review: `Świetne miejsce dla miłośników klasycznej motoryzacji!`,
         authorName: 'MaCieJ kOrZeN ',
-        authorImg: '/images/users/Maciejkorzen.ico',
+        authorImg: '/images/users/maciejkorzen.ico',
         authorRole: '5/5 Opinia z google'
     },
     {

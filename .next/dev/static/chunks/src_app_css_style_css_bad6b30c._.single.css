@@ -1552,6 +1552,10 @@
     max-width: 285px;
   }
 
+  .max-w-\[286px\] {
+    max-width: 286px;
+  }
+
   .max-w-\[330px\] {
     max-width: 330px;
   }
@@ -1821,6 +1825,13 @@
     --tw-scale-x: 100%;
     --tw-scale-y: 100%;
     --tw-scale-z: 100%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+
+  .scale-110 {
+    --tw-scale-x: 110%;
+    --tw-scale-y: 110%;
+    --tw-scale-z: 110%;
     scale: var(--tw-scale-x) var(--tw-scale-y);
   }
 
@@ -4715,14 +4726,14 @@
   }
 
   @media (min-width: 1280px) {
-    .xl\:max-w-\[285px\] {
-      max-width: 285px;
+    .xl\:max-w-\[370px\] {
+      max-width: 370px;
     }
   }
 
   @media (min-width: 1280px) {
-    .xl\:max-w-\[370px\] {
-      max-width: 370px;
+    .xl\:max-w-\[500px\] {
+      max-width: 500px;
     }
   }
 

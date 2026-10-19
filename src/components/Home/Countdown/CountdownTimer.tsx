@@ -34,10 +34,10 @@ const time = new Date("2026-12-01T10:00:00+01:00").getTime() - Date.now();
 
   return (
     <div className="flex flex-wrap gap-6 mt-6">
-      <TimeDisplay value={date.days} label="Days" />
-      <TimeDisplay value={date.hours} label="Hours" />
-      <TimeDisplay value={date.minutes} label="Minutes" />
-      <TimeDisplay value={date.seconds} label="Seconds" />
+      <TimeDisplay value={date.days} label="Dni" />
+      <TimeDisplay value={date.hours} label="Godziny" />
+      <TimeDisplay value={date.minutes} label="Minuty" />
+      <TimeDisplay value={date.seconds} label="Sekundy" />
     </div>
   );
 }; 

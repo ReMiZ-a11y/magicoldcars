@@ -1472,7 +1472,7 @@ function SmallPromoBanner({ imageUrl, subtitle, title, discount, link, buttonTex
                         columnNumber: 9
                     }, this),
                     description ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: `max-w-[200px] xl:max-w-[285px] text-custom-sm mb-2.5 ${rightAlign ? "ml-auto" : ""}`,
+                        className: `max-w-[286px] xl:max-w-[500px] text-custom-sm mb-2.5 ${rightAlign ? "ml-auto" : ""}`,
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/src/components/Home/PromoBanner/SmallPromoBanner.tsx",
@@ -1672,47 +1672,47 @@ const PromoBanner = ()=>{
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$PromoBanner$2f$LargePromoBanner$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                     imageUrl: "/images/promo/promo-01.png",
-                    subtitle: "Apple iPhone 14 Plus",
-                    title: "UP TO 30% OFF",
-                    description: "iPhone 14 has the same superspeedy chip that's in iPhone 13 Pro, A15 Bionic, with a 5‑core GPU, powers all the latest features.",
-                    link: "iphone-14-plus--6128gb",
-                    buttonText: "Buy Now"
+                    subtitle: "Klasyki łączą pasja zbliża",
+                    title: "DOŁĄCZ DO NAS",
+                    description: "Kochasz klasyczną motoryzację? Dołącz do naszej społeczności, poznawaj pasjonatów, bierz udział w zlotach i wspólnie twórz historię motoryzacji.",
+                    link: "/dolacz-do-klubu",
+                    buttonText: "Dołącz"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Home/PromoBanner/index.tsx",
                     lineNumber: 71,
-                    columnNumber: 9
+                    columnNumber: 1
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid gap-7.5 grid-cols-1 lg:grid-cols-2",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$PromoBanner$2f$SmallPromoBanner$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                             imageUrl: "/images/promo/promo-02.png",
-                            subtitle: "Foldable Motorised Treadmill",
-                            title: "Workout At Home",
-                            discount: "Flat 20% off",
-                            link: "#",
-                            buttonText: "Grab Now",
+                            subtitle: "Wspieraj Magic Old Cars",
+                            title: "Razem dla motoryzacyjnej pasji",
+                            discount: "Każde wsparcie ma znaczenie",
+                            link: "/fundacja",
+                            buttonText: "Wesprzyj",
                             bgColor: "#DBF4F3",
-                            buttonColor: "bg-teal hover:bg-teal-dark",
+                            buttonColor: "bg-orange hover:bg-orange-dark",
                             rightAlign: true
                         }, void 0, false, {
                             fileName: "[project]/src/components/Home/PromoBanner/index.tsx",
                             lineNumber: 80,
-                            columnNumber: 11
+                            columnNumber: 3
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$PromoBanner$2f$SmallPromoBanner$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            imageUrl: "/images/promo/promo-03.png",
-                            subtitle: "Apple Watch Ultra",
-                            title: "Up to 40% off",
-                            description: "The aerospace-grade titanium case strikes the perfect balance of everything.",
-                            link: "/products/apple-watch-ultra",
-                            buttonText: "Buy Now",
+                            imageUrl: "/images/promo/promo-3.png",
+                            subtitle: "Piękno ktore zachwyca",
+                            title: "Wynajmij klasyka",
+                            description: "Marzysz o przejażdżce wyjątkowym samochodem? Sprawdź możliwość wynajmu klasyków na śluby, sesje zdjęciowe i inne wyjątkowe okazje.",
+                            link: "/wynajem-samochodow",
+                            buttonText: "Sprawdź",
                             bgColor: "#FFECE1",
                             buttonColor: "bg-orange hover:bg-orange-dark"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Home/PromoBanner/index.tsx",
                             lineNumber: 92,
-                            columnNumber: 11
+                            columnNumber: 1
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {

@@ -2063,7 +2063,7 @@ const Footer = ()=>{
                                                     lineNumber: 26,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
-                                                "14-260 Lubawa, woj. warmińsko-mazurskie"
+                                                "Schneider 3a, 14-260 Lubawa"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer/index.tsx",

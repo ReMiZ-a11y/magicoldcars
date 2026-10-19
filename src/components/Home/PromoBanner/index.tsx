@@ -68,37 +68,37 @@ const PromoBanner = () => {
   return (
     <section className="overflow-hidden py-20">
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 xl:px-0 ">
-        <LargePromoBanner
-          imageUrl="/images/promo/promo-01.png"
-          subtitle="Apple iPhone 14 Plus"
-          title="UP TO 30% OFF"
-          description="iPhone 14 has the same superspeedy chip that's in iPhone 13 Pro, A15 Bionic, with a 5‑core GPU, powers all the latest features."
-          link="iphone-14-plus--6128gb"
-          buttonText="Buy Now"
-        />
+<LargePromoBanner
+  imageUrl="/images/promo/promo-01.png"
+  subtitle="Klasyki łączą pasja zbliża"
+  title="DOŁĄCZ DO NAS"
+  description="Kochasz klasyczną motoryzację? Dołącz do naszej społeczności, poznawaj pasjonatów, bierz udział w zlotach i wspólnie twórz historię motoryzacji."
+  link="/dolacz-do-klubu"
+  buttonText="Dołącz"
+/>
         <div className="grid gap-7.5 grid-cols-1 lg:grid-cols-2">
-          <SmallPromoBanner
-            imageUrl="/images/promo/promo-02.png"
-            subtitle="Foldable Motorised Treadmill"
-            title="Workout At Home"
-            discount="Flat 20% off"
-            link="#"
-            buttonText="Grab Now"
-            bgColor="#DBF4F3"
-            buttonColor="bg-teal hover:bg-teal-dark"
-            rightAlign
-          />
+  <SmallPromoBanner
+    imageUrl="/images/promo/promo-02.png"
+    subtitle="Wspieraj Magic Old Cars"
+    title="Razem dla motoryzacyjnej pasji"
+    discount="Każde wsparcie ma znaczenie"
+    link="/fundacja"
+    buttonText="Wesprzyj"
+    bgColor="#DBF4F3"
+    buttonColor="bg-orange hover:bg-orange-dark"
+    rightAlign
+  />
 
-          <SmallPromoBanner
-            imageUrl="/images/promo/promo-03.png"
-            subtitle="Apple Watch Ultra"
-            title="Up to 40% off"
-            description="The aerospace-grade titanium case strikes the perfect balance of everything."
-            link="/products/apple-watch-ultra"
-            buttonText="Buy Now"
-            bgColor="#FFECE1"
-            buttonColor="bg-orange hover:bg-orange-dark"
-          />
+<SmallPromoBanner
+  imageUrl="/images/promo/promo-3.png"
+  subtitle="Piękno ktore zachwyca"
+  title="Wynajmij klasyka"
+  description="Marzysz o przejażdżce wyjątkowym samochodem? Sprawdź możliwość wynajmu klasyków na śluby, sesje zdjęciowe i inne wyjątkowe okazje."
+  link="/wynajem-samochodow"
+  buttonText="Sprawdź"
+  bgColor="#FFECE1"
+  buttonColor="bg-orange hover:bg-orange-dark"
+/>
         </div>
       </div>
     </section>
