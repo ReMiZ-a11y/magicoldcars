@@ -1952,7 +1952,7 @@ const quickLinks = [
     {
         id: 4,
         label: "Najczęściej Zadawane Pytania",
-        href: '#/agreements/najczesciej zadawane pytania.pdf'
+        href: '/agreements/najczesciej zadawane pytania.pdf'
     },
     {
         id: 5,
