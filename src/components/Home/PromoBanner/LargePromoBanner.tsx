@@ -29,7 +29,7 @@ export default function LargePromoBanner({
         </h2>
         <p>{description}</p>
         <Link
-          href={`/${link}`}
+           href={link}
           className="inline-flex font-medium text-custom-sm text-white bg-blue py-[11px] px-9.5 rounded-full ease-out duration-200 hover:bg-blue-dark mt-7.5"
         >
           {buttonText}
