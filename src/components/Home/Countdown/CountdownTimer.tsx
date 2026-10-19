@@ -18,8 +18,7 @@ export const CountdownTimer = () => {
   });
 
   const getTime = () => {
-    const time = Date.parse(getSevenDaysFromToday()) - Date.now();
-
+const time = new Date("2026-12-01T10:00:00+01:00").getTime() - Date.now();
     setDate({
       days: Math.floor(time / (1000 * 60 * 60 * 24)),
       hours: Math.floor((time / (1000 * 60 * 60)) % 24),

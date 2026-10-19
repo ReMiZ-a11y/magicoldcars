@@ -1132,3 +1132,44 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [05:11:45.253] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/4215cfaa2c068852000e05a6df2b61c9aa2eba46-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [05:11:45.253] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/2be620f7ac309ca4d821aaa974acce33cc573274-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [05:11:45.253] Browser WARN    Image with src "https://cdn.sanity.io/images/x9mv3dcz/production/0b215fcdd92c0e533b052a09660ce01c5e5f6b9a-570x512.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:22:18.237] Server  LOG      ✓ Compiled in 1811ms
+[05:24:33.969] Server  LOG      ✓ Compiled in 1116ms
+[05:24:35.407] Browser ERROR   ./src/components/Home/Countdown/CountdownTimer.tsx:30:3
+Parsing ecmascript source code failed
+  28 |   }, []);
+  29 |
+> 30 |   return (
+     |   ^^^^^^^^
+> 31 |     <div className="flex flex-wrap gap-6 mt-6">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |       <TimeDisplay value={date.days} label="Days" />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |       <TimeDisplay value={date.hours} label="Hours" />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |       <TimeDisplay value={date.minutes} label="Minutes" />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |       <TimeDisplay value={date.seconds} label="Seconds" />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |   );
+     | ^^^^^
+  38 | }; 
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Home/Countdown/CountdownTimer.tsx [Client Component Browser]
+    ./src/components/Home/Countdown/CountdownBanner.tsx [Client Component Browser]
+    ./src/components/Home/Countdown/CountdownBanner.tsx [Server Component]
+    ./src/components/Home/Countdown/index.tsx [Server Component]
+    ./src/app/(site)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Home/Countdown/CountdownTimer.tsx [Client Component SSR]
+    ./src/components/Home/Countdown/CountdownBanner.tsx [Client Component SSR]
+    ./src/components/Home/Countdown/CountdownBanner.tsx [Server Component]
+    ./src/components/Home/Countdown/index.tsx [Server Component]
+    ./src/app/(site)/page.tsx [Server Component]
+[05:25:05.662] Server  LOG      ✓ Compiled in 3s

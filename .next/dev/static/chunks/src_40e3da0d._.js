@@ -716,96 +716,11 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
-"[project]/src/components/Home/Countdown/CountdownTimer.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/src/components/Home/Countdown/CountdownTimer.tsx [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "CountdownTimer",
-    ()=>CountdownTimer
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$dateUtils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/utils/dateUtils.ts [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$Countdown$2f$TimeDisplay$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Home/Countdown/TimeDisplay.tsx [app-client] (ecmascript)");
-;
-var _s = __turbopack_context__.k.signature();
-;
-;
-;
-const CountdownTimer = ()=>{
-    _s();
-    const [date, setDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
-        days: 0,
-        hours: 0,
-        minutes: 0,
-        seconds: 0
-    });
-    const getTime = ()=>{
-        const time = Date.parse((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$dateUtils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getSevenDaysFromToday"])()) - Date.now();
-        setDate({
-            days: Math.floor(time / (1000 * 60 * 60 * 24)),
-            hours: Math.floor(time / (1000 * 60 * 60) % 24),
-            minutes: Math.floor(time / 1000 / 60 % 60),
-            seconds: Math.floor(time / 1000 % 60)
-        });
-    };
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "CountdownTimer.useEffect": ()=>{
-            const interval = setInterval(getTime, 1000);
-            return ({
-                "CountdownTimer.useEffect": ()=>clearInterval(interval)
-            })["CountdownTimer.useEffect"];
-        }
-    }["CountdownTimer.useEffect"], []);
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex flex-wrap gap-6 mt-6",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$Countdown$2f$TimeDisplay$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                value: date.days,
-                label: "Days"
-            }, void 0, false, {
-                fileName: "[project]/src/components/Home/Countdown/CountdownTimer.tsx",
-                lineNumber: 38,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$Countdown$2f$TimeDisplay$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                value: date.hours,
-                label: "Hours"
-            }, void 0, false, {
-                fileName: "[project]/src/components/Home/Countdown/CountdownTimer.tsx",
-                lineNumber: 39,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$Countdown$2f$TimeDisplay$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                value: date.minutes,
-                label: "Minutes"
-            }, void 0, false, {
-                fileName: "[project]/src/components/Home/Countdown/CountdownTimer.tsx",
-                lineNumber: 40,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$Countdown$2f$TimeDisplay$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                value: date.seconds,
-                label: "Seconds"
-            }, void 0, false, {
-                fileName: "[project]/src/components/Home/Countdown/CountdownTimer.tsx",
-                lineNumber: 41,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0))
-        ]
-    }, void 0, true, {
-        fileName: "[project]/src/components/Home/Countdown/CountdownTimer.tsx",
-        lineNumber: 37,
-        columnNumber: 5
-    }, ("TURBOPACK compile-time value", void 0));
-};
-_s(CountdownTimer, "1wd37hneSr+ruhQ4S3MbwwFDbAg=");
-_c = CountdownTimer;
-var _c;
-__turbopack_context__.k.register(_c, "CountdownTimer");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
+const e = new Error("Could not parse module '[project]/src/components/Home/Countdown/CountdownTimer.tsx'\n\nReturn statement is not allowed here");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/src/components/Home/Countdown/CountdownBanner.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -868,7 +783,7 @@ const CountdownBanner = ({ data })=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "#",
                                 className: "inline-flex font-medium text-custom-sm text-white bg-blue py-3 px-9.5 rounded-full ease-out duration-200 hover:bg-blue-dark mt-7.5",
-                                children: "Check it Out!"
+                                children: "Wesprzyj"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Home/Countdown/CountdownBanner.tsx",
                                 lineNumber: 32,
