@@ -43,7 +43,7 @@ const QuickViewModal = () => {
       id: product.price_id,
       name: product.name,
       price: product.discountedPrice * 100,
-      currency: "usd",
+      currency: "pln",
       image: product?.previewImages
         ? imageBuilder(product?.previewImages[0]?.image)?.url()
         : "",
@@ -212,10 +212,10 @@ const QuickViewModal = () => {
 
                       <span className="flex items-center gap-2">
                         <span className="text-lg font-medium line-through text-dark-4 xl:text-2xl">
-                          ${product.price}
+                          {product.price}zł
                         </span>
                         <span className="text-xl font-semibold text-dark xl:text-heading-4">
-                          ${product.discountedPrice}
+                          {product.discountedPrice}zł
                         </span>
                       </span>
                     </div>

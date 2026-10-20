@@ -92,7 +92,7 @@ const SingleGridItem = ({ item })=>{
         id: item._id,
         name: item.name,
         price: item.discountedPrice * 100,
-        currency: "usd",
+        currency: "pln",
         image: item?.previewImages ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["imageBuilder"])(item?.previewImages[0]?.image).url() : "",
         price_id: null,
         slug: item?.slug?.current
@@ -235,8 +235,8 @@ const SingleGridItem = ({ item })=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "line-through text-dark-4",
                                 children: [
-                                    "$",
-                                    item.price
+                                    item.price,
+                                    "zł"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Shop/SingleGridItem.tsx",
@@ -246,8 +246,8 @@ const SingleGridItem = ({ item })=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-dark",
                                 children: [
-                                    "$",
-                                    item.discountedPrice
+                                    item.discountedPrice,
+                                    "zł"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Shop/SingleGridItem.tsx",
@@ -325,7 +325,7 @@ const SingleListItem = ({ item })=>{
         id: item._id,
         name: item.name,
         price: item.discountedPrice * 100,
-        currency: "usd",
+        currency: "pln",
         image: item?.previewImages ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["imageBuilder"])(item?.previewImages[0]?.image).url() : "",
         price_id: null,
         slug: item?.slug?.current
@@ -472,8 +472,8 @@ const SingleListItem = ({ item })=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "line-through text-dark-4",
                                         children: [
-                                            "$",
-                                            item.price
+                                            item.price,
+                                            "zł"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Shop/SingleListItem.tsx",
@@ -483,8 +483,8 @@ const SingleListItem = ({ item })=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-dark",
                                         children: [
-                                            "$",
-                                            item.discountedPrice
+                                            item.discountedPrice,
+                                            "zł"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Shop/SingleListItem.tsx",

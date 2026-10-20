@@ -1811,9 +1811,9 @@ __turbopack_context__.s([
 ]);
 const formatPrice = (price)=>{
     const hasDecimals = price % 1 !== 0;
-    return new Intl.NumberFormat("en-US", {
+    return new Intl.NumberFormat("pl-PL", {
         style: "currency",
-        currency: "USD",
+        currency: "pln",
         minimumFractionDigits: hasDecimals ? 2 : 0,
         maximumFractionDigits: hasDecimals ? 2 : 0
     }).format(price);

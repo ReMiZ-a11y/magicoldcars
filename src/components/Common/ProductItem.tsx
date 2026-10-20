@@ -44,7 +44,7 @@ const ProductItem = ({ item }: { item: Product }) => {
     id: item._id,
     name: item.name,
     price: item.discountedPrice * 100,
-    currency: "usd",
+    currency: "pln",
     image: item?.thumbnails
       ? imageBuilder(item?.thumbnails[0]?.image).url()
       : "",
@@ -167,8 +167,8 @@ const ProductItem = ({ item }: { item: Product }) => {
       </h3>
 
       <span className="flex items-center gap-2 text-lg font-medium">
-        <span className="text-dark">${item.discountedPrice}</span>
-        <span className="line-through text-dark-4">${item.price}</span>
+        <span className="text-dark">{item.discountedPrice}zł</span>
+        <span className="line-through text-dark-4">{item.price}zł</span>
       </span>
     </div>
   );

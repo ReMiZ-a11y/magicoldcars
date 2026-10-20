@@ -1024,7 +1024,7 @@ const ProductItem = ({ item })=>{
         id: item._id,
         name: item.name,
         price: item.discountedPrice * 100,
-        currency: "usd",
+        currency: "pln",
         image: item?.thumbnails ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["imageBuilder"])(item?.thumbnails[0]?.image).url() : "",
         price_id: null,
         slug: item?.slug?.current

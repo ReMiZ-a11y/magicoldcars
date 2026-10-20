@@ -1365,14 +1365,14 @@ function LargePromoBanner({ imageUrl, subtitle, title, description, link, button
         className: "relative z-1 overflow-hidden rounded-lg bg-[#F5F5F7] py-12.5 lg:py-17.5 xl:py-22.5 px-4 sm:px-7.5 lg:px-14 xl:px-19 mb-7.5",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-[550px] w-full",
+                className: "relative z-10 max-w-[550px] w-full",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "block font-medium text-xl text-dark mb-3",
                         children: subtitle
                     }, void 0, false, {
                         fileName: "[project]/src/components/Home/PromoBanner/LargePromoBanner.tsx",
-                        lineNumber: 24,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1380,46 +1380,47 @@ function LargePromoBanner({ imageUrl, subtitle, title, description, link, button
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/src/components/Home/PromoBanner/LargePromoBanner.tsx",
-                        lineNumber: 27,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/src/components/Home/PromoBanner/LargePromoBanner.tsx",
-                        lineNumber: 30,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        href: `/products/${link}`,
+                        href: link,
                         className: "inline-flex font-medium text-custom-sm text-white bg-blue py-[11px] px-9.5 rounded-full ease-out duration-200 hover:bg-blue-dark mt-7.5",
                         children: buttonText
                     }, void 0, false, {
                         fileName: "[project]/src/components/Home/PromoBanner/LargePromoBanner.tsx",
-                        lineNumber: 31,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Home/PromoBanner/LargePromoBanner.tsx",
-                lineNumber: 23,
+                lineNumber: 25,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 src: imageUrl,
-                alt: "promo img",
-                className: "lg:absolute bottom-0 mx-auto right-4 lg:right-26 -z-1 mt-10",
-                width: 274,
-                height: 350
+                alt: title,
+                width: 460,
+                height: 590,
+                sizes: "(max-width: 1023px) 274px, (max-width: 1279px) 380px, 460px",
+                className: "relative z-0 mx-auto mt-10 h-auto w-[274px] lg:absolute lg:top-1/2 lg:right-28 lg:bottom-auto lg:mt-0 lg:w-[380px] lg:-translate-y-1/2 xl:right-36 xl:w-[460px]"
             }, void 0, false, {
                 fileName: "[project]/src/components/Home/PromoBanner/LargePromoBanner.tsx",
-                lineNumber: 38,
+                lineNumber: 45,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Home/PromoBanner/LargePromoBanner.tsx",
-        lineNumber: 22,
+        lineNumber: 23,
         columnNumber: 5
     }, this);
 }
@@ -1472,7 +1473,7 @@ function SmallPromoBanner({ imageUrl, subtitle, title, discount, link, buttonTex
                         columnNumber: 9
                     }, this),
                     description ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: `max-w-[286px] xl:max-w-[500px] text-custom-sm mb-2.5 ${rightAlign ? "ml-auto" : ""}`,
+                        className: `max-w-[200px] xl:max-w-[285px] text-custom-sm mb-2.5 ${rightAlign ? "ml-auto" : ""}`,
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/src/components/Home/PromoBanner/SmallPromoBanner.tsx",
@@ -1675,7 +1676,7 @@ const PromoBanner = ()=>{
                     subtitle: "Klasyki łączą pasja zbliża",
                     title: "DOŁĄCZ DO NAS",
                     description: "Kochasz klasyczną motoryzację? Dołącz do naszej społeczności, poznawaj pasjonatów, bierz udział w zlotach i wspólnie twórz historię motoryzacji.",
-                    link: "/dolacz-do-klubu",
+                    link: "/blogs/dolacz-do-klubu",
                     buttonText: "Dołącz"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Home/PromoBanner/index.tsx",
@@ -1690,7 +1691,7 @@ const PromoBanner = ()=>{
                             subtitle: "Wspieraj Magic Old Cars",
                             title: "Razem dla motoryzacyjnej pasji",
                             discount: "Każde wsparcie ma znaczenie",
-                            link: "/fundacja",
+                            link: "/blogs/wsparcie",
                             buttonText: "Wesprzyj",
                             bgColor: "#DBF4F3",
                             buttonColor: "bg-orange hover:bg-orange-dark",
@@ -1701,11 +1702,11 @@ const PromoBanner = ()=>{
                             columnNumber: 3
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Home$2f$PromoBanner$2f$SmallPromoBanner$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            imageUrl: "/images/promo/promo-3.png",
+                            imageUrl: "/images/promo/promo-03.png",
                             subtitle: "Piękno ktore zachwyca",
                             title: "Wynajmij klasyka",
                             description: "Marzysz o przejażdżce wyjątkowym samochodem? Sprawdź możliwość wynajmu klasyków na śluby, sesje zdjęciowe i inne wyjątkowe okazje.",
-                            link: "/wynajem-samochodow",
+                            link: "/blogs/wynajem-samochodow",
                             buttonText: "Sprawdź",
                             bgColor: "#FFECE1",
                             buttonColor: "bg-orange hover:bg-orange-dark"

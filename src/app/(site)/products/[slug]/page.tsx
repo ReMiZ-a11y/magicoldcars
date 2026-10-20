@@ -32,15 +32,15 @@ export async function generateMetadata({ params }: Props) {
 
   return {
     title: `${
-      product.name || "Single Product Page"
-    } | NextMerce - Next.js E-commerce Template`,
+      product.name || "Samochody"
+    } | Magic Old Cars – Klub Miłośników Klasycznej Motoryzacji"`,
     description: `${product?.shortDescription?.slice(0, 136)}...`,
-    author: "NextMerce",
+    author: "ReMiZ-a11y.",
     alternates: {
       canonical: `${siteURL}/products/${product?.slug?.current}`,
       languages: {
+        "pl-PL": "/pl-PL",
         "en-US": "/en-US",
-        "de-DE": "/de-DE",
       },
     },
 
@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: Props) {
           alt: product?.name,
         },
       ],
-      locale: "en_US",
+      locale: "pl_PL",
       type: "article",
     },
 

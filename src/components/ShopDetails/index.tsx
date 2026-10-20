@@ -64,7 +64,7 @@ const ShopDetails = ({ product }: { product: Product }) => {
     id: product._id,
     name: product.name,
     price: product.discountedPrice * 100,
-    currency: "usd",
+    currency: "pl",
     image: product?.previewImages
       ? imageBuilder(product?.previewImages[0]?.image).url()
       : "",
@@ -232,7 +232,7 @@ const ShopDetails = ({ product }: { product: Product }) => {
                 <span className="mr-2 text-dark">
                   Price:{" "}
                   <span className="line-through text-gray-6">
-                    ${product.price}
+                    {product.price}zł
                   </span>{" "}
                   {""}
                   <span>${product.discountedPrice}</span>

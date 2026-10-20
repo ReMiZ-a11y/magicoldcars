@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "e911afda8f742943614dab136abf8d7a",
-    "previewModeSigningKey": "13100196b4fe3c2890ccec5cf33fda601110ba5c223c4f309d573ee39d665d91",
-    "previewModeEncryptionKey": "7ce0d3a6f098b860cb58c9765de85d81b100406bb21d20b88d803d2cbb85fde9"
-  }
-}
+{"version":4,"routes":{"/products/portable-electric-grinder-maker":{},"/products/indoor-steel-adjustable-silent-treadmill-home-fitness-":{},"/products/rangs-43-inch-frameless-fhd-double-glass-android-tv":{},"/products/true-wireless-noise-cancelling-headphone":{},"/products/apple-ipad-air-5th-gen---64gb":{},"/products/apple-watch-ultra":{},"/products/macbook-air-m1-chip-8256gb":{},"/products/apple-imac-m1-24-inch-2021":{},"/products/iphone-14-plus--6128gb":{},"/products/havit-hv-g69-usb-gamepad":{}},"dynamicRoutes":{"/products/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/products/[slug]","routeRegex":"^\\/products\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"e911afda8f742943614dab136abf8d7a","previewModeSigningKey":"13100196b4fe3c2890ccec5cf33fda601110ba5c223c4f309d573ee39d665d91","previewModeEncryptionKey":"7ce0d3a6f098b860cb58c9765de85d81b100406bb21d20b88d803d2cbb85fde9"}}

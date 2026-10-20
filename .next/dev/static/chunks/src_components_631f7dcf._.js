@@ -265,8 +265,8 @@ const SingleItem = ({ item })=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "line-through text-dark-4",
                                     children: [
-                                        "$",
-                                        item.price
+                                        item.price,
+                                        "zł"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Home/BestSeller/SingleItem.tsx",
@@ -276,8 +276,8 @@ const SingleItem = ({ item })=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-dark",
                                     children: [
-                                        "$",
-                                        item.discountedPrice
+                                        item.discountedPrice,
+                                        "zł"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Home/BestSeller/SingleItem.tsx",
@@ -1189,7 +1189,7 @@ const ProductItem = ({ item })=>{
         id: item._id,
         name: item.name,
         price: item.discountedPrice * 100,
-        currency: "usd",
+        currency: "pln",
         image: item?.thumbnails ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["imageBuilder"])(item?.thumbnails[0]?.image).url() : "",
         price_id: null,
         slug: item?.slug?.current
@@ -1347,8 +1347,8 @@ const ProductItem = ({ item })=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "text-dark",
                         children: [
-                            "$",
-                            item.discountedPrice
+                            item.discountedPrice,
+                            "zł"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Common/ProductItem.tsx",
@@ -1358,8 +1358,8 @@ const ProductItem = ({ item })=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "line-through text-dark-4",
                         children: [
-                            "$",
-                            item.price
+                            item.price,
+                            "zł"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Common/ProductItem.tsx",

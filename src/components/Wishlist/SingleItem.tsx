@@ -20,7 +20,7 @@ const SingleItem = ({ item }: any) => {
     id: item.price_id,
     name: item.name,
     price: item.discountedPrice * 100,
-    currency: "usd",
+    currency: "pln",
     image: item?.thumbnails
       ? imageBuilder(item?.thumbnails[0]?.image).url()
       : "",

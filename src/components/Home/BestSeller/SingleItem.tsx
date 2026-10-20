@@ -113,8 +113,8 @@ const SingleItem = ({ item }: { item: Product }) => {
           </h3>
 
           <span className="flex items-center justify-center gap-2 text-lg font-medium">
-            <span className="line-through text-dark-4">${item.price}</span>
-            <span className="text-dark">${item.discountedPrice}</span>
+            <span className="line-through text-dark-4">{item.price}zł</span>
+            <span className="text-dark">{item.discountedPrice}zł</span>
           </span>
         </div>
         <div className="flex items-center justify-center">

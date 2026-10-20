@@ -17,7 +17,7 @@ export function createRtkErrorResult(error: unknown): {
   return {
     error: {
       status: 'FETCH_ERROR',
-      error: 'Something went wrong',
+      error: 'Coś poszło nie tak',
     },
   };
 }
