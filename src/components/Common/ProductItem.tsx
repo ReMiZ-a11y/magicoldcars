@@ -76,7 +76,7 @@ const ProductItem = ({ item }: { item: Product }) => {
           quantity: 1,
         })
       );
-      toast.success("Product added to wishlist!");
+      toast.success("Samochód dodany do listy zyczeń!");
     }
   };
 
@@ -130,7 +130,7 @@ const ProductItem = ({ item }: { item: Product }) => {
               onClick={() => handleAddToCart()}
               className="inline-flex font-medium text-custom-sm py-[7px] px-5 rounded-full bg-blue text-white ease-out duration-200 hover:bg-blue-dark"
             >
-              Add to cart
+              Dodaj do koszyka
             </button>
           )}
 

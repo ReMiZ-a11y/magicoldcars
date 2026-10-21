@@ -700,7 +700,7 @@ const BlogItem = ({ blog })=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 href: "#",
                                 className: "text-custom-sm ease-out duration-200 hover:text-blue",
-                                children: "100k Views"
+                                children: "100 Wyświetleń"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Blog/BlogItem.tsx",
                                 lineNumber: 42,
@@ -731,7 +731,7 @@ const BlogItem = ({ blog })=>{
                         href: `/blogs/${blog?.slug.current}`,
                         className: "text-custom-sm inline-flex items-center gap-2 py-2 ease-out duration-200 hover:text-blue",
                         children: [
-                            "Read More",
+                            "Przeczytaj więcej!",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$icons$2f$index$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ArrowRightIcon"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Blog/BlogItem.tsx",
                                 lineNumber: 59,
@@ -780,7 +780,7 @@ const Categories = async ()=>{
                 className: "px-4 sm:px-6 py-4.5 border-b border-gray-3",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                     className: "font-medium text-lg text-dark",
-                    children: "Popular Category"
+                    children: "Popularne Kategorie"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Blog/Categories.tsx",
                     lineNumber: 11,
@@ -819,7 +819,7 @@ const Categories = async ()=>{
                     lineNumber: 16,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    children: "No Categories!"
+                    children: "Bez Kategori!"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Blog/Categories.tsx",
                     lineNumber: 33,
@@ -935,7 +935,7 @@ async function LatestPosts({ data }) {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "text-custom-xs ease-out duration-200",
-                                                    children: "100k Views"
+                                                    children: "100 Wyświetleń"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Blog/LatestPosts.tsx",
                                                     lineNumber: 63,
@@ -1061,8 +1061,9 @@ const LatestProducts = async ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-custom-sm",
                                             children: [
-                                                "Price: $",
-                                                product.discountedPrice
+                                                "Cena:",
+                                                product.discountedPrice,
+                                                "zł"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Blog/LatestProducts.tsx",
@@ -1162,7 +1163,7 @@ const Tags = async ()=>{
                 className: "px-4 sm:px-6 py-4.5 border-b border-gray-3",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                     className: "font-medium text-lg text-dark",
-                    children: "Tags"
+                    children: "Hasztagi"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Blog/Tags.tsx",
                     lineNumber: 13,

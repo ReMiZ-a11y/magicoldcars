@@ -51,9 +51,9 @@ const Signin = () => {
           <div className="max-w-[570px] w-full mx-auto rounded-xl bg-white shadow-1 p-4 sm:p-7.5 xl:p-11">
             <div className="text-center mb-11">
               <h2 className="font-semibold text-xl sm:text-2xl xl:text-heading-5 text-dark mb-1.5">
-                Sign In to Your Account
+                Zaloguj się do swojego konta
               </h2>
-              <p>Enter your detail below</p>
+              <p>Wprowadź swoje dane poniżej</p>
             </div>
 
             <div>
@@ -79,7 +79,7 @@ const Signin = () => {
 
                 <div className="mb-5">
                   <label htmlFor="password" className="block mb-2.5">
-                    Password
+                    hasło
                   </label>
 
                   <input
@@ -89,7 +89,7 @@ const Signin = () => {
                       pattern: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/,
                     })}
                     id="password"
-                    placeholder="Enter your password"
+                    placeholder="Wpisz swoje hasło"
                     className="rounded-full border border-gray-3 bg-gray-1 placeholder:text-dark-5 w-full py-3 px-5 outline-hidden duration-200 focus:border-transparent focus:shadow-input focus:ring-2 focus:ring-blue/20"
                     required
                   />
@@ -112,14 +112,14 @@ const Signin = () => {
                   )}
                   disabled={isLoading}
                 >
-                  Sign in {isLoading && <Loader />}
+                  Zaloguj się {isLoading && <Loader />}
                 </button>
 
                 <Link
                   href="/forgot-password"
                   className="block text-center text-dark-4 mt-4.5 ease-out duration-200 hover:text-dark"
                 >
-                  Forgot your password?
+                  Zapomiałeś hasła
                 </Link>
 
                 <span className="relative z-1 block font-medium text-center mt-4.5">
@@ -137,7 +137,7 @@ const Signin = () => {
                     disabled={isLoading}
                   >
                     <GoogleIcon />
-                    Sign In with Google
+                    Zaloguj sie za pomocą Google 
                   </button>
 
                   <button
@@ -149,17 +149,17 @@ const Signin = () => {
                     disabled={isLoading}
                   >
                     <GitHubIcon />
-                    Sign In with Github
+                   Zaloguj sie za pomocą Google 
                   </button>
                 </div>
 
                 <p className="text-center mt-6">
-                  Don&apos;t have an account?
+                  Don&apos;t masz inne konto ?
                   <Link
                     href="/signup"
                     className="text-dark ease-out duration-200 hover:text-blue pl-1"
                   >
-                    Sign Up Now!
+                    Zaloguj się teraz! 
                   </Link>
                 </p>
               </form>

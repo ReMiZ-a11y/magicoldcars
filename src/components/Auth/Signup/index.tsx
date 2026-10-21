@@ -66,9 +66,9 @@ const Signup = () => {
           <div className="max-w-[570px] w-full mx-auto rounded-xl bg-white shadow-1 p-4 sm:p-7.5 xl:p-11">
             <div className="text-center mb-11">
               <h2 className="font-semibold text-xl sm:text-2xl xl:text-heading-5 text-dark mb-1.5">
-                Create an Account
+                Stworz konto
               </h2>
-              <p>Enter your detail below</p>
+              <p>Wpisz dane poniżej</p>
             </div>
 
             <div className="flex flex-col gap-4.5">
@@ -78,7 +78,7 @@ const Signup = () => {
                 disabled={isLoading}
               >
                 <GoogleIcon />
-                Sign Up with Google
+                Zaloguj sie za pomocą Google 
               </button>
 
               <button
@@ -87,7 +87,7 @@ const Signup = () => {
                 disabled={isLoading}
               >
                 <GitHubIcon />
-                Sign Up with Github
+                Zaloguj sie za pomocą Github
               </button>
             </div>
 
@@ -100,14 +100,14 @@ const Signup = () => {
               <form onSubmit={form.handleSubmit(registerUser)}>
                 <div className="mb-5">
                   <label htmlFor="name" className="block mb-2.5">
-                    Full Name <span className="text-red">*</span>
+                    Imię oraz Nazwisko <span className="text-red">*</span>
                   </label>
 
                   <input
                     type="text"
                     {...register("name", { required: true })}
                     id="name"
-                    placeholder="John"
+                    placeholder="Maciej"
                     className="rounded-full border border-gray-3 bg-gray-1 placeholder:text-dark-5 w-full py-3 px-5 outline-hidden duration-200 focus:border-transparent focus:shadow-input focus:ring-2 focus:ring-blue/20"
                     required
                   />
@@ -138,7 +138,7 @@ const Signup = () => {
 
                 <div className="mb-5">
                   <label htmlFor="password" className="block mb-2.5">
-                    Password <span className="text-red">*</span>
+                    Hasło <span className="text-red">*</span>
                   </label>
 
                   <input
@@ -156,15 +156,14 @@ const Signup = () => {
 
                   {formState.errors.password && (
                     <p className="text-sm text-red mt-1.5">
-                      Minimum 6 characters with 1 uppercase, 1 lowercase, and 1
-                      number.
+                  Min. 6 znaków: co najmniej 1 wielka litera, 1 mała litera i 1 cyfra.
                     </p>
                   )}
                 </div>
 
                 <div className="mb-5.5">
                   <label htmlFor="re-type-password" className="block mb-2.5">
-                    Re-type Password <span className="text-red">*</span>
+                   Powtorz hasło <span className="text-red">*</span>
                   </label>
 
                   <input
@@ -177,7 +176,7 @@ const Signup = () => {
                         "Password do not match",
                     })}
                     id="re-type-password"
-                    placeholder="Re-type your password"
+                    placeholder="powtórz hasło"
                     autoComplete="on"
                     className="rounded-full border border-gray-3 bg-gray-1 placeholder:text-dark-5 w-full py-3 px-5 outline-hidden duration-200 focus:border-transparent focus:shadow-input focus:ring-2 focus:ring-blue/20"
                     required
@@ -200,16 +199,16 @@ const Signup = () => {
                   )}
                   disabled={isLoading}
                 >
-                  Create Account {isLoading && <Loader />}
+                  Stwórz konto{isLoading && <Loader />}
                 </button>
 
                 <p className="text-center mt-6">
-                  Already have an account?
+                  Czy masz juz swoje konto?
                   <Link
                     href="/signin"
                     className="text-dark ease-out duration-200 hover:text-blue pl-1"
                   >
-                    Sign in Now!
+                    Zaloguj się teraz!
                   </Link>
                 </p>
               </form>

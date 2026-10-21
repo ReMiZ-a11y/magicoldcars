@@ -64,7 +64,7 @@ const QuickViewModal = () => {
         quantity: 1,
       })
     );
-    toast.success("Product added to wishlist!");
+    toast.success("Produkt dodany do listy zyczeń!");
     closeModal();
   };
 

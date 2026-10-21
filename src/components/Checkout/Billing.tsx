@@ -85,12 +85,12 @@ export default function Billing() {
               required
             >
               <option value="" hidden>
-                Select your country
+                Wybierz kraj
               </option>
 
-              <option value="australia">Australia</option>
-              <option value="america">America</option>
-              <option value="england">England</option>
+              <option value="Polska">Polska</option>
+              <option value="Śląsk">Śląsk</option>
+              <option value="Kaszuby">Kaszuby</option>
             </select>
           </div>
 
@@ -154,7 +154,7 @@ export default function Billing() {
             name="billing.country"
             render={({ field }) => (
               <InputGroup
-                label="Country"
+                label="Kraj"
                 required
                 name={field.name}
                 value={field.value}
@@ -222,7 +222,7 @@ export default function Billing() {
                 <CheckMarkIcon />
               </div>
 
-              <span>Create an Account</span>
+              <span>Stwórz Konto</span>
             </label>
           </div>
         )}

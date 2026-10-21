@@ -69,7 +69,7 @@ const CartSidebarModal = () => {
       >
         <div className="sticky top-0 bg-white flex items-center justify-between pb-7 pt-4 sm:pt-7.5 lg:pt-11 border-b border-gray-3 mb-7.5">
           <h2 className="font-medium text-dark text-lg sm:text-2xl">
-            Cart View
+            Widok koszyka
           </h2>
           <button
             onClick={() => handleCartClick()}
@@ -123,14 +123,14 @@ const CartSidebarModal = () => {
               href="/cart"
               className="w-full flex justify-center font-medium text-white bg-blue py-[13px] px-6 rounded-full ease-out duration-200 hover:bg-blue-dark"
             >
-              View Cart
+            Widok koszyka
             </Link>
 
             <button
               onClick={(e) => handleCheckoutClick(e)}
               className="w-full flex justify-center font-medium text-white bg-dark py-[13px] px-6 rounded-full ease-out duration-200 hover:bg-opacity-95"
             >
-              Checkout
+              Kasa
             </button>
           </div>
         </div>

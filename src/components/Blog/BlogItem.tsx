@@ -43,7 +43,7 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
             href="#"
             className="text-custom-sm ease-out duration-200 hover:text-blue"
           >
-            100k Views
+            100 Wyświetleń
           </Link>
         </span>
 
@@ -55,7 +55,7 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
           href={`/blogs/${blog?.slug.current}`}
           className="text-custom-sm inline-flex items-center gap-2 py-2 ease-out duration-200 hover:text-blue"
         >
-          Read More
+          Przeczytaj więcej!
           <ArrowRightIcon />
         </Link>
       </div>

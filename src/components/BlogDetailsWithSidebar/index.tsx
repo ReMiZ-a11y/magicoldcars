@@ -58,7 +58,7 @@ const BlogDetailsWithSidebar = ({ blogData }: { blogData: Blog }) => {
                     href="#"
                     className="duration-200 ease-out hover:text-blue"
                   >
-                    300k Views
+                    300 Wyświetleń
                   </Link>
                 </span>
 

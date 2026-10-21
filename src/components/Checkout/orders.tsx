@@ -12,7 +12,7 @@ export default function Orders() {
   return (
     <div className="bg-white shadow-1 rounded-[10px] max-lg:mt-7.5">
       <h3 className="font-medium text-xl text-dark border-b border-gray-3 py-5 px-4 sm:px-8.5">
-        Your Order
+        Twoje zakupy
       </h3>
 
       <div className="pt-2.5 pb-8.5 px-4 sm:px-8.5">
@@ -21,7 +21,7 @@ export default function Orders() {
             <tr className="border-b border-gray-3">
               <th className="py-5 text-base font-medium text-left">Product</th>
               <th className="py-5 text-base font-medium text-right">
-                Subtotal
+                Łaczenie
               </th>
             </tr>
           </thead>
@@ -39,7 +39,7 @@ export default function Orders() {
             ) : (
               <tr>
                 <td className="py-5 text-center" colSpan={2}>
-                  No items in cart
+                  Twój koszyk jest pusty
                 </td>
               </tr>
             )}
@@ -54,7 +54,7 @@ export default function Orders() {
             {!!couponDiscount && (
               <tr className="border-b border-gray-3">
                 <td className="py-5">
-                  Coupon Discount ({watch("couponDiscount")}%)
+                  Rabat z kuponu ({watch("couponDiscount")}%)
                 </td>
                 <td className="py-5 text-right">
                   - {formatPrice(couponDiscount)}
@@ -65,7 +65,7 @@ export default function Orders() {
 
           <tfoot>
             <tr>
-              <td className="pt-5 text-base font-medium">Total</td>
+              <td className="pt-5 text-base font-medium">Całość</td>
 
               <td className="pt-5 text-base font-medium text-right">
                 {formatPrice(((totalPrice - couponDiscount) / 100) + shippingFee.price)}

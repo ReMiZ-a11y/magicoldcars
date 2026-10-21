@@ -41,7 +41,7 @@ const LatestProducts = async () => {
                     </Link>
                   </h3>
                   <p className="text-custom-sm">
-                    Price: ${product.discountedPrice}
+                    Cena:{product.discountedPrice}zł
                   </p>
                 </div>
               </div>

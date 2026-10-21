@@ -61,7 +61,7 @@ export default async function LatestPosts({ data }: PropsType) {
                   <div className="block w-px h-4 bg-gray-4"></div>
 
                   <div className="text-custom-xs ease-out duration-200">
-                    100k Views
+                    100 Wyświetleń 
                   </div>
                 </div>
               </Link>

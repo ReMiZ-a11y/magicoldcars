@@ -42,7 +42,7 @@ const Cart = () => {
             <div className="flex flex-wrap items-center justify-between gap-5 mb-7.5">
               <h2 className="font-medium text-dark text-2xl">Your Cart</h2>
               <button onClick={() => clearCart()} className="text-blue">
-                Clear Shopping Cart
+                Wyczyść Koszyk
               </button>
             </div>
 
@@ -52,19 +52,19 @@ const Cart = () => {
                   <thead className="bg-gray-1">
                     <tr>
                       <th className="text-left py-5.5 px-7.5 font-medium text-dark min-w-[400px]">
-                        Product
+                        Produkt
                       </th>
                       <th className="text-left py-5.5 px-4 font-medium text-dark min-w-[180px]">
-                        Price
+                        Cena
                       </th>
                       <th className="text-left py-5.5 px-4 font-medium text-dark min-w-[275px]">
-                        Quantity
+                        Ilość
                       </th>
                       <th className="text-left py-5.5 px-4 font-medium text-dark min-w-[200px]">
-                        Subtotal
+                        Suma
                       </th>
                       <th className="text-right py-5.5 px-7.5 font-medium text-dark min-w-[100px]">
-                        Action
+                        Akcje
                       </th>
                     </tr>
                   </thead>
@@ -135,13 +135,13 @@ const Cart = () => {
               </svg>
             </div>
 
-            <p className="pb-6">Your cart is empty!</p>
+            <p className="pb-6">Twój koszyk jest pusty!</p>
 
             <Link
               href="/shop-with-sidebar"
               className="w-96 mx-auto flex justify-center font-medium text-white bg-dark py-[13px] px-6 rounded-full ease-out duration-200 hover:bg-opacity-95"
             >
-              Continue Shopping
+              Kontynułuj zakupy
             </Link>
           </div>
         </>

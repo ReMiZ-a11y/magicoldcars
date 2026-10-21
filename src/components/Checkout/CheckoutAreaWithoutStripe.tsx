@@ -43,7 +43,7 @@ const CheckoutAreaWithoutStripe = ({ amount }: { amount: number }) => {
       const result = await response.json();
       if (!result?.success) {
         toast.error(
-          `${result?.message} for creating account` || "Failed to register user"
+          `${result?.message} do utworzenia konta` || "Nie udało się zarejestrować użytkownika"
         );
         setLoading(false);
         return;
@@ -88,16 +88,16 @@ const CheckoutAreaWithoutStripe = ({ amount }: { amount: number }) => {
         const result = await orderResponse.json();
     
         if (!result?.success) {
-          toast.error(result?.message || "Failed to create order");
+          toast.error(result?.message || "Nie udało się złożyć zamówienia.");
           return false;
         }
     
-        toast.success("Order created successfully");
+        toast.success("Zamowienie zostało pomyslenie dodane");
         router.push(`/success?amount=${amount}`);
         return true;
       } catch (err: any) {
-        console.error("Order creation error:", err);
-        toast.error(err?.message || "Failed to create order");
+        console.error("Tworzenie zamowienia error:", err);
+        toast.error(err?.message || "Nie udało się złożyć zamówienia.");
         return false;
       }
     };
@@ -135,7 +135,7 @@ const CheckoutAreaWithoutStripe = ({ amount }: { amount: number }) => {
               type="submit"
               className="w-full flex justify-center font-medium text-white bg-blue py-3 px-6 rounded-md ease-out duration-200 hover:bg-blue-dark mt-7.5"
             >
-              {!loading ? `Pay $${amount}` : "Processing..."}
+              {!loading ? `Zapłacono $${amount}` : "Przetwarzanie..."}
             </button>
             {errorMessage && (
               <p className="mt-2 text-center text-red">{errorMessage}</p>

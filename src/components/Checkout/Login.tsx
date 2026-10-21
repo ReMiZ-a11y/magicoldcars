@@ -27,7 +27,7 @@ const Login = () => {
       if (res?.error) {
         toast.error(res?.error);
       } else if (res?.ok) {
-        toast.success("Sign in Successful!");
+        toast.success("Pomyślnie zalogowano!");
         form.reset();
 
         router.push("/my-account");
@@ -71,7 +71,7 @@ const Login = () => {
               className="block mb-2.5 aria-disabled:opacity-70"
               aria-disabled={isLoading}
             >
-              Username or Email
+             Nazwa użytkownika lub e-mail
             </label>
 
             <input
@@ -90,7 +90,7 @@ const Login = () => {
               className="block mb-2.5 aria-disabled:opacity-70"
               aria-disabled={isLoading}
             >
-              Password
+              hasło
             </label>
 
             <input

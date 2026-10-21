@@ -1,3 +1,6 @@
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+
 import { structuredAlgoliaHtmlData } from '@/algolia/crawlIndex';
 import BlogDetails from '@/components/BlogDetails';
 import { getPost, getPosts } from '@/sanity/sanity-blog-utils';
@@ -9,96 +12,132 @@ type Params = {
   }>;
 };
 
+const SITE_URL = (
+  process.env.NEXT_PUBLIC_SITE_URL || 'https://www.magicoldcars.pl'
+).replace(/\/+$/, '');
+
+const SITE_NAME = 'Magic Old Cars';
+const DEFAULT_DESCRIPTION =
+  'Odkrywaj świat klasycznej motoryzacji, poznawaj wyjątkowe samochody i dołącz do społeczności Magic Old Cars.';
+
+export const revalidate = 3600;
+
 export async function generateStaticParams() {
   const posts = await getPosts();
-  return posts.map((post) => ({
-    slug: post.slug.current,
-  }));
+
+  return posts
+    .filter((post) => Boolean(post.slug?.current))
+    .map((post) => ({
+      slug: post.slug.current,
+    }));
 }
 
-export async function generateMetadata({ params }: Params) {
+export async function generateMetadata({
+  params,
+}: Params): Promise<Metadata> {
   const { slug } = await params;
   const post = await getPost(slug);
-  const siteURL = process.env.NEXT_PUBLIC_SITE_URL;
 
-  if (post) {
+  if (!post) {
     return {
-    title: `${post.title || "Artykuł na blogu"} | Magic Old Cars – Klub Motoryzacyjny`,
-      description: `${post.metadata?.slice(0, 136)}...`,
-    author: "Magic Old Cars",
-      alternates: {
-        canonical: `${siteURL}/posts/${post?.slug?.current}`,
-        languages: {
-          'en-US': '/en-US',
-          'pl-PL': '/pl-PL',
-        },
-      },
-
+      title: `Nie znaleziono artykułu | ${SITE_NAME}`,
+      description: 'Szukany artykuł nie istnieje lub został usunięty.',
       robots: {
-        index: true,
+        index: false,
         follow: true,
-        nocache: true,
-        googleBot: {
-          index: true,
-          follow: false,
-          'max-video-preview': -1,
-          'max-image-preview': 'large',
-          'max-snippet': -1,
-        },
       },
-
-      openGraph: {
-        title: `${post.title} | MagicOldCars`,
-        description: post.metadata,
-        url: `${siteURL}/posts/${post?.slug?.current}`,
-        siteName: 'MagicOldCars',
-        images: [
-          {
-            url: imageBuilder(post.mainImage).url(),
-            width: 1800,
-            height: 1600,
-            alt: post.title,
-          },
-        ],
-        locale: 'pl_PL',
-        type: 'article',
-      },
-
-      twitter: {
-        card: 'summary_large_image',
-        title: `${post.title} | MagicOldCars`,
-        description: `${post.metadata?.slice(0, 136)}...`,
-        creator: 'MagicOldCars',
-        site: 'MagicOldCars',
-        images: [imageBuilder(post?.mainImage).url()],
-        url: `${siteURL}/blogs/${post?.slug?.current}`,
-      },
-    };
-  } else {
-    return {
-      title: 'Nie Znaleziono',
-      description: '',
     };
   }
+
+  const title = post.title || 'Artykuł na blogu';
+  const description =
+    post.metadata?.trim().slice(0, 160) || DEFAULT_DESCRIPTION;
+
+  const canonicalUrl = `${SITE_URL}/blogs/${slug}`;
+
+  let imageUrl: string | undefined;
+
+  if (post.mainImage) {
+    try {
+      imageUrl = imageBuilder(post.mainImage).url();
+    } catch {
+      imageUrl = undefined;
+    }
+  }
+
+  return {
+    title: `${title} | ${SITE_NAME}`,
+    description,
+    authors: [{ name: SITE_NAME }],
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+        'max-video-preview': -1,
+      },
+    },
+    openGraph: {
+      type: 'article',
+      locale: 'pl_PL',
+      url: canonicalUrl,
+      siteName: SITE_NAME,
+      title: `${title} | ${SITE_NAME}`,
+      description,
+      ...(imageUrl
+        ? {
+            images: [
+              {
+                url: imageUrl,
+                alt: title,
+              },
+            ],
+          }
+        : {}),
+    },
+    twitter: {
+      card: imageUrl ? 'summary_large_image' : 'summary',
+      title: `${title} | ${SITE_NAME}`,
+      description,
+      ...(imageUrl ? { images: [imageUrl] } : {}),
+    },
+  };
 }
 
-const BlogDetailsPage = async ({ params }: Params) => {
+export default async function BlogDetailsPage({ params }: Params) {
   const { slug } = await params;
   const post = await getPost(slug);
 
-  await structuredAlgoliaHtmlData({
-    type: 'blogs',
-    title: post?.title || '',
-    htmlString: post?.metadata || '',
-    pageUrl: `${process.env.SITE_URL}/blogs/${post?.slug?.current}`,
-    imageURL: imageBuilder(post?.mainImage).url() as string,
-  });
+  if (!post) {
+    notFound();
+  }
+
+  // Indeksowanie w Algolii nie powinno blokować wyświetlenia artykułu.
+  try {
+    const imageURL = post.mainImage
+      ? imageBuilder(post.mainImage).url()
+      : '';
+
+    await structuredAlgoliaHtmlData({
+      type: 'blogs',
+      title: post.title || '',
+      htmlString: post.metadata || '',
+      pageUrl: `${SITE_URL}/blogs/${slug}`,
+      imageURL,
+    });
+  } catch (error) {
+    console.error('Błąd indeksowania artykułu w Algolii:', error);
+  }
 
   return (
     <main>
       <BlogDetails blogData={post} />
     </main>
   );
-};
-
-export default BlogDetailsPage;
+}

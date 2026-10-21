@@ -19,7 +19,7 @@ export default function CouponForm() {
     setLoading(false);
 
     if (!data?.success) {
-      toast.error(data?.message || "Failed to apply coupon");
+      toast.error(data?.message || "Nie udało się naliczyć kuponu");
       setCoupon("");
       return;
     }
@@ -33,7 +33,7 @@ export default function CouponForm() {
     <>
       <input
         type="text"
-        placeholder="Enter coupon code"
+        placeholder="Wpisz kod kuponu"
         className="rounded-full border border-gray-3 bg-gray-1 placeholder:text-dark-5 w-full py-2.5 px-5 outline-hidden duration-200 focus:border-transparent focus:shadow-input focus:ring-2 focus:ring-blue/20 disabled:opacity-80"
         disabled={alreadyApplied}
         value={coupon}

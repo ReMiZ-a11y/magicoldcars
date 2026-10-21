@@ -22,7 +22,7 @@ export default function Shipping() {
         onClick={() => setDropdown(!dropdown)}
         className="cursor-pointer flex items-center gap-2.5 font-medium text-lg text-dark py-5 px-5.5"
       >
-        Ship to a different address?
+        Wysłać na inny adres?
         <ChevronDown
           className={`fill-current ease-out duration-200 ${
             dropdown && "rotate-180"
@@ -47,16 +47,16 @@ export default function Shipping() {
               <select
                 {...register("shipping.countryName", {
                   required: shipToDifferentAddress
-                    ? "Country is required"
+                    ? "Kraj jest wymagany"
                     : false,
                 })}
                 id="shipping-country-name"
                 className="w-full bg-gray-1 rounded-full border border-gray-3 text-dark-4 py-3 pl-5 pr-9 duration-200 appearance-none outline-hidden focus:border-transparent focus:shadow-input focus:ring-2 focus:ring-blue/20"
               >
                 <option value="">Select a country</option>
-                <option value="australia">Australia</option>
-                <option value="america">America</option>
-                <option value="england">England</option>
+                <option value="australia">Polska</option>
+                <option value="america">Śląsk</option>
+                <option value="england">Kaszuby</option>
               </select>
             </div>
           </div>

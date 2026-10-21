@@ -26,7 +26,7 @@ const Footer = () => {
                 <span className="shrink-0">
                   <MapIcon className="w-6 h-6 text-blue" />
                 </span>
-                Schneider 3a, 14-260 Lubawa
+                14-260 Lubawa
               </li>
 
               <li>

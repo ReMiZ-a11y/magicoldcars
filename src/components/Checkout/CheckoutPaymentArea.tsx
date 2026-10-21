@@ -107,16 +107,16 @@ const CheckoutPaymentArea = ({ amount }: { amount: number }) => {
         const result = await orderResponse.json();
     
         if (!result?.success) {
-          toast.error(result?.message || "Failed to create order");
+          toast.error(result?.message || "Nie udało się złożyć zamówienia.");
           return false;
         }
     
-        toast.success("Order created successfully");
+        toast.success("Zamowienie pomyslnie dodane");
         router.push(`/success?amount=${amount}`);
         return true;
       } catch (err: any) {
-        console.error("Order creation error:", err);
-        toast.error(err?.message || "Failed to create order");
+        console.error("Tworzenie zamowienia error:", err);
+        toast.error(err?.message || "Nie udało się złożyć zamówienia.");
         return false;
       }
     };

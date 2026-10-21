@@ -52,7 +52,7 @@ const BlogDetails = ({ blogData }: { blogData: Blog }) => {
                   href="#"
                   className="ease-out duration-200 hover:text-blue"
                 >
-                  300k Views
+                  300 Wyświetleń
                 </Link>
               </span>
 
@@ -66,7 +66,7 @@ const BlogDetails = ({ blogData }: { blogData: Blog }) => {
 
               <div className="flex flex-wrap items-center justify-between gap-10 mt-10">
                 <div className="flex flex-wrap items-center gap-5">
-                  <p>Tags:</p>
+                  <p>Hasztagi</p>
 
                   <ul className="flex flex-wrap items-center gap-3.5">
                     {blogData?.tags?.map((tag, key) => (
@@ -88,7 +88,7 @@ const BlogDetails = ({ blogData }: { blogData: Blog }) => {
             </div>
           </div>
         ) : (
-          <p className="text-2xl text-center">Post Not Found!</p>
+          <p className="text-2xl text-center">Post Nie znaleziony</p>
         )}
       </section>
     </>
