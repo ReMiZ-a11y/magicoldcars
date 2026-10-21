@@ -60,7 +60,7 @@ export async function GET(req: NextRequest) {
       now: Date.now(),
     });
   } catch (error: any) {
-    console.error("Manual revalidation error:", error);
+    console.error("Błąd ręcznej rewalidacji", error);
     return new Response(error.message, { status: 500 });
   }
 }

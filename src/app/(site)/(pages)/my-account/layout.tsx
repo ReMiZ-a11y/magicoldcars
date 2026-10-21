@@ -5,9 +5,9 @@ import Sidebar from './_component/sidebar';
 import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
-  title: 'My Account | NextMerce | Next.js E-commerce Boilerplate',
-  description: 'This is My Account page for NextMerce Template',
-  // other metadata
+title: "Moje konto | Magic Old Cars – Klub Motoryzacyjny",
+description: "Zarządzaj swoim kontem w Magic Old Cars. Edytuj dane osobowe, adres rozliczeniowy, sprawdzaj zamówienia i korzystaj z funkcji dla członków naszej społeczności miłośników klasycznej motoryzacji.",
+// other metadata
 };
 
 export default function Layout({ children }: PropsWithChildren) {

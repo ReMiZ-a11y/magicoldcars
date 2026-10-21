@@ -42,13 +42,13 @@ export function PasswordChange() {
         newPassword,
       });
 
-      toast.success('Password changed successfully');
+      toast.success('Utworzono hasło');
       signOut({
         redirect: true,
         callbackUrl: '/signin',
       })
     } catch (error) {
-      toast.error('Password change failed');
+      toast.error('Bład hasła');
     } finally {
       setIsLoading(false);
     }
@@ -57,7 +57,7 @@ export function PasswordChange() {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <h2 className="font-medium text-xl sm:text-2xl text-dark mb-7">
-        Password Change
+        Zmiana hasła
       </h2>
 
       <div className="bg-white shadow-1 rounded-xl p-4 sm:p-8.5 space-y-5">
@@ -98,7 +98,7 @@ export function PasswordChange() {
                 type="password"
                 required
                 error={!!fieldState.error}
-                errorMessage="Minimum 6 characters with 1 uppercase, 1 lowercase, and 1 number."
+                errorMessage="Minimum 6 znaków, w tym co najmniej 1 wielka litera, 1 mała litera i 1 cyfra."
                 name={field.name}
                 value={field.value}
                 onChange={field.onChange}
@@ -119,13 +119,13 @@ export function PasswordChange() {
           render={({ field, fieldState }) => (
             <div className="w-full">
               <InputGroup
-                label="Confirm New Password"
+                label="Potwierdź nowe hasło"
                 type="password"
                 required
                 error={!!fieldState.error}
                 errorMessage={
                   fieldState.error?.message ||
-                  'Minimum 6 characters with 1 uppercase, 1 lowercase, and 1 number.'
+                  'Minimum 6 znaków, w tym co najmniej 1 wielka litera, 1 mała litera i 1 cyfra.'
                 }
                 name={field.name}
                 value={field.value}

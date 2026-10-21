@@ -3,11 +3,11 @@ import BlogGrid from "@/components/BlogGrid";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Blog Grid Page | NextMerce | Next.js E-commerce Boilerplate",
-  description: "This is Blog Grid Page for NextMerce Template",
+  title: "Blog | Magic Old Cars – Klub Motoryzacyjny",
+  description:
+    "Odkrywaj świat klasycznej motoryzacji na blogu Magic Old Cars. Czytaj artykuły o zabytkowych samochodach, poznawaj historie motoryzacyjnych legend i sprawdzaj relacje ze zlotów oraz wydarzeń dla pasjonatów klasyków.",
   // other metadata
 };
-
 const BlogGridPage = () => {
   return (
     <main>

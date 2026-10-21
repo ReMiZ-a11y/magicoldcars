@@ -15,13 +15,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="font-inter" suppressHydrationWarning>
+    <html lang="pl" className="font-inter" suppressHydrationWarning>
       <body>
         <PreLoader />
 
         <Providers>
           <NextTopLoader
-            color="#3C50E0"
+            color="#fbbf24"
             crawlSpeed={300}
             showSpinner={false}
             shadow="none"

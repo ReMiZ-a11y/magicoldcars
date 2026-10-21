@@ -5,7 +5,7 @@ import CheckoutSuccess from "./CheckoutSuccess";
 const Success = async () => {
   return (
     <main>
-      <Breadcrumb title={"Success"} pages={["order", "/", "success"]} />
+      <Breadcrumb title={"Sukces"} pages={["zamówienie", "/", "sukces"]} />
       <CheckoutSuccess />
     </main>
   );

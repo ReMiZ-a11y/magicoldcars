@@ -318,9 +318,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$b
 ;
 ;
 const metadata = {
-    title: "Blog Details Page | NextMerce | Next.js E-commerce Boilerplate",
-    description: "This is Blog Details Page for NextMerce Template"
-};
+        title: "Artykuł na blogu | Magic Old Cars – Klub Motoryzacyjny",
+        description:"Czytaj artykuły o klasycznych samochodach, poznawaj historie motoryzacyjnych legend i odkrywaj relacje ze zlotów oraz wydarzeń społeczności Magic Old Cars.",
+};  
 const BlogDetailsPage = async ()=>{
     const slug = "cooking-masterclass-creating-delicious-italian-pasta";
     const blogData = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$blog$2d$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getPost"])(slug);

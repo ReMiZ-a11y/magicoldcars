@@ -6,7 +6,7 @@ export async function POST(request: any) {
   const { name, id } = body;
 
   if (!id || !name) {
-    return NextResponse.json("Missing Fields", { status: 400 });
+    return NextResponse.json("Brakujace Pola", { status: 400 });
   }
 
   const user = await prisma.user.findUnique({
@@ -16,7 +16,7 @@ export async function POST(request: any) {
   });
 
   if (!user) {
-    return NextResponse.json("Missing User", { status: 400 });
+    return NextResponse.json("Brak użytkownika", { status: 400 });
   }
 
   await prisma.user.update({
@@ -28,5 +28,5 @@ export async function POST(request: any) {
     },
   });
 
-  return NextResponse.json("Name changed successfully", { status: 200 });
+  return NextResponse.json("Nazwa została pomyślnie zmieniona", { status: 200 });
 }

@@ -75,5 +75,5 @@ export async function PATCH(
     return NextResponse.json('Internal Server Error', { status: 500 });
   }
 
-  return NextResponse.json('Address updated successfully', { status: 200 });
+  return NextResponse.json('Adres zaktualizowany pomyślnie', { status: 200 });
 }

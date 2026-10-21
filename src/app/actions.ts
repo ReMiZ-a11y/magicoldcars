@@ -6,7 +6,7 @@ export async function validateCoupon(code: string) {
     if (!code) {
       return {
         success: false,
-        message: "Coupon code is required",
+        message: "Kod kuponu jest wymagany",
       };
     }
 
@@ -19,14 +19,14 @@ export async function validateCoupon(code: string) {
     if (!coupon) {
       return {
         success: false,
-        message: "Coupon not found",
+        message: "Kod nie został znaleziony",
       };
     }
 
     if (coupon.timesRedemed >= coupon.maxRedemptions) {
       return {
         success: false,
-        message: "Coupon has been redeemed too many times",
+        message: "Zbyt wiele razy uzyto kodu",
       };
     }
 
@@ -38,10 +38,10 @@ export async function validateCoupon(code: string) {
       },
     }
   } catch (error: any) {
-    console.log("Error validating coupon:", error?.stack || error);
+    console.log("Błąd podczas walidacji kuponu:", error?.stack || error);
     return {
       success: false,
-      message: "Failed to validate coupon",
+      message: "Błąd podczas walidacji kuponu:",
     };
   }
 }

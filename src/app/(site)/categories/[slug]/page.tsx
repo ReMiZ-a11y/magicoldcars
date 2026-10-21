@@ -29,20 +29,23 @@ export async function generateMetadata({ params }: Params) {
   const categoryData = await getCategoryBySlug(slug);
   const siteURL = process.env.NEXT_PUBLIC_SITE_URL;
 
-  if (categoryData) {
-    return {
-      title: `${
-        categoryData?.title || "Category Page"
-      } | NextMerce - Next.js E-commerce Template`,
-      description: `${categoryData?.description?.slice(0, 136)}...`,
-      author: "NextMerce",
-      alternates: {
-        canonical: `${siteURL}/categories/${categoryData?.slug?.current}`,
-        languages: {
-          "en-US": "/en-US",
-          "pl-PL": "/pl-PL",
-        },
+if (categoryData) {
+  return {
+    title: `${
+      categoryData?.title || "Kategoria"
+    } | Magic Old Cars – Klub Motoryzacyjny`,
+    description: `${
+      categoryData?.description?.slice(0, 155) ||
+      "Odkrywaj artykuły o klasycznej motoryzacji, zabytkowych samochodach i wydarzeniach dla miłośników motoryzacyjnych klasyków."
+    }`,
+    author: "Magic Old Cars",
+    alternates: {
+      canonical: `${siteURL}/Kategorie/${categoryData?.slug?.current}`,
+      languages: {
+        "pl-PL": `${siteURL}/Kategorie/${categoryData?.slug?.current}`,
       },
+    },
+  
 
       robots: {
         index: true,
@@ -58,10 +61,10 @@ export async function generateMetadata({ params }: Params) {
       },
 
       openGraph: {
-        title: `${categoryData?.title} | NextMerce`,
+        title: `${categoryData?.title} | Magic Old Cars`,
         description: categoryData.description,
-        url: `${siteURL}/categories/${categoryData?.slug?.current}`,
-        siteName: "NextMerce",
+        url: `${siteURL}/Kategorie/${categoryData?.slug?.current}`,
+        siteName: "Magic Old Cars",
         images: [
           {
             url: imageBuilder(categoryData.image).url(),
@@ -76,18 +79,18 @@ export async function generateMetadata({ params }: Params) {
 
       twitter: {
         card: "summary_large_image",
-        title: `${categoryData?.title} | NextMerce`,
+        title: `${categoryData?.title} | Magic Old Cars`,
         description: `${categoryData?.description?.slice(0, 136)}...`,
-        creator: "@NextMerce",
-        site: "@NextMerce",
+        creator: "@Magic Old Cars",
+        site: "@Magic Old Cars",
         images: [imageBuilder(categoryData.image).url()],
         url: `${siteURL}/categories/${categoryData?.slug?.current}`,
       },
     };
   } else {
     return {
-      title: "Not Found",
-      description: "No product category has been found",
+ title: "Nie znaleziono kategorii | Magic Old Cars",
+description: "Nie znaleziono kategorii produktów. Wróć do Magic Old Cars i odkryj ofertę dla miłośników klasycznej motoryzacji.",
     };
   }
 }

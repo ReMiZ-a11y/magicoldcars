@@ -1409,8 +1409,8 @@ const ProductItem = ({ item })=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "text-dark",
                         children: [
-                            "$",
-                            item.discountedPrice
+                            item.discountedPrice,
+                            "zł"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Common/ProductItem.tsx",
@@ -1420,8 +1420,8 @@ const ProductItem = ({ item })=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "line-through text-dark-4",
                         children: [
-                            "$",
-                            item.price
+                            item.price,
+                            "zł"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Common/ProductItem.tsx",
@@ -1687,7 +1687,7 @@ const ShopDetails = ({ product })=>{
         id: product._id,
         name: product.name,
         price: product.discountedPrice * 100,
-        currency: "pln",
+        currency: "pl",
         image: product?.previewImages ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["imageBuilder"])(product?.previewImages[0]?.image).url() : "",
         price_id: product?.price_id,
         slug: product?.slug?.current
@@ -1955,8 +1955,8 @@ const ShopDetails = ({ product })=>{
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "line-through text-gray-6",
                                                     children: [
-                                                        "$",
-                                                        product.price
+                                                        product.price,
+                                                        "zł"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/ShopDetails/index.tsx",

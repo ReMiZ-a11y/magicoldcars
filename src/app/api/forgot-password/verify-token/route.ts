@@ -6,7 +6,7 @@ export const POST = async (request: Request) => {
 	const { token } = body;
 
 	if (!token) {
-		return new NextResponse("Missing Fields", { status: 400 });
+		return new NextResponse("Brakujące Pole", { status: 400 });
 	}
 
 	const user = await prisma.user.findUnique({
@@ -19,7 +19,7 @@ export const POST = async (request: Request) => {
 	});
 
 	if (!user) {
-		return new NextResponse("Invalid Token or Token Expired", { status: 400 });
+		return new NextResponse("Nieprawidłowy lub wygasły token", { status: 400 });
 	}
 
 	return NextResponse.json(user);

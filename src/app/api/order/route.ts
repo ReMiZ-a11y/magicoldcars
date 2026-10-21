@@ -7,7 +7,7 @@ export async function GET(req: NextRequest) {
   const session = await getServerSession(authOptions);
 
   if (!session?.user?.email) {
-    return NextResponse.json({ error: "Missing Fields" }, { status: 400 });
+    return NextResponse.json({ error: "Brakujace Pole" }, { status: 400 });
   }
 
   try {

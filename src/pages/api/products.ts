@@ -14,6 +14,6 @@ export default async function handler(
     const products = await getProductsByFilter(query, ["product"]);
     res.status(200).json(products);
   } catch (error) {
-    res.status(500).json({ error: "Failed to fetch products" });
+    res.status(500).json({ error: "Nie udało się pobrać produktów" });
   }
 }

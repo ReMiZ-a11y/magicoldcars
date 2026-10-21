@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
       !products
     ) {
       return NextResponse.json(
-        { success: false, message: "Missing required fields" },
+        { success: false, message: "Brak wymaganych pól" },
         { status: 400 }
       );
     }
@@ -56,11 +56,11 @@ export async function POST(req: NextRequest) {
     });
 
     return NextResponse.json(
-      { success: true, message: "Order created successfully", order },
+      { success: true, message: "Zamówienie zostało pomyślnie utworzone", order },
       { status: 201 }
     );
   } catch (error: any) {
-    console.log(error?.stack || error,'error in create order route')
+    console.log(error?.stack || error,'Błąd podczas tworzenia zamówienia')
     return NextResponse.json(
       { success: false, message: error.message || "Internal Server Error" },
       { status: 500 }

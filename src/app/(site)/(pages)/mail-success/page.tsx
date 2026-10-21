@@ -3,9 +3,9 @@ import MailSuccess from "@/components/MailSuccess";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Mail Success Page | NextMerce | Next.js E-commerce Boilerplate",
-  description: "This is Mail Success Page for NextMerce Template",
-  // other metadata
+title: "Wiadomość wysłana | Magic Old Cars – Klub Motoryzacyjny",
+description: "Dziękujemy za kontakt z Magic Old Cars! Twoja wiadomość została wysłana. Wkrótce postaramy się odpowiedzieć. Do zobaczenia w świecie klasycznej motoryzacji.",
+// other metadata
 };
 
 const MailSuccessPage = () => {

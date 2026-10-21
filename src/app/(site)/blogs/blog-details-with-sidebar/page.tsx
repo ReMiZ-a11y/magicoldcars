@@ -4,8 +4,9 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
 export const metadata: Metadata = {
-  title: 'Blog Details Page | NextMerce | Next.js E-commerce Boilerplate',
-  description: 'This is Blog Details Page for NextMerce Template',
+  title: "Artykuł na blogu | Magic Old Cars – Klub Motoryzacyjny",
+  description:
+    "Poznaj fascynujący świat klasycznej motoryzacji. Czytaj artykuły o zabytkowych samochodach, odkrywaj historię motoryzacji i poznawaj relacje ze zlotów oraz wydarzeń Magic Old Cars.",
 };
 
 const BlogDetailsWithSidebarPage = async () => {

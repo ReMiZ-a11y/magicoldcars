@@ -164,7 +164,7 @@ const authOptions = {
             async authorize (credentials) {
                 // check to see if eamil and password is there
                 if (!credentials?.email || !credentials?.password) {
-                    throw new Error("Please enter an email or password");
+                    throw new Error("Proszę wpisz eamil oraz hasło");
                 }
                 // check to see if user already exist
                 const user = await prisma.user.findUnique({
@@ -174,7 +174,7 @@ const authOptions = {
                 });
                 // if user was not found
                 if (!user || !user?.password) {
-                    throw new Error("No user found");
+                    throw new Error("uzytkownik nieznaleziony");
                 }
                 // check to see if passwords match
                 const passwordMatch = await __TURBOPACK__imported__module__$5b$externals$5d2f$bcrypt__$5b$external$5d$__$28$bcrypt$2c$__cjs$29$__["default"].compare(credentials.password, user.password);

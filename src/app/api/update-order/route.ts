@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
     const orders = await Promise.all(updatePromises);
 
     return NextResponse.json(
-      { message: 'Orders updated successfully!' },
+      { message: 'Zamowienie zostało zaktualizowane!' },
       { status: 200 }
     );
   } catch (err) {

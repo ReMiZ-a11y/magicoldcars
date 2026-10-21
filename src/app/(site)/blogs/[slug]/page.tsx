@@ -23,16 +23,14 @@ export async function generateMetadata({ params }: Params) {
 
   if (post) {
     return {
-      title: `${
-        post.title || 'Single Post Page'
-      } | NextMerce - Next.js E-commerce Template`,
+    title: `${post.title || "Artykuł na blogu"} | Magic Old Cars – Klub Motoryzacyjny`,
       description: `${post.metadata?.slice(0, 136)}...`,
-      author: 'NextMerce',
+    author: "Magic Old Cars",
       alternates: {
         canonical: `${siteURL}/posts/${post?.slug?.current}`,
         languages: {
           'en-US': '/en-US',
-          'de-DE': '/de-DE',
+          'pl-PL': '/pl-PL',
         },
       },
 
@@ -50,10 +48,10 @@ export async function generateMetadata({ params }: Params) {
       },
 
       openGraph: {
-        title: `${post.title} | NextMerce`,
+        title: `${post.title} | MagicOldCars`,
         description: post.metadata,
         url: `${siteURL}/posts/${post?.slug?.current}`,
-        siteName: 'NextMerce',
+        siteName: 'MagicOldCars',
         images: [
           {
             url: imageBuilder(post.mainImage).url(),
@@ -62,24 +60,24 @@ export async function generateMetadata({ params }: Params) {
             alt: post.title,
           },
         ],
-        locale: 'en_US',
+        locale: 'pl_PL',
         type: 'article',
       },
 
       twitter: {
         card: 'summary_large_image',
-        title: `${post.title} | NextMerce`,
+        title: `${post.title} | MagicOldCars`,
         description: `${post.metadata?.slice(0, 136)}...`,
-        creator: '@NextMerce',
-        site: '@NextMerce',
+        creator: 'MagicOldCars',
+        site: 'MagicOldCars',
         images: [imageBuilder(post?.mainImage).url()],
         url: `${siteURL}/blogs/${post?.slug?.current}`,
       },
     };
   } else {
     return {
-      title: 'Not Found',
-      description: 'No blog article has been found',
+      title: 'Nie Znaleziono',
+      description: '',
     };
   }
 }

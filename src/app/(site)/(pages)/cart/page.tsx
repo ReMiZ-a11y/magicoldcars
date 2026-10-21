@@ -3,8 +3,9 @@ import Cart from "@/components/Cart";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Cart Page | NextMerce | Next.js E-commerce Boilerplate",
-  description: "This is Cart Page for NextMerce Template",
+title: "Koszyk | Magic Old Cars – Klub Miłośników Klasycznej Motoryzacji",
+description:
+  "Sprawdź produkty w koszyku Magic Old Cars. Przygotuj zamówienie i odkryj ofertę dla miłośników klasycznych samochodów oraz motoryzacyjnych pasji.",
   // other metadata
 };
 

@@ -57,7 +57,7 @@ export default function ResetPassword({ token }: { token: string }) {
     setLoading(true);
 
     if (data.newPassword === "") {
-      toast.error("Please enter your password.");
+      toast.error("Proszę Wpisz swoje hasło");
       return;
     }
 
@@ -87,9 +87,9 @@ export default function ResetPassword({ token }: { token: string }) {
           <div className="max-w-[570px] w-full mx-auto rounded-xl bg-white shadow-1 p-4 sm:p-7.5 xl:p-11">
             <div className="text-center mb-11">
               <h2 className="font-semibold text-xl sm:text-2xl xl:text-heading-5 text-dark mb-1.5">
-                Update Password
+                Zaktualizuj hasło
               </h2>
-              <p>Enter your password below</p>
+              <p>Wpisz hasło ponizej</p>
             </div>
 
             <div>
@@ -100,13 +100,13 @@ export default function ResetPassword({ token }: { token: string }) {
                       htmlFor="newPassword"
                       className="block mb-2.5 font-satoshi text-base font-medium text-dark dark:text-white"
                     >
-                      New Password
+                      Nowe Hasło
                     </label>
                     <input
                       type="password"
                       name="newPassword"
                       id="newPassword"
-                      placeholder="Enter your new password"
+                      placeholder="Wpisz swoje nowe hasło"
                       value={data.newPassword}
                       onChange={handleChange}
                       className="w-full rounded-full border border-gray-3 py-3.5 px-5 font-satoshi font-medium outline-hidden focus:border-primary"
@@ -118,7 +118,7 @@ export default function ResetPassword({ token }: { token: string }) {
                       htmlFor="ReNewPassword"
                       className="block mb-2.5 font-satoshi text-base font-medium text-dark dark:text-white"
                     >
-                      Re-enter New Password
+                      Wpisz ponownie hasło
                     </label>
                     <input
                       type="password"
@@ -141,17 +141,17 @@ export default function ResetPassword({ token }: { token: string }) {
                     )}
                     disabled={loading}
                   >
-                    Update Password {loading && <Loader />}
+                    Zaktualizuj hasło {loading && <Loader />}
                   </button>
                 </div>
 
                 <p className="text-center font-satoshi text-base font-medium text-dark dark:text-white">
-                  Already have an account?{" "}
+                 Masz nowe konto?{" "}
                   <Link
                     href="/auth/signin"
                     className="ml-1 inline-block text-primary"
                   >
-                    Sign In →
+                    Zaloguj się →
                   </Link>
                 </p>
               </form>

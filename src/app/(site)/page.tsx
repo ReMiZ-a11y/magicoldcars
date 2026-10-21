@@ -9,9 +9,9 @@ import Testimonials from "@/components/Home/Testimonials";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "NextMerce | Next.js E-commerce Boilerplate",
-  description: "This is Home for NextMerce Template",
-  // other metadata
+  title: "Magic Old Cars | Sklep z Klasyczną Motoryzacją",
+  description: "Strona główna sklepu internetowego Magic Old Cars – klasyczne auta, legendy PRL-u oraz gadżety motoryzacyjne",
+  // inne metadane
 };
 
 export default function HomePage() {

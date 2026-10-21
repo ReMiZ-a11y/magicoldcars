@@ -4,9 +4,9 @@ import { getProductsByFilter } from "@/sanity/sanity-shop-utils";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shop Page | NextMerce | Next.js E-commerce Boilerplate",
-  description: "This is Shop Page for NextMerce Template",
-  // other metadata
+title: "Sklep | Magic Old Cars – Klub Motoryzacyjny",
+description: "Odkryj sklep Magic Old Cars i poznaj ofertę produktów dla miłośników klasycznej motoryzacji. Znajdź wyjątkowe akcesoria i gadżety inspirowane światem zabytkowych samochodów.",
+// other metadata
 };
 
 type PageProps = {
@@ -31,7 +31,7 @@ const ShopWithoutSidebarPage = async ({ searchParams }: PageProps) => {
   return (
     <main>
       <Breadcrumb
-        title={"Explore All Products"}
+        title={"Sprawdz Samochody"}
         pages={["shop", "/", "shop without sidebar"]}
       />
       <ShopWithoutSidebar key={sort} shopData={data} />

@@ -2,8 +2,8 @@ import Signin from "@/components/Auth/Signin";
 import React from "react";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Signin Page | NextMerce | Next.js E-commerce Boilerplate",
-  description: "This is Signin Page for NextMerce Template",
+title: "Logowanie | Magic Old Cars – Klub Motoryzacyjny",
+description: "Zaloguj się do Magic Old Cars, aby uzyskać dostęp do swojego konta i korzystać z funkcji naszego klubu miłośników klasycznej motoryzacji.",
   // other metadata
 };
 

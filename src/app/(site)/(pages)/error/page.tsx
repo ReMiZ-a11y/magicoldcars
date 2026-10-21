@@ -3,9 +3,9 @@ import Error from "@/components/Error";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Error Page | NextMerce | Next.js E-commerce Boilerplate",
-  description: "This is Error Page for NextMerce Template",
-  // other metadata
+title: "Wystąpił błąd | Magic Old Cars – Klub Motoryzacyjny",
+description: "Przepraszamy, wystąpił nieoczekiwany błąd. Wróć na stronę główną Magic Old Cars i odkrywaj świat klasycznej motoryzacji, zabytkowych samochodów oraz wyjątkowych wydarzeń.",
+// other metadata
 };
 
 const ErrorPage = () => {

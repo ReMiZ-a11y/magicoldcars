@@ -1,11 +1,23 @@
 {
+  "/(site)/(pages)/(auth)/forgot-password/page": "app/(site)/(pages)/(auth)/forgot-password/page.js",
+  "/(site)/(pages)/(auth)/signin/page": "app/(site)/(pages)/(auth)/signin/page.js",
+  "/(site)/(pages)/(auth)/signup/page": "app/(site)/(pages)/(auth)/signup/page.js",
+  "/(site)/(pages)/contact/page": "app/(site)/(pages)/contact/page.js",
+  "/(site)/(pages)/popular/page": "app/(site)/(pages)/popular/page.js",
   "/(site)/(pages)/shop-with-sidebar/page": "app/(site)/(pages)/shop-with-sidebar/page.js",
   "/(site)/(pages)/shop-without-sidebar/page": "app/(site)/(pages)/shop-without-sidebar/page.js",
+  "/(site)/(pages)/wishlist/page": "app/(site)/(pages)/wishlist/page.js",
+  "/(site)/blogs/[slug]/page": "app/(site)/blogs/[slug]/page.js",
   "/(site)/blogs/blog-details-with-sidebar/page": "app/(site)/blogs/blog-details-with-sidebar/page.js",
   "/(site)/blogs/blog-details/page": "app/(site)/blogs/blog-details/page.js",
+  "/(site)/blogs/blog-grid-with-sidebar/page": "app/(site)/blogs/blog-grid-with-sidebar/page.js",
+  "/(site)/blogs/blog-grid/page": "app/(site)/blogs/blog-grid/page.js",
+  "/(site)/blogs/tags/[slug]/page": "app/(site)/blogs/tags/[slug]/page.js",
+  "/(site)/categories/[slug]/page": "app/(site)/categories/[slug]/page.js",
   "/(site)/page": "app/(site)/page.js",
   "/(site)/products/[slug]/page": "app/(site)/products/[slug]/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/forgot-password/reset/route": "app/api/forgot-password/reset/route.js",
   "/api/review/[productId]/route": "app/api/review/[productId]/route.js"
 }

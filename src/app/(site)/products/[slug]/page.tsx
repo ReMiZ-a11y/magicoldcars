@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: Props) {
 
   if (!product) {
     return {
-      title: "Not Found",
-      description: "No blog article has been found",
+      title: "Nie Znaleziono",
+      description: "Nie znaleziono żadnego artykułu na blogu",
     };
   }
 
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props) {
     description: `${product?.shortDescription?.slice(0, 136)}...`,
     author: "ReMiZ-a11y.",
     alternates: {
-      canonical: `${siteURL}/products/${product?.slug?.current}`,
+      canonical: `${siteURL}/produkt/${product?.slug?.current}`,
       languages: {
         "pl-PL": "/pl-PL",
         "en-US": "/en-US",
@@ -58,10 +58,10 @@ export async function generateMetadata({ params }: Props) {
     },
 
     openGraph: {
-      title: `${product?.name} | NextMerce`,
+      title: `${product?.name} | Magic Old Cars`,
       description: product.shortDescription,
-      url: `${siteURL}/products/${product?.slug?.current}`,
-      siteName: "NextMerce",
+      url: `${siteURL}/produkt/${product?.slug?.current}`,
+      siteName: "Magic Old Cars",
       images: [
         {
           url: imageBuilder(product?.previewImages[0]?.image).url(),
@@ -76,12 +76,12 @@ export async function generateMetadata({ params }: Props) {
 
     twitter: {
       card: "summary_large_image",
-      title: `${product?.name} | NextMerce`,
+      title: `${product?.name} | Magic Old Cars`,
       description: `${product?.shortDescription?.slice(0, 136)}...`,
-      creator: "@NextMerce",
-      site: "@NextMerce",
+      creator: "@Magic Old Cars",
+      site: "@Magic Old Cars",
       images: [imageBuilder(product?.previewImages[0]?.image).url()],
-      url: `${siteURL}/products/${product?.slug?.current}`,
+      url: `${siteURL}/produkt/${product?.slug?.current}`,
     },
   };
 }
@@ -93,10 +93,10 @@ const ProductDetails = async ({ params }: Props) => {
   if (!product) notFound();
 
   await structuredAlgoliaHtmlData({
-    type: "products",
+    type: "produkt",
     title: product?.name,
     htmlString: product?.shortDescription,
-    pageUrl: `${process.env.SITE_URL}/products/${product?.slug?.current}`,
+    pageUrl: `${process.env.SITE_URL}/produkt/${product?.slug?.current}`,
     imageURL: imageBuilder(product?.previewImages[0]?.image).url() as string,
     price: product?.price,
     discountedPrice: product?.discountedPrice,

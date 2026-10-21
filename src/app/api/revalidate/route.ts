@@ -35,7 +35,7 @@ export async function POST(req: NextRequest) {
     }
 
     if (!body?._type) {
-      return new Response("Bad Request", { status: 400 });
+      return new Response("Złe zapytanie", { status: 400 });
     }
 
     // Revalidate the specific content type

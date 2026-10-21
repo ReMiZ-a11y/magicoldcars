@@ -489,8 +489,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$s
 ;
 ;
 const metadata = {
-    title: 'Shop Page | NextMerce | Next.js E-commerce Boilerplate',
-    description: 'This is Shop Page for NextMerce Template'
+    title: "Sklep | Magic Old Cars – Klub Motoryzacyjny",
+    description: "Odkryj sklep Magic Old Cars. Znajdź wyjątkowe produkty dla miłośników klasycznej motoryzacji, pasjonatów zabytkowych samochodów i członków naszego klubu."
 };
 const ShopWithSidebarPage = async ({ searchParams })=>{
     const { category, sizes, colors, minPrice, maxPrice, sort } = await searchParams;

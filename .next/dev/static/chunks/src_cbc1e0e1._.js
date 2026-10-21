@@ -11,10 +11,10 @@ __turbopack_context__.s([
     ()=>GoogleIcon,
     "InstagramIcon",
     ()=>InstagramIcon,
-    "LinkedInIcon",
-    ()=>LinkedInIcon,
-    "TwitterIcon",
-    ()=>TwitterIcon
+    "TikTokIcon",
+    ()=>TikTokIcon,
+    "YouTubeIcon",
+    ()=>YouTubeIcon
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 ;
@@ -51,7 +51,7 @@ function FacebookIcon(props) {
     }, this);
 }
 _c = FacebookIcon;
-function TwitterIcon(props) {
+function TikTokIcon(props) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         ...props,
         width: "20",
@@ -59,13 +59,12 @@ function TwitterIcon(props) {
         viewBox: "0 0 24 24",
         fill: "none",
         xmlns: "http://www.w3.org/2000/svg",
-        transform: "rotate(0 0 0)",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-            d: "M17.7512 2.96094H20.818L14.1179 10.6187L22 21.0391H15.8284L10.9946 14.7191L5.4636 21.0391H2.39492L9.56132 12.8483L2 2.96094H8.32824L12.6976 8.73762L17.7512 2.96094ZM16.6748 19.2035H18.3742L7.40492 4.70014H5.58132L16.6748 19.2035Z",
+            d: "M19.321 5.562a5.124 5.124 0 0 1-3.03-4.195V1h-4.123v15.85a3.027 3.027 0 0 1-3.03 2.904 3.027 3.027 0 0 1-3.03-3.03 3.027 3.027 0 0 1 3.03-3.03c.316 0 .62.05.906.14V9.62a7.17 7.17 0 0 0-.906-.058A7.163 7.163 0 0 0 2 16.724a7.163 7.163 0 0 0 7.138 7.162 7.163 7.163 0 0 0 7.163-7.138V8.65a9.18 9.18 0 0 0 5.37 1.727V6.254a5.12 5.12 0 0 1-2.35-.692Z",
             fill: "currentColor"
         }, void 0, false, {
             fileName: "[project]/src/assets/icons/social.tsx",
-            lineNumber: 36,
+            lineNumber: 34,
             columnNumber: 7
         }, this)
     }, void 0, false, {
@@ -74,7 +73,7 @@ function TwitterIcon(props) {
         columnNumber: 5
     }, this);
 }
-_c1 = TwitterIcon;
+_c1 = TikTokIcon;
 function InstagramIcon(props) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: "20",
@@ -91,7 +90,7 @@ function InstagramIcon(props) {
                         fill: ""
                     }, void 0, false, {
                         fileName: "[project]/src/assets/icons/social.tsx",
-                        lineNumber: 54,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -99,7 +98,7 @@ function InstagramIcon(props) {
                         fill: ""
                     }, void 0, false, {
                         fileName: "[project]/src/assets/icons/social.tsx",
-                        lineNumber: 58,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -107,13 +106,13 @@ function InstagramIcon(props) {
                         fill: ""
                     }, void 0, false, {
                         fileName: "[project]/src/assets/icons/social.tsx",
-                        lineNumber: 62,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/assets/icons/social.tsx",
-                lineNumber: 53,
+                lineNumber: 52,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -125,60 +124,50 @@ function InstagramIcon(props) {
                         fill: "white"
                     }, void 0, false, {
                         fileName: "[project]/src/assets/icons/social.tsx",
-                        lineNumber: 69,
+                        lineNumber: 68,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/assets/icons/social.tsx",
-                    lineNumber: 68,
+                    lineNumber: 67,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/assets/icons/social.tsx",
-                lineNumber: 67,
+                lineNumber: 66,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/assets/icons/social.tsx",
-        lineNumber: 46,
+        lineNumber: 45,
         columnNumber: 5
     }, this);
 }
 _c2 = InstagramIcon;
-function LinkedInIcon(props) {
+function YouTubeIcon(props) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: "20",
         height: "20",
-        viewBox: "0 0 20 20",
+        viewBox: "0 0 24 24",
         fill: "currentColor",
+        xmlns: "http://www.w3.org/2000/svg",
+        "aria-hidden": "true",
         ...props,
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                d: "M16.6535 1.6665C17.1222 1.6665 17.5129 1.83577 17.8254 2.17432C18.1639 2.48682 18.3332 2.87744 18.3332 3.34619V16.6535C18.3332 17.1222 18.1639 17.5259 17.8254 17.8644C17.5129 18.1769 17.1222 18.3332 16.6535 18.3332H3.34619C2.87744 18.3332 2.4738 18.1769 2.13525 17.8644C1.82275 17.5259 1.6665 17.1222 1.6665 16.6535V3.34619C1.6665 2.87744 1.82275 2.48682 2.13525 2.17432C2.4738 1.83577 2.87744 1.6665 3.34619 1.6665H16.6535ZM15.4295 15.4295V11.0155C15.4295 10.2603 15.1561 9.62223 14.6092 9.1014C14.0884 8.55452 13.4504 8.28109 12.6952 8.28109C12.3306 8.28109 11.966 8.38525 11.6014 8.59359C11.2368 8.80192 10.9634 9.06234 10.7811 9.37484V8.43734H8.43734V15.4295H10.7811V11.2889C10.7811 10.9764 10.8853 10.716 11.0936 10.5077C11.328 10.2733 11.6014 10.1561 11.9139 10.1561C12.2524 10.1561 12.5259 10.2733 12.7342 10.5077C12.9686 10.716 13.0858 10.9764 13.0858 11.2889V15.4295H15.4295ZM5.74202 7.14827C6.13265 7.14827 6.45817 7.01807 6.71859 6.75765C7.00505 6.47119 7.14827 6.13265 7.14827 5.74202C7.14827 5.3514 7.00505 5.02588 6.71859 4.76546C6.45817 4.479 6.13265 4.33577 5.74202 4.33577C5.3514 4.33577 5.01286 4.479 4.7264 4.76546C4.46598 5.02588 4.33577 5.3514 4.33577 5.74202C4.33577 6.13265 4.46598 6.47119 4.7264 6.75765C5.01286 7.01807 5.3514 7.14827 5.74202 7.14827ZM6.87484 15.4295V8.43734H4.57015V15.4295H6.87484Z",
-                fill: ""
-            }, void 0, false, {
-                fileName: "[project]/src/assets/icons/social.tsx",
-                lineNumber: 85,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                opacity: "0.04",
-                d: "M15.4297 15.4297V11.0156C15.4297 10.2604 15.1562 9.6224 14.6094 9.10156C14.0885 8.55469 13.4505 8.28125 12.6953 8.28125C12.3307 8.28125 11.9661 8.38542 11.6016 8.59375C11.237 8.80208 10.9635 9.0625 10.7812 9.375V8.4375H8.4375V15.4297H10.7812V11.2891C10.7812 10.9766 10.8854 10.7161 11.0938 10.5078C11.3281 10.2734 11.6016 10.1562 11.9141 10.1562C12.2526 10.1562 12.526 10.2734 12.7344 10.5078C12.9688 10.7161 13.0859 10.9766 13.0859 11.2891V15.4297H15.4297ZM5.74219 7.14844C6.13281 7.14844 6.45833 7.01823 6.71875 6.75781C7.00521 6.47135 7.14844 6.13281 7.14844 5.74219C7.14844 5.35156 7.00521 5.02604 6.71875 4.76562C6.45833 4.47917 6.13281 4.33594 5.74219 4.33594C5.35156 4.33594 5.01302 4.47917 4.72656 4.76562C4.46615 5.02604 4.33594 5.35156 4.33594 5.74219C4.33594 6.13281 4.46615 6.47135 4.72656 6.75781C5.01302 7.01823 5.35156 7.14844 5.74219 7.14844ZM6.875 15.4297V8.4375H4.57031V15.4297H6.875Z",
-                fill: ""
-            }, void 0, false, {
-                fileName: "[project]/src/assets/icons/social.tsx",
-                lineNumber: 89,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+            d: "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.376.55A3.016 3.016 0 0 0 .502 6.186C0 8.068 0 12 0 12s0 3.932.502 5.814a3.016 3.016 0 0 0 2.122 2.136C4.495 20.5 12 20.5 12 20.5s7.505 0 9.376-.55a3.016 3.016 0 0 0 2.122-2.136C24 15.932 24 12 24 12s0-3.932-.502-5.814ZM9.6 15.5v-7l6.3 3.5-6.3 3.5Z"
+        }, void 0, false, {
+            fileName: "[project]/src/assets/icons/social.tsx",
+            lineNumber: 87,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/assets/icons/social.tsx",
         lineNumber: 78,
         columnNumber: 5
     }, this);
 }
-_c3 = LinkedInIcon;
+_c3 = YouTubeIcon;
 function GoogleIcon(props) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: "20",
@@ -202,12 +191,12 @@ function GoogleIcon(props) {
                             fill: "white"
                         }, void 0, false, {
                             fileName: "[project]/src/assets/icons/social.tsx",
-                            lineNumber: 110,
+                            lineNumber: 105,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/assets/icons/social.tsx",
-                        lineNumber: 102,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
@@ -218,7 +207,7 @@ function GoogleIcon(props) {
                                 fill: "#4285F4"
                             }, void 0, false, {
                                 fileName: "[project]/src/assets/icons/social.tsx",
-                                lineNumber: 113,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -226,7 +215,7 @@ function GoogleIcon(props) {
                                 fill: "#34A853"
                             }, void 0, false, {
                                 fileName: "[project]/src/assets/icons/social.tsx",
-                                lineNumber: 117,
+                                lineNumber: 112,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -234,7 +223,7 @@ function GoogleIcon(props) {
                                 fill: "#FBBC05"
                             }, void 0, false, {
                                 fileName: "[project]/src/assets/icons/social.tsx",
-                                lineNumber: 121,
+                                lineNumber: 116,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -242,19 +231,19 @@ function GoogleIcon(props) {
                                 fill: "#EB4335"
                             }, void 0, false, {
                                 fileName: "[project]/src/assets/icons/social.tsx",
-                                lineNumber: 125,
+                                lineNumber: 120,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/assets/icons/social.tsx",
-                        lineNumber: 112,
+                        lineNumber: 107,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/assets/icons/social.tsx",
-                lineNumber: 101,
+                lineNumber: 96,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -266,23 +255,23 @@ function GoogleIcon(props) {
                         fill: "white"
                     }, void 0, false, {
                         fileName: "[project]/src/assets/icons/social.tsx",
-                        lineNumber: 133,
+                        lineNumber: 128,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/assets/icons/social.tsx",
-                    lineNumber: 132,
+                    lineNumber: 127,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/assets/icons/social.tsx",
-                lineNumber: 131,
+                lineNumber: 126,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/assets/icons/social.tsx",
-        lineNumber: 100,
+        lineNumber: 95,
         columnNumber: 5
     }, this);
 }
@@ -299,21 +288,21 @@ function GitHubIcon(props) {
             fill: "#15171A"
         }, void 0, false, {
             fileName: "[project]/src/assets/icons/social.tsx",
-            lineNumber: 143,
+            lineNumber: 138,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/assets/icons/social.tsx",
-        lineNumber: 142,
+        lineNumber: 137,
         columnNumber: 5
     }, this);
 }
 _c5 = GitHubIcon;
 var _c, _c1, _c2, _c3, _c4, _c5;
 __turbopack_context__.k.register(_c, "FacebookIcon");
-__turbopack_context__.k.register(_c1, "TwitterIcon");
+__turbopack_context__.k.register(_c1, "TikTokIcon");
 __turbopack_context__.k.register(_c2, "InstagramIcon");
-__turbopack_context__.k.register(_c3, "LinkedInIcon");
+__turbopack_context__.k.register(_c3, "YouTubeIcon");
 __turbopack_context__.k.register(_c4, "GoogleIcon");
 __turbopack_context__.k.register(_c5, "GitHubIcon");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {

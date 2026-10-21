@@ -63,30 +63,30 @@ export function ShippingAddress({ userId }: PropsType) {
             data ? <div className="flex flex-col gap-4">
               <p className="flex items-center gap-2.5 text-custom-sm">
                 <UserIcon className="shrink-0" />
-                Name: {data?.name}
+                Nazwa: {data?.name}
               </p>
 
               <p className="flex items-center gap-2.5 text-custom-sm">
                 <EmailIcon className="shrink-0" />
-                Email: {data?.email}
+                Emmail: {data?.email}
               </p>
 
               <p className="flex items-center gap-2.5 text-custom-sm">
                 <CallIcon className="shrink-0" />
-                Phone: {data?.phone}
+                Telefon: {data?.phone}
               </p>
 
               <p className="flex gap-2.5 text-custom-sm">
                 <MapIcon className="mt-0.5 shrink-0" />
-                Address: {data?.address}
+                Adres: {data?.address}
               </p>
             </div> : <div className='flex flex-col gap-4 items-center'>
-              <p className="text-center text-dark-4">No address set yet</p>
+              <p className="text-center text-dark-4">Nie dodano jeszcze adresu.</p>
               <button
                 className="inline-flex justify-center font-medium text-white bg-dark py-3 px-6 rounded-lg ease-out duration-200 hover:bg-blue items-center gap-2"
                 onClick={openAddressModal}
               >
-                Add Address
+                Dodaj
               </button>
             </div>
           }

@@ -9,9 +9,9 @@ import {
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Shop Page | NextMerce | Next.js E-commerce Boilerplate',
-  description: 'This is Shop Page for NextMerce Template',
-  // other metadata
+title: "Sklep | Magic Old Cars – Klub Motoryzacyjny",
+description: "Odkryj sklep Magic Old Cars. Znajdź wyjątkowe produkty dla miłośników klasycznej motoryzacji, pasjonatów zabytkowych samochodów i członków naszego klubu.",
+// other metadata
 };
 
 type PageProps = {

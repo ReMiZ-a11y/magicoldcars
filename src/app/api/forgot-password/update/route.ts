@@ -7,7 +7,7 @@ export async function POST(request: Request) {
 	const { email, password } = body;
 
 	if (!email || !password) {
-		return new NextResponse("Missing Fields", { status: 400 });
+		return new NextResponse("Brakujące Pole", { status: 400 });
 	}
 
 	const formatedEmail = email.toLowerCase();
@@ -19,7 +19,7 @@ export async function POST(request: Request) {
 	});
 
 	if (!user) {
-		throw new Error("Email does not exists");
+		throw new Error("Adres e-mail nie istnieje");
 	}
 
 	const hashedPassword = await bcrypt.hash(password, 10);
@@ -36,7 +36,7 @@ export async function POST(request: Request) {
 			},
 		});
 
-		return NextResponse.json("Password Updated", { status: 200 });
+		return NextResponse.json("Zaktualizowano hasło", { status: 200 });
 	} catch (error) {
 		return new NextResponse("Internal Error", { status: 500 });
 	}

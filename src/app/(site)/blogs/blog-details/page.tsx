@@ -2,8 +2,9 @@ import BlogDetails from "@/components/BlogDetails";
 import { getPost } from '@/sanity/sanity-blog-utils';
 import { Metadata } from 'next';
 export const metadata: Metadata = {
-  title: "Blog Details Page | NextMerce | Next.js E-commerce Boilerplate",
-  description: "This is Blog Details Page for NextMerce Template",
+  title: "Artykuły i aktualności | Magic Old Cars – Klub Motoryzacyjny",
+  description:
+    "Czytaj artykuły o klasycznej motoryzacji, poznawaj historię zabytkowych samochodów i odkrywaj relacje ze zlotów oraz wydarzeń organizowanych przez społeczność Magic Old Cars.",
   // other metadata
 };
 

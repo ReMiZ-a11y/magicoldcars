@@ -7,7 +7,7 @@ export async function POST(request: any) {
   const { email, currentPassword, newPassword, id } = body;
 
   if (!email || !currentPassword || !newPassword) {
-    return new NextResponse("Missing Fields", { status: 400 });
+    return new NextResponse("Brakujace Pola", { status: 400 });
   }
 
   const user = await prisma.user.findUnique({
@@ -17,13 +17,13 @@ export async function POST(request: any) {
   });
 
   if (!user) {
-    return NextResponse.json("Missing User", { status: 400 });
+    return NextResponse.json("Brakujacy Uzytkownik", { status: 400 });
   }
 
   const passwordMatch = await bcrypt.compare(currentPassword, user?.password!);
 
   if (!passwordMatch) {
-    return NextResponse.json("Incorrect current password", { status: 401 });
+    return NextResponse.json("Złe hasło", { status: 401 });
   }
 
   const hashedNewPassword = await bcrypt.hash(newPassword, 10);
@@ -37,5 +37,5 @@ export async function POST(request: any) {
     },
   });
 
-  return NextResponse.json("Password changed successfully", { status: 200 });
+  return NextResponse.json("Hasło zmienione poprawnie", { status: 200 });
 }

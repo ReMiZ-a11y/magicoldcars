@@ -735,19 +735,19 @@ async function generateMetadata({ params }) {
     const siteURL = process.env.NEXT_PUBLIC_SITE_URL;
     if (!product) {
         return {
-            title: "Not Found",
-            description: "No blog article has been found"
+            title: "Nie Znaleziono",
+            description: "Nie znaleziono żadnego artykułu na blogu"
         };
     }
     return {
-        title: `${product.name || "Single Product Page"} | NextMerce - Next.js E-commerce Template`,
+        title: `${product.name || "Samochody"} | Magic Old Cars – Klub Miłośników Klasycznej Motoryzacji"`,
         description: `${product?.shortDescription?.slice(0, 136)}...`,
-        author: "NextMerce",
+        author: "ReMiZ-a11y.",
         alternates: {
-            canonical: `${siteURL}/products/${product?.slug?.current}`,
+            canonical: `${siteURL}/produkt/${product?.slug?.current}`,
             languages: {
-                "en-US": "/en-US",
-                "de-DE": "/de-DE"
+                "pl-PL": "/pl-PL",
+                "en-US": "/en-US"
             }
         },
         robots: {
@@ -763,10 +763,10 @@ async function generateMetadata({ params }) {
             }
         },
         openGraph: {
-            title: `${product?.name} | NextMerce`,
+            title: `${product?.name} | Magic Old Cars`,
             description: product.shortDescription,
-            url: `${siteURL}/products/${product?.slug?.current}`,
-            siteName: "NextMerce",
+            url: `${siteURL}/produkt/${product?.slug?.current}`,
+            siteName: "Magic Old Cars",
             images: [
                 {
                     url: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["imageBuilder"])(product?.previewImages[0]?.image).url(),
@@ -775,19 +775,19 @@ async function generateMetadata({ params }) {
                     alt: product?.name
                 }
             ],
-            locale: "en_US",
+            locale: "pl_PL",
             type: "article"
         },
         twitter: {
             card: "summary_large_image",
-            title: `${product?.name} | NextMerce`,
+            title: `${product?.name} | Magic Old Cars`,
             description: `${product?.shortDescription?.slice(0, 136)}...`,
-            creator: "@NextMerce",
-            site: "@NextMerce",
+            creator: "@Magic Old Cars",
+            site: "@Magic Old Cars",
             images: [
                 (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["imageBuilder"])(product?.previewImages[0]?.image).url()
             ],
-            url: `${siteURL}/products/${product?.slug?.current}`
+            url: `${siteURL}/produkt/${product?.slug?.current}`
         }
     };
 }
@@ -796,10 +796,10 @@ const ProductDetails = async ({ params })=>{
     const product = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getProduct"])(slug);
     if (!product) (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["notFound"])();
     await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$algolia$2f$crawlIndex$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["structuredAlgoliaHtmlData"])({
-        type: "products",
+        type: "produkt",
         title: product?.name,
         htmlString: product?.shortDescription,
-        pageUrl: `${process.env.SITE_URL}/products/${product?.slug?.current}`,
+        pageUrl: `${process.env.SITE_URL}/produkt/${product?.slug?.current}`,
         imageURL: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sanity$2f$sanity$2d$shop$2d$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["imageBuilder"])(product?.previewImages[0]?.image).url(),
         price: product?.price,
         discountedPrice: product?.discountedPrice,

@@ -3,9 +3,9 @@ import { Wishlist } from "@/components/Wishlist";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Wishlist Page | NextMerce | Next.js E-commerce Boilerplate",
-  description: "This is Wishlist Page for NextMerce Template",
-  // other metadata
+title: "Lista życzeń | Magic Old Cars – Klub Motoryzacyjny",
+description: "Zapisuj ulubione produkty w liście życzeń Magic Old Cars. Zbieraj gadżety i akcesoria inspirowane klasyczną motoryzacją, aby łatwo wrócić do nich w dowolnym momencie.",
+// other metadata
 };
 
 const WishlistPage = () => {

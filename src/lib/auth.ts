@@ -40,7 +40,7 @@ export const authOptions: NextAuthOptions = {
       async authorize(credentials) {
         // check to see if eamil and password is there
         if (!credentials?.email || !credentials?.password) {
-          throw new Error("Please enter an email or password");
+          throw new Error("Proszę wpisz eamil oraz hasło");
         }
 
         // check to see if user already exist
@@ -52,7 +52,7 @@ export const authOptions: NextAuthOptions = {
 
         // if user was not found
         if (!user || !user?.password) {
-          throw new Error("No user found");
+          throw new Error("uzytkownik nieznaleziony");
         }
 
         // check to see if passwords match

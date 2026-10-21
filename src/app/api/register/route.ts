@@ -7,7 +7,7 @@ export async function POST(request: Request) {
   const { name, email, password } = body;
 
   if (!name || !email || !password) {
-    return new NextResponse("Missing Fields", { status: 400 });
+    return new NextResponse("Brakujace pole", { status: 400 });
   }
 
   const formatedEmail = email.toLowerCase();
@@ -19,7 +19,7 @@ export async function POST(request: Request) {
   });
 
   if (exist) {
-    throw new Error("Email already exists");
+    throw new Error("Email istnieje");
   }
 
   const adminEmails = process.env.ADMIN_EMAILS?.split(",") || [];
@@ -51,6 +51,6 @@ export async function POST(request: Request) {
 
     return NextResponse.json(user);
   } catch (error) {
-    return new NextResponse("Something went wrong", { status: 500 });
+    return new NextResponse("Coś poszło nie tak", { status: 500 });
   }
 }
